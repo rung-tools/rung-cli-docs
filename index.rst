@@ -8,8 +8,9 @@ Rung extensions
 
 Aprenda a desenvolver extensões para o Rung_.
 
-
-**Definição**
+---------
+Definição
+---------
 
 .. toctree::
     :maxdepth: 2
@@ -17,7 +18,9 @@ Aprenda a desenvolver extensões para o Rung_.
     concepts/what_is_rung
     concepts/what_is_an_exceptionality
 
-**Características**
+----------------
+Características
+----------------
 
 .. toctree::
    :maxdepth: 2
@@ -28,7 +31,9 @@ Aprenda a desenvolver extensões para o Rung_.
     features/custom_sidebar_fields
     features/rung_bot
 
-**Rung CLI**
+--------
+Rung CLI
+--------
 
 .. toctree::
     :maxdepth: 2
@@ -40,7 +45,9 @@ Aprenda a desenvolver extensões para o Rung_.
     cli/readme
     cli/db
 
-**Help or partnership?**
+--------------------
+Help or partnership?
+--------------------
 
 Contact us at <developer@rung.com.br>
 
