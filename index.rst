@@ -6,7 +6,7 @@ Rung extensions
    :alt: Rung CLI logo
    :align: center
 
-Aprenda a desenolver extensões para o Rung_.
+Aprenda a desenvolver extensões para o Rung_.
 
 
 **Definição**
