@@ -9,14 +9,13 @@ Rung extensions
 Aprenda a desenvolver extensões para o Rung_.
 
 ---------
-Definição1
+Definição
 ---------
 
 .. toctree::
     :maxdepth: 2
 
     concepts/what_is_rung
-    features/context
 
 ----------------
 Características
@@ -25,16 +24,16 @@ Características
 .. toctree::
    :maxdepth: 2
 
-    features/context
-    features/primary_keys
-    features/async_extensions
-    features/param_types
-    features/database
-    features/i18n
-    features/custom_cards
-    features/custom_sidebar_fields
-    features/custom_icon
-    features/rung_bot
+   features/context
+   features/primary_keys
+   features/async_extensions
+   features/param_types
+   features/database
+   features/i18n
+   features/custom_cards
+   features/custom_sidebar_fields
+   features/custom_icon
+   features/rung_bot
 
 --------
 Rung CLI
