@@ -26,6 +26,7 @@ Características
    :maxdepth: 2
 
     features/primary_keys
+    features/param_types
     features/database
     features/custom_cards
     features/custom_sidebar_fields
