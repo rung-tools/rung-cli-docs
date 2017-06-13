@@ -11,26 +11,26 @@ valores dos parâmetros que são informados.
 Exemplo:
 
 .. code:: javascript
-    import { create } from 'rung-sdk';
-    import { Integer } from 'rung-sdk/dist/types';
+   import { create } from 'rung-sdk';
+   import { Integer } from 'rung-sdk/dist/types';
 
-    function main(context) {
-        const { a, b } = context.params;
+   function main(context) {
+       const { a, b } = context.params;
 
-        return {
-            alerts: [`Sum of ${a} and ${b} is ${a + b}`]
-        }
-    }
+       return {
+           alerts: [`Sum of ${a} and ${b} is ${a + b}`]
+       }
+   }
 
-    const params = {
-        a: {
-            description: 'First number',
-            type: Integer
-        },
-        b: {
-            description: 'Second number',
-            type: Integer
-        }
-    }
+   const params = {
+       a: {
+           description: 'First number',
+           type: Integer
+       },
+       b: {
+           description: 'Second number',
+           type: Integer
+       }
+   }
 
-    export default create(main, { params });
+   export default create(main, { params });
