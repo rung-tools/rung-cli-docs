@@ -16,7 +16,6 @@ Definição
     :maxdepth: 2
 
     concepts/what_is_rung
-    concepts/what_is_an_extension
 
 ----------------
 Características
@@ -27,6 +26,7 @@ Características
 
     features/context
     features/primary_keys
+    features/async_extensions
     features/param_types
     features/database
     features/i18n
