@@ -11,7 +11,6 @@ valores dos parâmetros que são informados.
 Exemplo
 
 .. code-block:: javascript
-   :linenos:
    :emphasize-lines: 5
 
    import { create } from 'rung-sdk';
