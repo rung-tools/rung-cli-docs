@@ -10,7 +10,7 @@ valores dos parâmetros que são informados.
 
 Exemplo:
 
-.. code:: javascript
+.. code-block:: javascript
    import { create } from 'rung-sdk';
    import { Integer } from 'rung-sdk/dist/types';
 
