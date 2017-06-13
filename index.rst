@@ -9,13 +9,14 @@ Rung extensions
 Aprenda a desenvolver extensões para o Rung_.
 
 ---------
-Definição
+Definição1
 ---------
 
 .. toctree::
     :maxdepth: 2
 
     concepts/what_is_rung
+    features/context
 
 ----------------
 Características

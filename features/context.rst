@@ -10,7 +10,7 @@ valores dos parâmetros que são informados.
 
 Exemplo
 
-.. code-block:: python
+.. code-block:: javascript
    :linenos:
    :emphasize-lines: 5
 
