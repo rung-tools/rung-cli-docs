@@ -25,6 +25,7 @@ Características
 .. toctree::
    :maxdepth: 2
 
+    features/context
     features/primary_keys
     features/param_types
     features/database
