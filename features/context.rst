@@ -8,7 +8,7 @@ O contexto é o primeiro parâmetro passado para a função principal da sua
 extensão. Ele traz informações importantes, como o locale do usuário e os
 valores dos parâmetros que são informados.
 
-Exemplo
+Exemplo:
 
 .. code-block:: javascript
    :emphasize-lines: 5
