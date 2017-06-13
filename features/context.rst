@@ -22,7 +22,7 @@ Exemplo
 
        return {
            alerts: [`Sum of ${a} and ${b} is ${a + b}`]
-       }
+       };
    }
 
    const params = {
@@ -34,6 +34,6 @@ Exemplo
            description: 'Second number',
            type: Integer
        }
-   }
+   };
 
    export default create(main, { params });
