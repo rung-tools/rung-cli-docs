@@ -16,7 +16,7 @@ Definição
     :maxdepth: 2
 
     concepts/what_is_rung
-    concepts/what_is_an_exceptionality
+    concepts/what_is_an_extension
 
 ----------------
 Características
@@ -28,8 +28,10 @@ Características
     features/primary_keys
     features/param_types
     features/database
+    features/i18n
     features/custom_cards
     features/custom_sidebar_fields
+    features/custom_icon
     features/rung_bot
 
 --------
@@ -45,6 +47,15 @@ Rung CLI
     cli/boilerplate
     cli/readme
     cli/db
+
+----------------
+Extras
+----------------
+
+.. toctree::
+    :maxdepth: 2
+
+    extras/troubleshooting
 
 --------------------
 Help or partnership?
