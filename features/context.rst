@@ -8,9 +8,11 @@ O contexto é o primeiro parâmetro passado para a função principal da sua
 extensão. Ele traz informações importantes, como o locale do usuário e os
 valores dos parâmetros que são informados.
 
-Exemplo: TESTE
+Exemplo
 
-.. code-block:: python
+.. code-block:: javascript
+    :linenos:
+    :emphasize-lines: 5
 
    import { create } from 'rung-sdk';
    import { Integer } from 'rung-sdk/dist/types';
