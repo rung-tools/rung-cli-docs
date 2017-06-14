@@ -62,5 +62,53 @@ DoubleRange(m, n)
 Intervalos numéricos de números de ponto flutuante (decimais) entre ``m`` e
 ``n``, onde ``m`` precisa ser um valor menor que ``n``.
 
+-----
+Money
+-----
+
+*Indisponível*
+
+------
+String
+------
+
+Qualquer trecho de texto arbitrário
+
+-----
+Color
+-----
+
+Cor em hexadecimal, começando por `#`.
+
+-----
+Email
+-----
+
+Qualquer email válido.
+
+--------
+Checkbox
+--------
+
+*Indisponível*
+
+---------
+OneOf(xs)
+---------
+
+Qualquer elemento de ``xs``, onde ``xs`` deve ser do tipo ``string[]`` (lista
+de strings).
+
+---
+Url
+---
+
+Url independente de protocolo (HTTP, FTP ...).
+
+-----------------------
+IntegerMultiRange(m, n)
+-----------------------
+
+Slider em que 2 pontos são retornados, estão esses pontos entre ``m`` e ``n``.
 
 .. _IEEE754: https://en.wikipedia.org/wiki/IEEE_floating_point
