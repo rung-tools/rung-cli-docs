@@ -19,6 +19,7 @@ quando o primeiro ``return``.
 
 
 **Extensão síncrona**
+
 .. code-block:: javascript
    :emphasize-lines: 1
 
@@ -29,6 +30,7 @@ quando o primeiro ``return``.
    }
 
 **Extensão assíncrona**
+
 .. code-block:: javascript
    :emphasize-lines: 1, 2, 6
 
