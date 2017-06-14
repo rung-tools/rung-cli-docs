@@ -47,5 +47,20 @@ Char(n)
 Textos de até ``n`` caracteres, onde ``n`` corresponde a um número natural.
 Se tiver como entrada um texto maior, este é cortado até o limite.
 
+------------------
+IntegerRange(m, n)
+------------------
+
+Intervalos numéricos de números inteiros entre ``m`` e ``n``. É possível, por
+exemplo, simular números naturais com ``IntegerRange(0, Infinity)``. ``m``
+sempre precisa ser menor do que ``n`` para que haja uma situação válida.
+
+-----------------
+DoubleRange(m, n)
+-----------------
+
+Intervalos numéricos de números de ponto flutuante (decimais) entre ``m`` e
+``n``, onde ``m`` precisa ser um valor menor que ``n``.
+
 
 .. _IEEE754: https://en.wikipedia.org/wiki/IEEE_floating_point
