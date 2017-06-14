@@ -16,9 +16,9 @@ Definição
 
     concepts/what_is_rung
 
-----------------
+---------------
 Características
-----------------
+---------------
 
 .. toctree::
    :maxdepth: 2
