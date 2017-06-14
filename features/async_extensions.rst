@@ -32,7 +32,7 @@ quando o primeiro ``return``.
 **Extensão assíncrona**
 
 .. code-block:: javascript
-   :emphasize-lines: 1, 2, 6
+   :emphasize-lines: 1, 3
 
    function main(context, done) {
        setTimeout(() => {
