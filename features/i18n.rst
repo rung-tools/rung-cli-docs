@@ -26,7 +26,7 @@ locale dentro da pasta ``locales/``. Exemplo:
 .. code-block:: json
 
    {
-       "Hello world!": "你好世界"
+       "Hello world!": "你好世界！"
    }
 
 **index.js**
