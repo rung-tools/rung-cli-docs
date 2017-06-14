@@ -16,4 +16,4 @@ a primeira execução, o valor sempre corresponde a ``undefined``.
 
 Para mais informações sobre a utilização com o Rung CLI, visite db_.
 
-_db: ../cli/db
+.. _db: ../cli/db
