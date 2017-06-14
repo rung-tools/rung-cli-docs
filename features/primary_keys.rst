@@ -27,6 +27,8 @@ utilizada será o índice. Com ES6, você pode construir um objeto com chaves
 dinâmicas utilizando a sintaxe ``{ [key]: value }``. Exemplo:
 
 .. code-block:: javascript
+   :emphasize-lines: 4, 19
+
    import { map, mergeAll } from 'ramda';
 
    function render({ id, name, score }) {
