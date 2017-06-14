@@ -15,7 +15,7 @@ Para diferenciar extensões síncronas e assíncronas, utilizamos um segundo
 parâmetro na função principal, o ``done``. Quando o ``done`` é passado, a
 extensão não termina de executar até que a função ``done`` seja chamada com os
 alertas a serem gerados. Na outra situação, a extensão termina sua execução até
-quando o primeiro ``return``.
+quando o primeiro ``return`` for encontrado.
 
 
 **Extensão síncrona**
