@@ -17,13 +17,5 @@ a instalação. Os tipos podem ser importados via:
 Integer
 -------
 
-
-**Utilização**
-
-.. code-block::javascript
-
-    Integer
-
-
 Para números inteiros tendendo de negativo a infinito positivo, a depender da
-representação de números inteiros em bits de onde está rodando
+representação de números inteiros em bits de onde está rodando.
