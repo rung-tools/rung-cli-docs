@@ -36,3 +36,6 @@ Exemplo:
    };
 
    export default create(main, { params });
+
+O contexto também é responsável por carregar as informações do banco de dados
+de cada instância de extensão, em ``context.db``.
