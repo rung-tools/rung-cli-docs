@@ -32,15 +32,14 @@ locale dentro da pasta ``locales/``. Exemplo:
 **index.js**
 
 .. code-block:: javascript
-...
 
-function main(context) {
-    return {
-        alerts: [_("hello world!")]
-    };
-}
-
-...
+   ...
+   function main(context) {
+       return {
+           alerts: [_("hello world!")]
+       };
+   }
+   ...
 
 Caso o locale não for encontrado, a chave é utilizada, no caso, a versão em
 inglês no exemplo.
