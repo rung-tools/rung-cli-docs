@@ -57,10 +57,10 @@ Extras
 
     extras/troubleshooting
 
---------------------
-Help or partnership?
---------------------
+-------------------
+Ajuda ou parceiras?
+-------------------
 
-Contact us at <developer@rung.com.br>
+Contate-nos em <developer@rung.com.br>
 
 .. _Rung: https://app.rung.com.br
