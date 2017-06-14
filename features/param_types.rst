@@ -11,5 +11,19 @@ a instalação. Os tipos podem ser importados via:
 
 .. code-block:: javascript
 
-   import {} from rung-cli/dist/types';
+   import {} from 'rung-cli/dist/types';
 
+-------
+Integer
+-------
+
+
+**Utilização**
+
+.. code-block::javascript
+
+    Integer
+
+
+Para números inteiros tendendo de negativo a infinito positivo, a depender da
+representação de números inteiros em bits de onde está rodando
