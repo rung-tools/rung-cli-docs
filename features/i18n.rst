@@ -1,0 +1,48 @@
+.. _i18n:
+
+==============================
+Internacionalização e tradução
+==============================
+
+O Rung tem suporte a múltiplos idiomas nas extensões. Os locales do Rung se
+baseiam na combinação por ``_`` dos formatos ISO 639 com o código do país,
+especificado na ISO 3166. Exemplos são ``en_US`` e ``pt_BR``.
+
+Há uma função global chamada ``_``, que recebe um texto a ser
+Internacionalizado, preferencialmente em inglês, e opcionalmente um conjunto
+de pares a interpolar. O Rung buscará por arquivos ``.json`` com o nome do
+locale dentro da pasta ``locales/``. Exemplo:
+
+**locales/pt_BR.json**
+
+.. code-block:: json
+
+   {
+       "Hello world!": "Olá, mundo!"
+   }
+
+**locales/zh_CN**
+
+.. code-block:: json
+
+   {
+       "Hello world!": "你好世界"
+   }
+
+**index.js**
+
+.. code-block:: javascript
+...
+
+function main(context) {
+    return {
+        alerts: [_("hello world!")]
+    };
+}
+
+...
+
+Caso o locale não for encontrado, a chave é utilizada, no caso, a versão em
+inglês no exemplo.
+
+
