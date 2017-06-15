@@ -47,7 +47,7 @@ Exemplo de extensão customizada:
        };
    }
 
-   export default create(main, { params: {}, primaryKey: true };
+   export default create(main, { params: {}, primaryKey: true });
 
 -------
 Preview
