@@ -7,7 +7,7 @@ Banco de dados
 Existem dois comandos no Rung CLI para trabalhar com banco de dados via linha
 de comando:
 
-+===================+===============================================================+
++-------------------+---------------------------------------------------------------+
 | Comando           | Descrição                                                     |
 +===================+===============================================================+
 | ``rung db clear`` | Limpa toda a base de dados para a extensão ativa              |
