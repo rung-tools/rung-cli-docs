@@ -1,5 +1,9 @@
 .. _boilerplate:
 
+===========
+Boilerplate
+===========
+
 O comando ``rung boilerplate`` pede algumas informações sobre a sua extensão
 e gera a base funcional de código para que você possa trabalhar. Os parâmetros
 perguntados são:
