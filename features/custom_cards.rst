@@ -59,9 +59,9 @@ o parâmetro ``preview`` e reutilizar a função ``render``:
 
 .. code-block:: diff
 
--export default create(main, { params: {}, primaryKey: true });
-+export default create(main, {
-+    params: {},
-+    primaryKey: true,
-+    preview: render('Salete')
-+});
+   -export default create(main, { params: {}, primaryKey: true });
+   +export default create(main, {
+   +    params: {},
+   +    primaryKey: true,
+   +    preview: render('Salete')
+   +});
