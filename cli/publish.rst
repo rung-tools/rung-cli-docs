@@ -15,6 +15,9 @@ extensão, informe seu usuário e senha do Rung.
 - É necessário possuir *karma* de desenvolvedor.
 
 Para conseguir *karma* de publicação, entre em contato conosco em
-developer@rung.com.br
+developer@rung.com.br.
+
+Para publicar uma extensão, é obrigatório que ``title`` e ``description``
+estejam definidos na configuração da extensão.
 
 .. _semver: http://semver.org/
