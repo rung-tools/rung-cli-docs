@@ -19,7 +19,7 @@ Ao invés de definir o HTML como string, utilize-o diretamente na renderização
 Também há suporte a folha de estilos como objetos dentro das tags
 Exemplo de extensão customizada:
 
-.. code-block:: jsx
+.. code-block:: javascript
 
    import { create } from 'rung-sdk';
 
@@ -47,7 +47,7 @@ Exemplo de extensão customizada:
        };
    }
 
-    export default create(main, { params: {}, primaryKey: true };
+   export default create(main, { params: {}, primaryKey: true };
 
 -------
 Preview
