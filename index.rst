@@ -55,6 +55,7 @@ Extras
 .. toctree::
     :maxdepth: 2
 
+    extras/extracting-html
     extras/troubleshooting
 
 -------------------
