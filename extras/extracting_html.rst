@@ -36,7 +36,10 @@ o ``jsdom`` ao projeto. Usaremos ele para criar o DOM virtual!
    import promisifyAgent from 'superagent-promise';
    import { JSDOM } from 'jsdom';
 
-Uma informação importante: quando buscamos uma **lista** de elementos do DOM,
+   const request = promisifyAgent(agent, Bluebird);
+   const website = 'https://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants';
+
+**Uma informação importante**: quando buscamos uma **lista** de elementos do DOM,
 não nos é retornado um *array* do JavaScript, mas um ``NodeList``. Existe uma
 maneira de contornar isso para trabalhar com os elementos, que é converter a
 lista de nodos para um *array* nativo. Podemos definir a seguinte função, baseado
@@ -47,5 +50,31 @@ lista de nodos para um *array* nativo. Podemos definir a seguinte função, base
    function nodeListToArray(dom) {
        return Array.prototype.slice.call(dom, 0);
    }
+
+Agora, dentro da função principal assíncrona, precisamos extrair os dados.
+Uma informação importante é que alguns dos itens da lista que precisamos
+encontram-se no formato ``<a href="#">Queen</a>`` e outros no formato ``Queen``.
+
+.. code-block:: javascript
+
+   function main(context, done) {
+       // Obter todo o HTML do site em modo texto
+       request.get(website).then(({ text }) => {
+           // Virtualizar o DOM do texto
+           const { window } = new JSDOM(text);
+           // Converter os dados da tabela para uma lista e remover os links
+           const queens = nodeListToArray(window.document.querySelectorAll('.sortable tbody tr > td:nth-child(1)'))
+               .map(queen => {
+                   const link = queen.querySelector('a');
+                   return link === null ? queen.innerHTML : link.innerHTML;
+               });
+
+           // Agora, com `queens` contendo a lista que queremos, podemos gerar os alertas
+           done({ alerts: queens });
+       });
+   }
+
+Basicamente, é possível usar os seletores também utilizados no CSS para extrair
+os elementos.
 
 .. _`neste link`: https://stackoverflow.com/questions/3199588/fastest-way-to-convert-javascript-nodelist-to-array
