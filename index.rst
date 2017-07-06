@@ -33,6 +33,7 @@ Características
    features/custom_sidebar_fields
    features/custom_icon
    features/rung_bot
+   features/resources
 
 --------
 Rung CLI
