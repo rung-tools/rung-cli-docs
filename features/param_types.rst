@@ -111,4 +111,16 @@ IntegerMultiRange(m, n)
 
 Slider em que 2 pontos são retornados, estão esses pontos entre ``m`` e ``n``.
 
+--------
+Calendar
+--------
+
+Para datas, com renderização de um calendário.
+
+------------
+AutoComplete
+------------
+
+Para campos que podem ser interdependentes, em modo texto e ter um arquivo expondo uma função de *autocomplete*.
+
 .. _IEEE754: https://en.wikipedia.org/wiki/IEEE_floating_point
