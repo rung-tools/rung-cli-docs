@@ -123,4 +123,12 @@ AutoComplete
 
 Para campos que podem ser interdependentes, em modo texto e ter um arquivo expondo uma função de *autocomplete*.
 
+------------
+Location
+------------
+
+Qualquer trecho de texto que faça referência a uma localização (cidade, estabelecimento, país, etc). Quando o campo for utilizado no Rung_, irá ser carregado um autocomplete com sugestões de locais vindas do Google_.
+
 .. _IEEE754: https://en.wikipedia.org/wiki/IEEE_floating_point
+.. _Rung: https://app.rung.com.br
+.. _Google: https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform
