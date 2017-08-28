@@ -29,12 +29,12 @@ exemplo!
 
 .. code-block:: javascript
 
-export default function ({ input, lib }, done) {
-    lib.request.get('https://raw.githubusercontent.com/BrunnerLivio/PokemonDataGraber/master/output.json')
-        .then(res => res.body)
-        .then(pokemons => pokemons.map(pokemon => pokemon.Name))
-        .filter(name => name.startsWith(input))
-        .then(done);
-}
+   export default function ({ input, lib }, done) {
+       lib.request.get('https://raw.githubusercontent.com/BrunnerLivio/PokemonDataGraber/master/output.json')
+           .then(res => res.body)
+           .then(pokemons => pokemons.map(pokemon => pokemon.Name))
+           .filter(name => name.startsWith(input))
+           .then(done);
+   }
 
 E pronto, compile e suba sua extensão para o Rung!
