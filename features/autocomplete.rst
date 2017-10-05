@@ -1,7 +1,7 @@
 .. _autocomplete:
 
 ============
-Autocomplete
+AutoComplete
 ============
 
 O Rung suporta que os campos possam ter a função de autocompletar, provendo
@@ -36,4 +36,20 @@ exemplo!
            .filter(name => name.startsWith(input));
    }
 
-E pronto, compile e suba sua extensão para o Rung!
+E pronto, compile e suba sua extensão para o Rung! Você também pode testar essa funcionalidade
+na sua extensão diretamente do Rung CLI (automaticamente).
+
+----------
+Parâmetros
+----------
+
+A função exportada recebe como parâmetros:
+
+1. Objeto contendo ``input`` (entrada do usuário), ``lib`` (bibliotecas comuns, como ``request`` e ``ramda``)
+2. Callback opcional ``done``. Se passado, deve ser chamado para retornar o controle. Senão, a função deve retornar uma ``Promise``
+
+-------
+Retorno
+-------
+
+``Promise`` ou chamada de ``done`` a um ``Array<String>`` contendo os dados já filtrados
