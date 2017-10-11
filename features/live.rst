@@ -29,6 +29,10 @@ Quando uma mudança é detectada, uma nova era é criada e a aplicação é repo
 
 .. image:: ../resources/live-timeline.png
 
+Caso você interrompa o processo e entre com novos parâmetros, não é necessário fechar o navegador
+ou recarregar a página. O mesmo é válido para quando executar outra extensão. As novas entradas
+serão adicionadas à linha do tempo das anteriores.
+
 -----
 Erros
 -----
