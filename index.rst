@@ -30,6 +30,7 @@ Características
    features/database
    features/i18n
    features/custom_cards
+   features/live
    features/custom_sidebar_fields
    features/custom_icon
    features/rung_bot
