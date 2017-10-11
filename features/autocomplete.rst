@@ -45,11 +45,18 @@ Parâmetros
 
 A função exportada recebe como parâmetros:
 
-1. Objeto contendo ``input`` (entrada do usuário), ``lib`` (bibliotecas comuns, como ``request`` e ``ramda``)
+1. Objeto contendo ``input`` (entrada do usuário) e ``lib``
 2. Callback opcional ``done``. Se passado, deve ser chamado para retornar o controle. Senão, a função deve retornar uma ``Promise``
 
 -------
 Retorno
 -------
 
-``Promise`` ou chamada de ``done`` a um ``Array<String>`` contendo os dados já filtrados
+``Promise`` ou chamada de ``done`` a um ``Array<String>`` contendo os dados já filtrados.
+
+-----------
+Bibliotecas
+-----------
+
+O parâmetro ``lib`` vindo dentro do primeiro objeto carrega duas bibliotecas, ``ramda`` e ``request``.
+As requisições são feitas utilizado a biblioteca externa ``superagent``.
