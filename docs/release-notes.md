@@ -1,6 +1,6 @@
 ## Upgrading
 
-To upgrade Material to the latest version, use `npm`:
+To upgrade `rung-cli` to the latest version, use `npm`:
 ``` sh
 npm install -g rung-cli
 ```
