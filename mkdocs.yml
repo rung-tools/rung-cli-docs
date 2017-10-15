@@ -29,7 +29,6 @@ pages:
   - 'Ícones customizados': 'development/custom_icon.md'
   - 'Rung bot': 'development/rung_bot.md'
   - 'Resources': 'development/resources.md'
-  - 'AutoComplete': 'development/autocomplete.md'
   - 'Banco de dados': 'development/database.md'
   - 'Internacionalização': 'development/i18n.md'
   - 'Extraindo HTML': 'development/extracting_html.md'
