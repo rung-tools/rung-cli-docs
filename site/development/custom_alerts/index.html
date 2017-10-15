@@ -509,7 +509,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Compilando e executando" class="md-nav__link">
+    <a href="../../compile_execute/" title="Compilando e executando" class="md-nav__link">
       Compilando e executando
     </a>
   </li>
@@ -521,7 +521,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Publicando" class="md-nav__link">
+    <a href="../../publish/" title="Publicando" class="md-nav__link">
       Publicando
     </a>
   </li>
@@ -627,10 +627,10 @@
                 
                 
                 <h1 id="alertas-personalizados">Alertas personalizados</h1>
-<p>Além de texto plano, o Rung permite que os cards possam ter um subset de HTML
+<p>Além de texto plano, o Rung permite que os alertas possam ter um subset de HTML
 personalizado para cada extensão. O compilador de extensões do Rung possui
 suporte direto a JSX, permitindo que o conceito do React seja aplicado aos
-cards em tempo de compilação.</p>
+alertas em tempo de compilação.</p>
 <p><img alt="Custom alerts" src="../../img/custom-alerts.png" /></p>
 <h2 id="jsx">JSX</h2>
 <p>Ao invés de definir o HTML como string, utilize-o diretamente na renderização.
@@ -666,7 +666,7 @@ Exemplo de extensão customizada:</p>
 </code></pre>
 
 <h2 id="preview">Preview</h2>
-<p>É ideal especificar como o card será exibido para o usuário durante a instalação
+<p>É ideal especificar como o alerta será exibido para o usuário durante a instalação
 da extensão dentro do Rung App. Para isso, você pode definir nas configurações
 o parâmetro <code>preview</code> e reutilizar a função <code>render</code>:</p>
 <pre><code class="diff">   -export default create(main, { params: {}, primaryKey: true });
