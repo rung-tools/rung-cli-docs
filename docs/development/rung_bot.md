@@ -1,4 +1,4 @@
-## Rung Bot
+# Rung Bot
 
 Em seus alertas, é possível programar para que haja um comentário no *follow-up*
 do Rung Bot, que é, basicamente, um robô customizado que tem o objetivo de

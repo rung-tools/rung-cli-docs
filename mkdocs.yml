@@ -1,6 +1,6 @@
 site_name: Rung para desenvolvedores
 theme: 'material'
-repo_url: https://github.com/rung-tools/rung-cli-docs
+repo_url: https://github.com/rung-tools/rung-cli
 site_url: https://developers.rung.com.br/docs/
 repo_name: Github
 site_description: Documentação técnica para desenvolvedores de integração do Rung
@@ -18,24 +18,21 @@ pages:
 - 'O que é Rung': 'index.md'
 - 'Começando': 'getting_started.md'
 - 'Desenvolvendo':
+  - 'Hot reloading': 'development/live.md'
   - 'Contexto': 'development/context.md'
   - 'Chaves primárias': 'development/primary_keys.md'
   - 'Extensões assíncronas': 'development/async_extensions.md'
   - 'Tipos de parâmetros': 'development/param_types.md'
   - 'Banco de dados': 'development/database.md'
-  - 'Internacionalização': 'development/i18n.md'
   - 'Alertas personalizados': 'development/custom_alerts.md'
-  - 'Hot reloading': 'development/live.md'
   - 'Barra lateral': 'development/custom_sidebar_fields.md'
   - 'Ícones customizados': 'development/custom_icon.md'
   - 'Rung bot': 'development/rung_bot.md'
   - 'Resources': 'development/resources.md'
   - 'AutoComplete': 'development/autocomplete.md'
-  - 'Boilerplate': 'development/index.md'
-  - 'Documentação': 'development/index.md'
   - 'Banco de dados': 'development/database.md'
-  - 'Extraindo HTML': 'development/index.md'
-  - 'Resolução de problemas HTML': 'development/index.md'
+  - 'Internacionalização': 'development/i18n.md'
+  - 'Extraindo HTML': 'development/extracting_html.md'
 - 'Compilando e executando': 'compile_execute.md'
 - 'Publicando': 'publish.md'
 - 'Sobre':
