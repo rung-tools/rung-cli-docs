@@ -14,33 +14,33 @@ Também há suporte a folha de estilos como objetos dentro das tags
 Exemplo de extensão customizada:
 
 ``` js
-   import { create } from 'rung-sdk';
+import { create } from 'rung-sdk';
 
-   const styles = {
-       name: {
-           fontWeight: 'bold',
-           color: 'red'
-       }
-   };
+const styles = {
+    name: {
+        fontWeight: 'bold',
+        color: 'red'
+    }
+};
 
-   function render(name) {
-       return (
-           <div>
-               Hello, <span style={ styles.name }>{ name }</span>
-           </div>
-       );
-   }
+function render(name) {
+    return (
+        <div>
+            Hello, <span style={ styles.name }>{ name }</span>
+        </div>
+    );
+}
 
-   function main(context) {
-       return {
-           alerts: [{
-               title: 'Betty',
-               content: render('Betty')
-           }]
-       };
-   }
+function main(context) {
+    return {
+        alerts: [{
+            title: 'Betty',
+            content: render('Betty')
+        }]
+    };
+}
 
-   export default create(main, { params: {}, primaryKey: true });
+export default create(main, { params: {}, primaryKey: true });
 ```
 
 ## Preview
@@ -50,10 +50,10 @@ da extensão dentro do Rung App. Para isso, você pode definir nas configuraçõ
 o parâmetro ``preview`` e reutilizar a função ``render``:
 
 ``` diff
-   -export default create(main, { params: {}, primaryKey: true });
-   +export default create(main, {
-   +    params: {},
-   +    primaryKey: true,
-   +    preview: render('Salete')
-   +});
+--- export default create(main, { params: {}, primaryKey: true });
++++ export default create(main, {
++    params: {},
++    primaryKey: true,
++    preview: render('Salete')
++});
 ```

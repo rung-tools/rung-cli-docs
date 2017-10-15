@@ -8,18 +8,18 @@ a primeira execução, o valor sempre corresponde a ``undefined``.
 ## Exemplo de contador
 
 ```js
-   import { create } from 'rung-sdk';
+import { create } from 'rung-sdk';
 
-   function main(context) {
-       const counter = context.db === undefined ? 0 : context.db;
+function main(context) {
+    const counter = context.db === undefined ? 0 : context.db;
 
-       return {
-           alerts: [`The value is ${counter}`],
-           db: counter + 1
-       };
-   }
+    return {
+        alerts: [`The value is ${counter}`],
+        db: counter + 1
+    };
+}
 
-   export default create(main, { params: {}, primaryKey: true };
+export default create(main, { params: {}, primaryKey: true };
 ```
 
 Cada vez que a extensão roda, o contador é incrementado. Caso ele seja

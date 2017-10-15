@@ -23,13 +23,13 @@ A requisição para obter HTML é igual à requisição para obter JSON. Podemos
 
 ```js
 
-   import Bluebird from 'bluebird';
-   import agent from 'superagent';
-   import promisifyAgent from 'superagent-promise';
-   import { JSDOM } from 'jsdom';
+import Bluebird from 'bluebird';
+import agent from 'superagent';
+import promisifyAgent from 'superagent-promise';
+import { JSDOM } from 'jsdom';
 
-   const request = promisifyAgent(agent, Bluebird);
-   const website = 'https://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants';
+const request = promisifyAgent(agent, Bluebird);
+const website = 'https://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants';
 
 ```
 **Uma informação importante**: quando buscamos uma **lista** de elementos do DOM,
@@ -40,9 +40,9 @@ lista de nodos para um *array* nativo. Podemos definir a seguinte função, base
 
 ``` js
 
-   function nodeListToArray(dom) {
-       return Array.prototype.slice.call(dom, 0);
-   }
+function nodeListToArray(dom) {
+    return Array.prototype.slice.call(dom, 0);
+}
 ```
 
 Agora, dentro da função principal assíncrona, precisamos extrair os dados.
@@ -51,21 +51,21 @@ encontram-se no formato ``<a href="#">Queen</a>`` e outros no formato ``Queen``.
 
 ``` js
 
-   function main(context, done) {
-       // Obter todo o HTML do site em modo texto
-       request.get(website).then(({ text }) => {
-           // Virtualizar o DOM do texto
-           const { window } = new JSDOM(text);
-           // Converter os dados da tabela para uma lista e remover os links
-           const queens = nodeListToArray(window.document.querySelectorAll('.sortable tbody tr > td:nth-child(1)'))
-               .map(queen => {
-                   const link = queen.querySelector('a');
-                   return link === null ? queen.innerHTML : link.innerHTML;
-               });
+function main(context, done) {
+    // Obter todo o HTML do site em modo texto
+    request.get(website).then(({ text }) => {
+        // Virtualizar o DOM do texto
+        const { window } = new JSDOM(text);
+        // Converter os dados da tabela para uma lista e remover os links
+        const queens = nodeListToArray(window.document.querySelectorAll('.sortable tbody tr > td:nth-child(1)'))
+            .map(queen => {
+                const link = queen.querySelector('a');
+                return link === null ? queen.innerHTML : link.innerHTML;
+            });
 
-           // Agora, com `queens` contendo a lista que queremos, podemos gerar os alertas
-           done({ alerts: queens });
-       });
-   }
+        // Agora, com `queens` contendo a lista que queremos, podemos gerar os alertas
+        done({ alerts: queens });
+    });
+}
 ```
 Basicamente, é possível usar os seletores também utilizados no CSS para extrair os elementos.

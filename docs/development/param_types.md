@@ -6,7 +6,7 @@ o dado e como você deseja que ele seja renderizado para o usuário durante
 a instalação. Os tipos podem ser importados via:
 
 ``` js
-   import {} from 'rung-cli/dist/types';
+import {} from 'rung-cli/dist/types';
 ```
 ## Tipos
 
@@ -27,24 +27,24 @@ exemplo!
 - Defina o tipo do campo como ``AutoComplete``
 
 ``` js
-   params: {
-       pokemon: {
-           type: AutoComplete,
-           description: 'Pick a Pokémon!'
-       }
-   }
+params: {
+    pokemon: {
+        type: AutoComplete,
+        description: 'Pick a Pokémon!'
+    }
+}
 ```
 
 - Crie um arquivo ``autocomplete/pokemon.js``
 - Exporte uma função que use a função de *callback* ou que retorne uma lista de strings
 
 ``` js
-   export default function ({ input, lib }) {
-        return lib.request.get('https://raw.githubusercontent.com/BrunnerLivio/PokemonDataGraber/master/output.json')
-           .then(({ text }) => JSON.parse(text))
-           .then(pokemons => pokemons.map(pokemon => pokemon.Name))
-           .filter(name => name.startsWith(input));
-   }
+export default function ({ input, lib }) {
+    return lib.request.get('https://raw.githubusercontent.com/BrunnerLivio/PokemonDataGraber/master/output.json')
+        .then(({ text }) => JSON.parse(text))
+        .then(pokemons => pokemons.map(pokemon => pokemon.Name))
+        .filter(name => name.startsWith(input));
+}
 ```
 E pronto, compile e suba sua extensão para o Rung! Você também pode testar essa funcionalidade
 na sua extensão diretamente do Rung CLI (automaticamente).

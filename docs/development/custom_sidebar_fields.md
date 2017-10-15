@@ -16,14 +16,14 @@ campos deseja ocultar. Por padrão, a barra lateral possui suporte a 4 campos:
 Se quisermos, por exemplo, remover os campos de data:
 
 ``` js
-   export default create(main, {
-       params,
-       primaryKey: true,
-       sidebar: {
-           startDate: false,
-           endDate: false
-       }
-   });
+export default create(main, {
+    params,
+    primaryKey: true,
+    sidebar: {
+        startDate: false,
+        endDate: false
+    }
+});
 ```
 
 ![Custom Sidebar](../img/custom-sidebar.png)

@@ -5,6 +5,8 @@ site_url: https://vitorebatista.github.io/rung-cli-docs/
 repo_name: Github
 site_description: Documentação técnica para desenvolvedores de integração do Rung
 site_author: Rung
+markdown_extensions:
+  - codehilite(linenums=true)
 extra:
   logo: 'img/rung.png'
   social:

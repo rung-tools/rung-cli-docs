@@ -17,23 +17,23 @@ quando o primeiro ``return`` for encontrado.
 ## Extensão síncrona
 
 ``` js
-   function main(context) {
-       return {
-           alerts: ["Hello world!"]
-       }
-   }
+function main(context) {
+    return {
+        alerts: ["Hello world!"]
+    }
+}
 ```
 
 ## Extensão assíncrona
 
 ```js
-   function main(context, done) {
-       setTimeout(() => {
-           done({
-               alerts: ["Hello world!"]
-           });
-       }, 3000);
-   }
+function main(context, done) {
+    setTimeout(() => {
+        done({
+            alerts: ["Hello world!"]
+        });
+    }, 3000);
+}
 ```
 
 No segundo exemplo, a extensão leva 3 segundos para executar e então gerar o

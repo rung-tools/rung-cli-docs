@@ -10,22 +10,22 @@ O conteúdo escrito pelo Rung Bot deve
 ser definido usando Markdown, e paralelo ao alerta customizado. Exemplo:
 
 ```js
-   return {
-       alerts: [{
-           title: 'Bananas are cheap',
-           content: render(bananasPrice),
-           comment: renderComment(bananasPrice)
-       }]
-   };
+return {
+    alerts: [{
+        title: 'Bananas are cheap',
+        content: render(bananasPrice),
+        comment: renderComment(bananasPrice)
+    }]
+};
 ```
 
 ```js
-   function renderComment(bananasPrice) {
-       return `
-           # Bananas are cheap!
-            The bananas are costing U$ ${bananasPrice}!!!
-           Buy them now!
-           ![Bananas](https://bananas.org/banana.jpg)
-       `;
-   }
+function renderComment(bananasPrice) {
+    return `
+        # Bananas are cheap!
+        The bananas are costing U$ ${bananasPrice}!!!
+        Buy them now!
+        ![Bananas](https://bananas.org/banana.jpg)
+    `;
+}
 ```

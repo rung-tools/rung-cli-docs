@@ -10,17 +10,17 @@ objetivos.
 O conteúdo passado para a propriedade resources deve ser uma lista contendo as urls das
 imagens geradas pelo alerta. Exemplo:
 
-```
-   return {
-       alerts: [{
-           title: 'Bananas are cheap',
-           content: render(bananasPrice),
-           comment: renderComment(bananasPrice),
-           resources: [
-              'http://www.bananas.com/banana1.jpg',
-              'http://www.bananas.com/banana2.jpg',
-              'http://www.bananas.com/banana3.jpg'
-           ]
-       }]
-   };
+``` js
+return {
+    alerts: [{
+        title: 'Bananas are cheap',
+        content: render(bananasPrice),
+        comment: renderComment(bananasPrice),
+        resources: [
+            'http://www.bananas.com/banana1.jpg',
+            'http://www.bananas.com/banana2.jpg',
+            'http://www.bananas.com/banana3.jpg'
+        ]
+    }]
+};
 ```
