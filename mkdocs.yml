@@ -36,8 +36,8 @@ pages:
   - 'Banco de dados': 'development/database.md'
   - 'Extraindo HTML': 'development/index.md'
   - 'Resolução de problemas HTML': 'development/index.md'
-- 'Compilando e executando': 'index.md'
-- 'Publicando': 'index.md'
+- 'Compilando e executando': 'compile_execute.md'
+- 'Publicando': 'publish.md'
 - 'Sobre':
     - 'License': 'about/license.md'
     - 'Release Notes': 'about/release-notes.md'
