@@ -1,9 +1,9 @@
 # Alertas personalizados
 
-Além de texto plano, o Rung permite que os cards possam ter um subset de HTML
+Além de texto plano, o Rung permite que os alertas possam ter um subset de HTML
 personalizado para cada extensão. O compilador de extensões do Rung possui
 suporte direto a JSX, permitindo que o conceito do React seja aplicado aos
-cards em tempo de compilação.
+alertas em tempo de compilação.
 
 ![Custom alerts](../img/custom-alerts.png)
 
@@ -45,7 +45,7 @@ Exemplo de extensão customizada:
 
 ## Preview
 
-É ideal especificar como o card será exibido para o usuário durante a instalação
+É ideal especificar como o alerta será exibido para o usuário durante a instalação
 da extensão dentro do Rung App. Para isso, você pode definir nas configurações
 o parâmetro ``preview`` e reutilizar a função ``render``:
 
