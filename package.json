@@ -1,0 +1,21 @@
+{
+  "name": "rung-cli-docs",
+  "version": "0.0.1",
+  "description": "Rung documentation",
+  "homepage": "https://developers.rung.com.br/docs/",
+  "author": "Rung",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rung-tools/rung-cli-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ung-tools/rung-cli-docs"
+  },
+  "scripts": {
+    "deploy": "mkdocs gh-deploy",
+    "build": "mkdocs build",
+    "dev": "mkdocs serve",
+    "clean": "mkdocs build --clean"
+  }
+}

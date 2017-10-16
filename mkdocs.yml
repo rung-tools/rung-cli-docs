@@ -1,0 +1,53 @@
+site_name: Rung para desenvolvedores
+theme: 'material'
+theme_dir: theme
+repo_url: https://github.com/rung-tools/rung-cli
+site_url: https://vitorebatista.github.io/rung-cli-docs/
+repo_name: Github
+site_description: Documentação técnica para desenvolvedores de integração do Rung
+site_author: Rung
+copyright: Copyright &copy; 2017 Rung
+markdown_extensions:
+  - codehilite(linenums=true)
+  - toc(permalink=true)
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+extra:
+  version: 1.1.2
+  logo: 'img/rung.png'
+  social:
+    - type: 'github'
+      link: 'https://github.com/rung-tools/rung-cli'
+    - type: 'twitter'
+      link: 'https://twitter.com/rungbrasil'
+    - type: 'facebook'
+      link: 'https://facebook.com/rungbrasil'
+pages:
+- 'O que é Rung': 'index.md'
+- 'Começando': 'getting_started.md'
+- 'Desenvolvendo':
+  - 'Hot reloading': 'development/live.md'
+  - 'Contexto': 'development/context.md'
+  - 'Chaves primárias': 'development/primary_keys.md'
+  - 'Extensões assíncronas': 'development/async_extensions.md'
+  - 'Tipos de parâmetros': 'development/param_types.md'
+  - 'Banco de dados': 'development/database.md'
+  - 'Alertas personalizados': 'development/custom_alerts.md'
+  - 'Barra lateral': 'development/custom_sidebar_fields.md'
+  - 'Ícones customizados': 'development/custom_icon.md'
+  - 'Rung bot': 'development/rung_bot.md'
+  - 'Resources': 'development/resources.md'
+  - 'Banco de dados': 'development/database.md'
+  - 'Internacionalização': 'development/i18n.md'
+  - 'Extraindo HTML': 'development/extracting_html.md'
+- 'Compilando e executando': 'compile_execute.md'
+- 'Publicando': 'publish.md'
+- 'Release Notes': 'release-notes.md'
