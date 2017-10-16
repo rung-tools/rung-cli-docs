@@ -2,7 +2,7 @@
 
 ## O que é o Rung
 
-O Rung é a primeira ferramenta do mundo para gestão de excepcionalidades.
+O [Rung](https:/www.rung.com.br) é a primeira ferramenta do mundo para gestão de excepcionalidades.
 O objetivo da ferramenta é te alertar de situações que podem ser importantes
 para você ou para sua empresa. O Rung é altamente customizável. Há uma loja
 de extensões que permite a você configurar o que quer monitorar, e também lhe

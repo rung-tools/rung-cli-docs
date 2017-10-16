@@ -1,14 +1,27 @@
 site_name: Rung para desenvolvedores
 theme: 'material'
+theme_dir: theme
 repo_url: https://github.com/rung-tools/rung-cli
 site_url: https://vitorebatista.github.io/rung-cli-docs/
 repo_name: Github
 site_description: Documentação técnica para desenvolvedores de integração do Rung
 site_author: Rung
+copyright: Copyright &copy; 2017 Rung
 markdown_extensions:
   - codehilite(linenums=true)
   - toc(permalink=true)
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
 extra:
+  version: 1.1.2
   logo: 'img/rung.png'
   social:
     - type: 'github'
