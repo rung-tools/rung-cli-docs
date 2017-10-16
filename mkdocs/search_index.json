@@ -1,0 +1,484 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Rung\n\u00b6\n\n\nO que \u00e9 o Rung\n\u00b6\n\n\nO \nRung\n \u00e9 a primeira ferramenta do mundo para gest\u00e3o de excepcionalidades.\nO objetivo da ferramenta \u00e9 te alertar de situa\u00e7\u00f5es que podem ser importantes\npara voc\u00ea ou para sua empresa. O Rung \u00e9 altamente customiz\u00e1vel. H\u00e1 uma loja\nde extens\u00f5es que permite a voc\u00ea configurar o que quer monitorar, e tamb\u00e9m lhe\npermite programar suas pr\u00f3prias extens\u00f5es.\n\n\nO que \u00e9 uma integra\u00e7\u00e3o\n\u00b6\n\n\nUma extens\u00e3o \u00e9 um aplicativo para o Rung, que foi previamente programado\npara receber uma s\u00e9rie de par\u00e2metros e, quando houver a satisfa\u00e7\u00e3o de\numa condi\u00e7\u00e3o espec\u00edfica, gerar alertas e notificar o usu\u00e1rio sobre. Um exemplo\nsimples seria a cota\u00e7\u00e3o do d\u00f3lar. Por exemplo, eu posso querer ser avisado\nquando o d\u00f3lar estiver abaixo de R$ 3,00.\n\n\nInstale em 1 minuto\n\u00b6\n\n\nAs integra\u00e7\u00f5es s\u00e3o o cora\u00e7\u00e3o do Rung e \u00e9 muito f\u00e1cil instal\u00e1-los! Em menos de 1 minuto, \u00e9 poss\u00edvel ativ\u00e1-los para emitir alertas de pre\u00e7os de passagens, hospedagens em hot\u00e9is e AirBnb, bolsa de valores, cota\u00e7\u00f5es de moedas, entre outras dezenas de situa\u00e7\u00f5es.\n\n\n \n\n\n\n\n\n\nConfigure rapidamente\n\u00b6\n\n\nIntegra\u00e7\u00e3o realizada, agora \u00e9 hora de definir sobre o que voc\u00ea gostaria de ser alertado! Fa\u00e7a isso de uma forma muito pr\u00e1tica e r\u00e1pida com o wizard de cria\u00e7\u00e3o de integra\u00e7\u00f5es ou use os diversos dispon\u00edveis no Rung.\n\n\n \n\n\n\n\n\n\nReceba alertas automaticamente\n\u00b6\n\n\nUma vez que configurado as integra\u00e7\u00f5es, os alertas surgem automaticamente no painel geral. Essa \u00e9 a funcionalidade que traz as situa\u00e7\u00f5es excepcionais assim que ocorrem para evitar o efeito bola de neve.\n\n\n \n\n\n\n\n\n\nDomine as excepcionalidades\n\u00b6\n\n\nAssim que um alerta surge no painel, \u00e9 poss\u00edvel lidar com ele de uma forma simples e inteligente. Com controle de status e percentuais para acompanhamento da resolu\u00e7\u00e3o, n\u00edveis de prioridade para orienta\u00e7\u00e3o dos envolvidos, troca r\u00e1pida de respons\u00e1veis, logs de todas as atividades relacionadas aos alertas e coment\u00e1rios com restri\u00e7\u00e3o de edi\u00e7\u00e3o e exclus\u00e3o para estimular a boa comunica\u00e7\u00e3o.",
+            "title": "O que \u00e9 Rung"
+        },
+        {
+            "location": "/#rung",
+            "text": "",
+            "title": "Rung"
+        },
+        {
+            "location": "/#o-que-e-o-rung",
+            "text": "O  Rung  \u00e9 a primeira ferramenta do mundo para gest\u00e3o de excepcionalidades.\nO objetivo da ferramenta \u00e9 te alertar de situa\u00e7\u00f5es que podem ser importantes\npara voc\u00ea ou para sua empresa. O Rung \u00e9 altamente customiz\u00e1vel. H\u00e1 uma loja\nde extens\u00f5es que permite a voc\u00ea configurar o que quer monitorar, e tamb\u00e9m lhe\npermite programar suas pr\u00f3prias extens\u00f5es.",
+            "title": "O que \u00e9 o Rung"
+        },
+        {
+            "location": "/#o-que-e-uma-integracao",
+            "text": "Uma extens\u00e3o \u00e9 um aplicativo para o Rung, que foi previamente programado\npara receber uma s\u00e9rie de par\u00e2metros e, quando houver a satisfa\u00e7\u00e3o de\numa condi\u00e7\u00e3o espec\u00edfica, gerar alertas e notificar o usu\u00e1rio sobre. Um exemplo\nsimples seria a cota\u00e7\u00e3o do d\u00f3lar. Por exemplo, eu posso querer ser avisado\nquando o d\u00f3lar estiver abaixo de R$ 3,00.",
+            "title": "O que \u00e9 uma integra\u00e7\u00e3o"
+        },
+        {
+            "location": "/#instale-em-1-minuto",
+            "text": "As integra\u00e7\u00f5es s\u00e3o o cora\u00e7\u00e3o do Rung e \u00e9 muito f\u00e1cil instal\u00e1-los! Em menos de 1 minuto, \u00e9 poss\u00edvel ativ\u00e1-los para emitir alertas de pre\u00e7os de passagens, hospedagens em hot\u00e9is e AirBnb, bolsa de valores, cota\u00e7\u00f5es de moedas, entre outras dezenas de situa\u00e7\u00f5es.",
+            "title": "Instale em 1 minuto"
+        },
+        {
+            "location": "/#configure-rapidamente",
+            "text": "Integra\u00e7\u00e3o realizada, agora \u00e9 hora de definir sobre o que voc\u00ea gostaria de ser alertado! Fa\u00e7a isso de uma forma muito pr\u00e1tica e r\u00e1pida com o wizard de cria\u00e7\u00e3o de integra\u00e7\u00f5es ou use os diversos dispon\u00edveis no Rung.",
+            "title": "Configure rapidamente"
+        },
+        {
+            "location": "/#receba-alertas-automaticamente",
+            "text": "Uma vez que configurado as integra\u00e7\u00f5es, os alertas surgem automaticamente no painel geral. Essa \u00e9 a funcionalidade que traz as situa\u00e7\u00f5es excepcionais assim que ocorrem para evitar o efeito bola de neve.",
+            "title": "Receba alertas automaticamente"
+        },
+        {
+            "location": "/#domine-as-excepcionalidades",
+            "text": "Assim que um alerta surge no painel, \u00e9 poss\u00edvel lidar com ele de uma forma simples e inteligente. Com controle de status e percentuais para acompanhamento da resolu\u00e7\u00e3o, n\u00edveis de prioridade para orienta\u00e7\u00e3o dos envolvidos, troca r\u00e1pida de respons\u00e1veis, logs de todas as atividades relacionadas aos alertas e coment\u00e1rios com restri\u00e7\u00e3o de edi\u00e7\u00e3o e exclus\u00e3o para estimular a boa comunica\u00e7\u00e3o.",
+            "title": "Domine as excepcionalidades"
+        },
+        {
+            "location": "/getting_started/",
+            "text": "Criando uma nova integra\u00e7\u00e3o\n\u00b6\n\n\nInstalando o Rung Cli\n\u00b6\n\n\n1\nnpm install -g rung-cli\n\n\n\n\n\n\nFeatures\n\u00b6\n\n\n\n\nCreate blank extensions\n\n\nGenerate \n.rung\n packages\n\n\nRun extensions locally in CLI mode\n\n\nPublish extensions to Rung Store (public and private)\n\n\nGenerate boilerplate code for extension\n\n\nGenerate README.md file to publish\n\n\nTest autocomplete directly in the terminal\n\n\nHot reloading and live development\n\n\n\n\nUsage\n\u00b6\n\n\nrung [build|run|publish|boilerplate|readme|db]\n\n\nCommands\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nbuild\n\n\nGenerate a .rung package\n\n\n\n\n\n\nrun\n\n\nExecute the current extension\n\n\n\n\n\n\npublish\n\n\nPublish extension to store\n\n\n\n\n\n\nboilerplate\n\n\nGenerate boilerplate code for the extension\n\n\n\n\n\n\nreadme\n\n\nGenerate the README.md file to publish\n\n\n\n\n\n\ndb read\n\n\nRead from extension database\n\n\n\n\n\n\ndb clear\n\n\nDrop extension database\n\n\n\n\n\n\n\n\nOptions\n\u00b6\n\n\n\n\n\n\n\n\nOption\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n-o\n, \n--output\n\n\nWhere to save the built package\n\n\n\n\n\n\n--version\n\n\nDisplays versions\n\n\n\n\n\n\n--private\n\n\nIf set, extension is published for current user only\n\n\n\n\n\n\n--raw\n\n\nDisplays returned alerts outside a table\n\n\n\n\n\n\n--live\n\n\nWith \nrun\n, starts hot compiling and preview on browser\n\n\n\n\n\n\n\n\nBoilerplate\n\u00b6\n\n\nO comando \nrung boilerplate\n pede algumas informa\u00e7\u00f5es sobre a sua extens\u00e3o e gera a base funcional de c\u00f3digo para que voc\u00ea possa trabalhar. Os par\u00e2metros perguntados s\u00e3o:\n\n\n\n\n\n\n\n\nPergunta\n\n\nDescri\u00e7\u00e3o\n\n\n\n\n\n\n\n\n\n\nNome do projeto\n\n\nIdentificador \u00fanico do projeto, em caixa-baixa e separado por \n-\n\n\n\n\n\n\nVers\u00e3o\n\n\nVers\u00e3o de acordo com o \nsemver\n\n\n\n\n\n\nT\u00edtulo\n\n\nT\u00edtulo da sua extens\u00e3o para exibi\u00e7\u00e3o na Rung Store\n\n\n\n\n\n\nDescription\n\n\nDescri\u00e7\u00e3o humana da proposta da sua extens\u00e3o\n\n\n\n\n\n\nCategory\n\n\nIdentificador da categoria da sua extens\u00e3o. Padr\u00e3o: \nmiscellaneous\n\n\n\n\n\n\nLicen\u00e7a\n\n\nLicen\u00e7a em que sua extens\u00e3o \u00e9 distribu\u00edda. Padr\u00e3o \nMIT\n\n\n\n\n\n\n\n\nAp\u00f3s confirmar, ser\u00e3o gerados \npackage.json\n, \nindex.js\n e \nREADME.md\n com as informa\u00e7\u00f5es b\u00e1sicas de uma extens\u00e3o.\n\n\nDocumenta\u00e7\u00e3o da extens\u00e3o\n\u00b6\n\n\n\u00c9 poss\u00edvel usar o comando \nrung readme\n para gerar a documenta\u00e7\u00e3o b\u00e1sica\npara uma extens\u00e3o, incluindo informa\u00e7\u00f5es sobre os par\u00e2metros de entrada e\ndin\u00e2micas (\nexemplo\n).",
+            "title": "Come\u00e7ando"
+        },
+        {
+            "location": "/getting_started/#criando-uma-nova-integracao",
+            "text": "",
+            "title": "Criando uma nova integra\u00e7\u00e3o"
+        },
+        {
+            "location": "/getting_started/#instalando-o-rung-cli",
+            "text": "1 npm install -g rung-cli",
+            "title": "Instalando o Rung Cli"
+        },
+        {
+            "location": "/getting_started/#features",
+            "text": "Create blank extensions  Generate  .rung  packages  Run extensions locally in CLI mode  Publish extensions to Rung Store (public and private)  Generate boilerplate code for extension  Generate README.md file to publish  Test autocomplete directly in the terminal  Hot reloading and live development",
+            "title": "Features"
+        },
+        {
+            "location": "/getting_started/#usage",
+            "text": "rung [build|run|publish|boilerplate|readme|db]",
+            "title": "Usage"
+        },
+        {
+            "location": "/getting_started/#commands",
+            "text": "Command  Description      build  Generate a .rung package    run  Execute the current extension    publish  Publish extension to store    boilerplate  Generate boilerplate code for the extension    readme  Generate the README.md file to publish    db read  Read from extension database    db clear  Drop extension database",
+            "title": "Commands"
+        },
+        {
+            "location": "/getting_started/#options",
+            "text": "Option  Description      -o ,  --output  Where to save the built package    --version  Displays versions    --private  If set, extension is published for current user only    --raw  Displays returned alerts outside a table    --live  With  run , starts hot compiling and preview on browser",
+            "title": "Options"
+        },
+        {
+            "location": "/getting_started/#boilerplate",
+            "text": "O comando  rung boilerplate  pede algumas informa\u00e7\u00f5es sobre a sua extens\u00e3o e gera a base funcional de c\u00f3digo para que voc\u00ea possa trabalhar. Os par\u00e2metros perguntados s\u00e3o:     Pergunta  Descri\u00e7\u00e3o      Nome do projeto  Identificador \u00fanico do projeto, em caixa-baixa e separado por  -    Vers\u00e3o  Vers\u00e3o de acordo com o  semver    T\u00edtulo  T\u00edtulo da sua extens\u00e3o para exibi\u00e7\u00e3o na Rung Store    Description  Descri\u00e7\u00e3o humana da proposta da sua extens\u00e3o    Category  Identificador da categoria da sua extens\u00e3o. Padr\u00e3o:  miscellaneous    Licen\u00e7a  Licen\u00e7a em que sua extens\u00e3o \u00e9 distribu\u00edda. Padr\u00e3o  MIT     Ap\u00f3s confirmar, ser\u00e3o gerados  package.json ,  index.js  e  README.md  com as informa\u00e7\u00f5es b\u00e1sicas de uma extens\u00e3o.",
+            "title": "Boilerplate"
+        },
+        {
+            "location": "/getting_started/#documentacao-da-extensao",
+            "text": "\u00c9 poss\u00edvel usar o comando  rung readme  para gerar a documenta\u00e7\u00e3o b\u00e1sica\npara uma extens\u00e3o, incluindo informa\u00e7\u00f5es sobre os par\u00e2metros de entrada e\ndin\u00e2micas ( exemplo ).",
+            "title": "Documenta\u00e7\u00e3o da extens\u00e3o"
+        },
+        {
+            "location": "/development/live/",
+            "text": "Hot reloading\n\u00b6\n\n\nA partir da vers\u00e3o \n1.1.1\n, o Rung CLI suporta desenvolvimento agilizado atrav\u00e9s de edi\u00e7\u00e3o ao\nvivo e compila\u00e7\u00e3o din\u00e2mica. Se voc\u00ea est\u00e1 habituado a desenvolver com React, vai se sentir\nfamiliarizado.\n\n\n\n\nComo configurar\n\u00b6\n\n\nPara habilitar o modo \nlive\n, rode sua extens\u00e3o com \nrung run --live\n, e preencha os valores\ndos par\u00e2metros de entrada. Nada mais \u00e9 necess\u00e1rio. O Rung CLI ir\u00e1 monitorar as mudan\u00e7as e\ncompilar dinamicamente!\n\n\n\n\nLinha do tempo\n\u00b6\n\n\nComo o estado \u00e9 puro, uma linha do tempo \u00e9 criada e voc\u00ea pode navegar pelos estados anteriores.\nQuando uma mudan\u00e7a \u00e9 detectada, uma nova era \u00e9 criada e a aplica\u00e7\u00e3o \u00e9 reposicionada para ela.\n\n\n\n\nCaso voc\u00ea interrompa o processo e entre com novos par\u00e2metros, n\u00e3o \u00e9 necess\u00e1rio fechar o navegador\nou recarregar a p\u00e1gina. O mesmo \u00e9 v\u00e1lido para quando executar outra extens\u00e3o. As novas entradas\nser\u00e3o adicionadas \u00e0 linha do tempo das anteriores.\n\n\nErros\n\u00b6\n\n\nErros sint\u00e1ticos e de \nruntime\n ser\u00e3o exibidos em uma caixa espec\u00edfica.\n\n\n\n\nBarra lateral\n\u00b6\n\n\nVoc\u00ea pode clicar nos alertas para ver o resultado da renderiza\u00e7\u00e3o do \nmarkdown\n para coment\u00e1rios\nna barra lateral.",
+            "title": "Hot reloading"
+        },
+        {
+            "location": "/development/live/#hot-reloading",
+            "text": "A partir da vers\u00e3o  1.1.1 , o Rung CLI suporta desenvolvimento agilizado atrav\u00e9s de edi\u00e7\u00e3o ao\nvivo e compila\u00e7\u00e3o din\u00e2mica. Se voc\u00ea est\u00e1 habituado a desenvolver com React, vai se sentir\nfamiliarizado.",
+            "title": "Hot reloading"
+        },
+        {
+            "location": "/development/live/#como-configurar",
+            "text": "Para habilitar o modo  live , rode sua extens\u00e3o com  rung run --live , e preencha os valores\ndos par\u00e2metros de entrada. Nada mais \u00e9 necess\u00e1rio. O Rung CLI ir\u00e1 monitorar as mudan\u00e7as e\ncompilar dinamicamente!",
+            "title": "Como configurar"
+        },
+        {
+            "location": "/development/live/#linha-do-tempo",
+            "text": "Como o estado \u00e9 puro, uma linha do tempo \u00e9 criada e voc\u00ea pode navegar pelos estados anteriores.\nQuando uma mudan\u00e7a \u00e9 detectada, uma nova era \u00e9 criada e a aplica\u00e7\u00e3o \u00e9 reposicionada para ela.   Caso voc\u00ea interrompa o processo e entre com novos par\u00e2metros, n\u00e3o \u00e9 necess\u00e1rio fechar o navegador\nou recarregar a p\u00e1gina. O mesmo \u00e9 v\u00e1lido para quando executar outra extens\u00e3o. As novas entradas\nser\u00e3o adicionadas \u00e0 linha do tempo das anteriores.",
+            "title": "Linha do tempo"
+        },
+        {
+            "location": "/development/live/#erros",
+            "text": "Erros sint\u00e1ticos e de  runtime  ser\u00e3o exibidos em uma caixa espec\u00edfica.",
+            "title": "Erros"
+        },
+        {
+            "location": "/development/live/#barra-lateral",
+            "text": "Voc\u00ea pode clicar nos alertas para ver o resultado da renderiza\u00e7\u00e3o do  markdown  para coment\u00e1rios\nna barra lateral.",
+            "title": "Barra lateral"
+        },
+        {
+            "location": "/development/context/",
+            "text": "Contexto\n\u00b6\n\n\nO contexto \u00e9 o primeiro par\u00e2metro passado para a fun\u00e7\u00e3o principal da sua\nextens\u00e3o. Ele traz informa\u00e7\u00f5es importantes, como o locale do usu\u00e1rio e os\nvalores dos par\u00e2metros que s\u00e3o informados.\n\n\nExemplo:\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\nimport\n \n{\n \ncreate\n \n}\n \nfrom\n \n'rung-sdk'\n;\n\n\nimport\n \n{\n \nInteger\n \n}\n \nfrom\n \n'rung-sdk/dist/types'\n;\n\n\n\nfunction\n \nmain\n(\ncontext\n)\n \n{\n\n    \nconst\n \n{\n \na\n,\n \nb\n \n}\n \n=\n \ncontext\n.\nparams\n;\n\n\n    \nreturn\n \n{\n\n        \nalerts\n:\n \n[\n`Sum of \n${\na\n}\n and \n${\nb\n}\n is \n${\na\n \n+\n \nb\n}\n`\n]\n\n    \n};\n\n\n}\n\n\n\nconst\n \nparams\n \n=\n \n{\n\n    \na\n:\n \n{\n\n        \ndescription\n:\n \n'First number'\n,\n\n        \ntype\n:\n \nInteger\n\n    \n},\n\n    \nb\n:\n \n{\n\n        \ndescription\n:\n \n'Second number'\n,\n\n        \ntype\n:\n \nInteger\n\n    \n}\n\n\n};\n\n\n\nexport\n \ndefault\n \ncreate\n(\nmain\n,\n \n{\n \nparams\n \n});\n\n\n\n\n\n\n\nO contexto tamb\u00e9m \u00e9 respons\u00e1vel por carregar as informa\u00e7\u00f5es do banco de dados\nde cada inst\u00e2ncia de extens\u00e3o, em \ncontext.db\n.",
+            "title": "Contexto"
+        },
+        {
+            "location": "/development/context/#contexto",
+            "text": "O contexto \u00e9 o primeiro par\u00e2metro passado para a fun\u00e7\u00e3o principal da sua\nextens\u00e3o. Ele traz informa\u00e7\u00f5es importantes, como o locale do usu\u00e1rio e os\nvalores dos par\u00e2metros que s\u00e3o informados.  Exemplo:   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23 import   {   create   }   from   'rung-sdk' ;  import   {   Integer   }   from   'rung-sdk/dist/types' ;  function   main ( context )   { \n     const   {   a ,   b   }   =   context . params ; \n\n     return   { \n         alerts :   [ `Sum of  ${ a }  and  ${ b }  is  ${ a   +   b } ` ] \n     };  }  const   params   =   { \n     a :   { \n         description :   'First number' , \n         type :   Integer \n     }, \n     b :   { \n         description :   'Second number' , \n         type :   Integer \n     }  };  export   default   create ( main ,   {   params   });    O contexto tamb\u00e9m \u00e9 respons\u00e1vel por carregar as informa\u00e7\u00f5es do banco de dados\nde cada inst\u00e2ncia de extens\u00e3o, em  context.db .",
+            "title": "Contexto"
+        },
+        {
+            "location": "/development/primary_keys/",
+            "text": "Chaves prim\u00e1rias\n\u00b6\n\n\nCada alerta pode ter uma chave prim\u00e1ria. A chave prim\u00e1ria serve para localizar\naquele alerta e o preservar em uma atualiza\u00e7\u00e3o. \u00c9 indiciado que todo alerta\npossua uma chave prim\u00e1ria para que seus metadados n\u00e3o sejam perdidos durante\ncada execu\u00e7\u00e3o da extens\u00e3o.\n\n\nPara habilitar o suporte \u00e0s chaves prim\u00e1rias, deve-se utilizar o segundo\npar\u00e2metro da fun\u00e7\u00e3o \ncreate\n da SDK do Rung:\n\n\n1\n2\n3\n4\nexport\n \ndefault\n \ncreate\n(\nmain\n,\n \n{\n\n    \nparams\n,\n\n    \nprimaryKey\n:\n \ntrue\n\n\n});\n\n\n\n\n\n\n\nPor padr\u00e3o, os alertas devem ser retornados em um objeto contendo\n\n{ alerts }\n. Nessa situa\u00e7\u00e3o, \nalerts\n deve conter um objeto ou \narray\n\ncom as chaves e os valores de cada alerta. No caso de um \narray\n, a chave\nutilizada ser\u00e1 o \u00edndice. Com ES6, voc\u00ea pode construir um objeto com chaves\ndin\u00e2micas utilizando a sintaxe \n{ [key]: value }\n. Exemplo:\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\nimport\n \n{\n \nmap\n,\n \nmergeAll\n \n}\n \nfrom\n \n'ramda'\n;\n\n\n\nfunction\n \nrender\n({\n \nid\n,\n \nname\n,\n \nscore\n \n})\n \n{\n\n    \nreturn\n \n{\n \n[\nid\n]\n:\n \n`\n${\nname\n}\n with \n${\nscore\n}\n points!`\n \n};\n\n\n}\n\n\n\nfunction\n \nmain\n(\ncontext\n)\n \n{\n\n    \nconst\n \nstudents\n \n=\n \n[\n\n        \n{\n \nid\n:\n \n'0001'\n,\n \nname\n:\n \n'Bianca del Rio'\n,\n \nscore\n:\n \n8\n \n},\n\n        \n{\n \nid\n:\n \n'0002'\n,\n \nname\n:\n \n'Violet Chachki'\n,\n \nscore\n:\n \n9\n \n},\n\n        \n{\n \nid\n:\n \n'0003'\n,\n \nname\n:\n \n'Dida Ritz'\n,\n \nscore\n:\n \n3\n \n}\n\n    \n];\n\n\n    \nreturn\n \n{\n\n        \nalerts\n:\n \nmergeAll\n(\nmap\n(\nrender\n,\n \nstudents\n))\n\n    \n};\n\n\n}\n\n\n\nexport\n \ndefault\n \ncreate\n(\nmain\n,\n \n{\n \nparams\n:\n \n{},\n \nprimaryKey\n:\n \ntrue\n \n});",
+            "title": "Chaves prim\u00e1rias"
+        },
+        {
+            "location": "/development/primary_keys/#chaves-primarias",
+            "text": "Cada alerta pode ter uma chave prim\u00e1ria. A chave prim\u00e1ria serve para localizar\naquele alerta e o preservar em uma atualiza\u00e7\u00e3o. \u00c9 indiciado que todo alerta\npossua uma chave prim\u00e1ria para que seus metadados n\u00e3o sejam perdidos durante\ncada execu\u00e7\u00e3o da extens\u00e3o.  Para habilitar o suporte \u00e0s chaves prim\u00e1rias, deve-se utilizar o segundo\npar\u00e2metro da fun\u00e7\u00e3o  create  da SDK do Rung:  1\n2\n3\n4 export   default   create ( main ,   { \n     params , \n     primaryKey :   true  });    Por padr\u00e3o, os alertas devem ser retornados em um objeto contendo { alerts } . Nessa situa\u00e7\u00e3o,  alerts  deve conter um objeto ou  array \ncom as chaves e os valores de cada alerta. No caso de um  array , a chave\nutilizada ser\u00e1 o \u00edndice. Com ES6, voc\u00ea pode construir um objeto com chaves\ndin\u00e2micas utilizando a sintaxe  { [key]: value } . Exemplo:   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19 import   {   map ,   mergeAll   }   from   'ramda' ;  function   render ({   id ,   name ,   score   })   { \n     return   {   [ id ] :   ` ${ name }  with  ${ score }  points!`   };  }  function   main ( context )   { \n     const   students   =   [ \n         {   id :   '0001' ,   name :   'Bianca del Rio' ,   score :   8   }, \n         {   id :   '0002' ,   name :   'Violet Chachki' ,   score :   9   }, \n         {   id :   '0003' ,   name :   'Dida Ritz' ,   score :   3   } \n     ]; \n\n     return   { \n         alerts :   mergeAll ( map ( render ,   students )) \n     };  }  export   default   create ( main ,   {   params :   {},   primaryKey :   true   });",
+            "title": "Chaves prim\u00e1rias"
+        },
+        {
+            "location": "/development/async_extensions/",
+            "text": "Extens\u00f5es ass\u00edncronas\n\u00b6\n\n\nO Rung possui dois tipos de chamada de retorno para a fun\u00e7\u00e3o principal. Uma\nextens\u00e3o pode ser s\u00edncrona ou ass\u00edncrona. Uma extens\u00e3o s\u00edncrona executa linha\na linha e tem seu valor processado retornado. \u00c9 o caso, por exemplo, de uma\nextens\u00e3o que parabenize o indiv\u00edduo no seu anivers\u00e1rio. Quando uma extens\u00e3o\nprecisa \"esperar\" uma resposta, temos o caso de uma extens\u00e3o ass\u00edncrona.\nExemplos s\u00e3o requisi\u00e7\u00f5es HTTP.\n\n\nPara diferenciar extens\u00f5es s\u00edncronas e ass\u00edncronas, utilizamos um segundo\npar\u00e2metro na fun\u00e7\u00e3o principal, o \ndone\n. Quando o \ndone\n \u00e9 passado, a\nextens\u00e3o n\u00e3o termina de executar at\u00e9 que a fun\u00e7\u00e3o \ndone\n seja chamada com os\nalertas a serem gerados. Na outra situa\u00e7\u00e3o, a extens\u00e3o termina sua execu\u00e7\u00e3o at\u00e9\nquando o primeiro \nreturn\n for encontrado.\n\n\nExtens\u00e3o s\u00edncrona\n\u00b6\n\n\n1\n2\n3\n4\n5\nfunction\n \nmain\n(\ncontext\n)\n \n{\n\n    \nreturn\n \n{\n\n        \nalerts\n:\n \n[\n\"Hello world!\"\n]\n\n    \n}\n\n\n}\n\n\n\n\n\n\n\nExtens\u00e3o ass\u00edncrona\n\u00b6\n\n\n1\n2\n3\n4\n5\n6\n7\nfunction\n \nmain\n(\ncontext\n,\n \ndone\n)\n \n{\n\n    \nsetTimeout\n(()\n \n=>\n \n{\n\n        \ndone\n({\n\n            \nalerts\n:\n \n[\n\"Hello world!\"\n]\n\n        \n});\n\n    \n},\n \n3000\n);\n\n\n}\n\n\n\n\n\n\n\nNo segundo exemplo, a extens\u00e3o leva 3 segundos para executar e ent\u00e3o gerar o\nalerta \nHello world!\n.",
+            "title": "Extens\u00f5es ass\u00edncronas"
+        },
+        {
+            "location": "/development/async_extensions/#extensoes-assincronas",
+            "text": "O Rung possui dois tipos de chamada de retorno para a fun\u00e7\u00e3o principal. Uma\nextens\u00e3o pode ser s\u00edncrona ou ass\u00edncrona. Uma extens\u00e3o s\u00edncrona executa linha\na linha e tem seu valor processado retornado. \u00c9 o caso, por exemplo, de uma\nextens\u00e3o que parabenize o indiv\u00edduo no seu anivers\u00e1rio. Quando uma extens\u00e3o\nprecisa \"esperar\" uma resposta, temos o caso de uma extens\u00e3o ass\u00edncrona.\nExemplos s\u00e3o requisi\u00e7\u00f5es HTTP.  Para diferenciar extens\u00f5es s\u00edncronas e ass\u00edncronas, utilizamos um segundo\npar\u00e2metro na fun\u00e7\u00e3o principal, o  done . Quando o  done  \u00e9 passado, a\nextens\u00e3o n\u00e3o termina de executar at\u00e9 que a fun\u00e7\u00e3o  done  seja chamada com os\nalertas a serem gerados. Na outra situa\u00e7\u00e3o, a extens\u00e3o termina sua execu\u00e7\u00e3o at\u00e9\nquando o primeiro  return  for encontrado.",
+            "title": "Extens\u00f5es ass\u00edncronas"
+        },
+        {
+            "location": "/development/async_extensions/#extensao-sincrona",
+            "text": "1\n2\n3\n4\n5 function   main ( context )   { \n     return   { \n         alerts :   [ \"Hello world!\" ] \n     }  }",
+            "title": "Extens\u00e3o s\u00edncrona"
+        },
+        {
+            "location": "/development/async_extensions/#extensao-assincrona",
+            "text": "1\n2\n3\n4\n5\n6\n7 function   main ( context ,   done )   { \n     setTimeout (()   =>   { \n         done ({ \n             alerts :   [ \"Hello world!\" ] \n         }); \n     },   3000 );  }    No segundo exemplo, a extens\u00e3o leva 3 segundos para executar e ent\u00e3o gerar o\nalerta  Hello world! .",
+            "title": "Extens\u00e3o ass\u00edncrona"
+        },
+        {
+            "location": "/development/param_types/",
+            "text": "Tipos de par\u00e2metros\n\u00b6\n\n\nOs par\u00e2metros de entrada de uma extens\u00e3o do Rung possuem diversos tipos com\nm\u00faltiplas finalidades, que variam de acordo com como voc\u00ea vai trabalhar com\no dado e como voc\u00ea deseja que ele seja renderizado para o usu\u00e1rio durante\na instala\u00e7\u00e3o. Os tipos podem ser importados via:\n\n\n1\nimport\n \n{}\n \nfrom\n \n'rung-cli/dist/types'\n;\n\n\n\n\n\n\n\nTipos\n\u00b6\n\n\nAutoComplete\n\u00b6\n\n\nPara campos que podem ser interdependentes, em modo texto e ter um arquivo expondo uma fun\u00e7\u00e3o de \nautocomplete\n.\n\n\nO Rung suporta que os campos possam ter a fun\u00e7\u00e3o de autocompletar, provendo\numa fun\u00e7\u00e3o JavaScript que lida com o retorno baseado na entrada.\n\n\nPara que um campo seja autocomplet\u00e1vel, \u00e9 necess\u00e1rio defini-lo como um campo\ndo tipo \nAutoComplete\n, dispon\u00edvel em \nrung-cli/dist/types\n.\n\n\nVamos criar um campo que tenha o autocompletar com nomes de Pok\u00e9mons nesse\nexemplo!\n\n\n\n\nDefina o tipo do campo como \nAutoComplete\n\n\n\n\n1\n2\n3\n4\n5\n6\nparams\n:\n \n{\n\n    \npokemon\n:\n \n{\n\n        \ntype\n:\n \nAutoComplete\n,\n\n        \ndescription\n:\n \n'Pick a Pok\u00e9mon!'\n\n    \n}\n\n\n}\n\n\n\n\n\n\n\n\n\nCrie um arquivo \nautocomplete/pokemon.js\n\n\nExporte uma fun\u00e7\u00e3o que use a fun\u00e7\u00e3o de \ncallback\n ou que retorne uma lista de strings\n\n\n\n\n1\n2\n3\n4\n5\n6\nexport\n \ndefault\n \nfunction\n \n({\n \ninput\n,\n \nlib\n \n})\n \n{\n\n    \nreturn\n \nlib\n.\nrequest\n.\nget\n(\n'https://raw.githubusercontent.com/BrunnerLivio/PokemonDataGraber/master/output.json'\n)\n\n        \n.\nthen\n(({\n \ntext\n \n})\n \n=>\n \nJSON\n.\nparse\n(\ntext\n))\n\n        \n.\nthen\n(\npokemons\n \n=>\n \npokemons\n.\nmap\n(\npokemon\n \n=>\n \npokemon\n.\nName\n))\n\n        \n.\nfilter\n(\nname\n \n=>\n \nname\n.\nstartsWith\n(\ninput\n));\n\n\n}\n\n\n\n\n\nE pronto, compile e suba sua extens\u00e3o para o Rung! Voc\u00ea tamb\u00e9m pode testar essa funcionalidade\nna sua extens\u00e3o diretamente do Rung CLI (automaticamente).\n\n\nPar\u00e2metros\n\u00b6\n\n\nA fun\u00e7\u00e3o exportada recebe como par\u00e2metros:\n\n\n\n\nObjeto contendo \ninput\n (entrada do usu\u00e1rio) e \nlib\n\n\nCallback opcional \ndone\n. Se passado, deve ser chamado para retornar o controle. Sen\u00e3o, a fun\u00e7\u00e3o deve retornar uma \nPromise\n\n\n\n\nRetorno\n\u00b6\n\n\nPromise\n ou chamada de \ndone\n a um \nArray<String>\n contendo os dados j\u00e1 filtrados.\n\n\nBibliotecas\n\u00b6\n\n\nO par\u00e2metro \nlib\n vindo dentro do primeiro objeto carrega duas bibliotecas, \nramda\n e \nrequest\n.\nAs requisi\u00e7\u00f5es s\u00e3o feitas utilizado a biblioteca externa \nsuperagent\n.\n\n\nInteger\n\u00b6\n\n\nPara n\u00fameros inteiros tendendo de negativo a infinito positivo, a depender da\nrepresenta\u00e7\u00e3o de n\u00fameros inteiros em bits de onde est\u00e1 rodando.\n\n\nDouble\n\u00b6\n\n\nPara n\u00fameros de ponto flutuante (decimais), a depender da representa\u00e7\u00e3o de\nn\u00fameros de ponto flutuante em bits de onde est\u00e1 rodando, geralmente segundo\na \nIEEE754\n.\n\n\nDateTime\n\u00b6\n\n\nIndispon\u00edvel\n\n\nNatural\n\u00b6\n\n\nN\u00fameros naturais de 0 a infinito. N\u00e3o s\u00e3o aceitos n\u00fameros negativos\n\n\nChar(n)\n\u00b6\n\n\nTextos de at\u00e9 \nn\n caracteres, onde \nn\n corresponde a um n\u00famero natural.\nSe tiver como entrada um texto maior, este \u00e9 cortado at\u00e9 o limite.\n\n\nIntegerRange(m, n)\n\u00b6\n\n\nIntervalos num\u00e9ricos de n\u00fameros inteiros entre \nm\n e \nn\n. \u00c9 poss\u00edvel, por\nexemplo, simular n\u00fameros naturais com \nIntegerRange(0, Infinity)\n. \nm\n\nsempre precisa ser menor do que \nn\n para que haja uma situa\u00e7\u00e3o v\u00e1lida.\n\n\nDoubleRange(m, n)\n\u00b6\n\n\nIntervalos num\u00e9ricos de n\u00fameros de ponto flutuante (decimais) entre \nm\n e\n\nn\n, onde \nm\n precisa ser um valor menor que \nn\n.\n\n\nMoney\n\u00b6\n\n\nIndispon\u00edvel\n\n\nString\n\u00b6\n\n\nQualquer trecho de texto arbitr\u00e1rio\n\n\nColor\n\u00b6\n\n\nCor em hexadecimal, come\u00e7ando por \n#\n.\n\n\nEmail\n\u00b6\n\n\nQualquer email v\u00e1lido.\n\n\nCheckbox\n\u00b6\n\n\nIndispon\u00edvel\n\n\nOneOf(xs)\n\u00b6\n\n\nQualquer elemento de \nxs\n, onde \nxs\n deve ser do tipo \nstring[]\n (lista\nde strings).\n\n\nUrl\n\u00b6\n\n\nUrl independente de protocolo (HTTP, FTP ...).\n\n\nIntegerMultiRange(m, n)\n\u00b6\n\n\nSlider em que 2 pontos s\u00e3o retornados, est\u00e3o esses pontos entre \nm\n e \nn\n.\n\n\nCalendar\n\u00b6\n\n\nPara datas, com renderiza\u00e7\u00e3o de um calend\u00e1rio.\n\n\nLocation\n\u00b6\n\n\nQualquer trecho de texto que fa\u00e7a refer\u00eancia a uma localiza\u00e7\u00e3o (cidade, estabelecimento, pa\u00eds, etc). Quando o campo for utilizado no \nRung\n, ir\u00e1 ser carregado um autocomplete com sugest\u00f5es de locais vindas do \nGoogle\n.",
+            "title": "Tipos de par\u00e2metros"
+        },
+        {
+            "location": "/development/param_types/#tipos-de-parametros",
+            "text": "Os par\u00e2metros de entrada de uma extens\u00e3o do Rung possuem diversos tipos com\nm\u00faltiplas finalidades, que variam de acordo com como voc\u00ea vai trabalhar com\no dado e como voc\u00ea deseja que ele seja renderizado para o usu\u00e1rio durante\na instala\u00e7\u00e3o. Os tipos podem ser importados via:  1 import   {}   from   'rung-cli/dist/types' ;",
+            "title": "Tipos de par\u00e2metros"
+        },
+        {
+            "location": "/development/param_types/#tipos",
+            "text": "",
+            "title": "Tipos"
+        },
+        {
+            "location": "/development/param_types/#autocomplete",
+            "text": "Para campos que podem ser interdependentes, em modo texto e ter um arquivo expondo uma fun\u00e7\u00e3o de  autocomplete .  O Rung suporta que os campos possam ter a fun\u00e7\u00e3o de autocompletar, provendo\numa fun\u00e7\u00e3o JavaScript que lida com o retorno baseado na entrada.  Para que um campo seja autocomplet\u00e1vel, \u00e9 necess\u00e1rio defini-lo como um campo\ndo tipo  AutoComplete , dispon\u00edvel em  rung-cli/dist/types .  Vamos criar um campo que tenha o autocompletar com nomes de Pok\u00e9mons nesse\nexemplo!   Defina o tipo do campo como  AutoComplete   1\n2\n3\n4\n5\n6 params :   { \n     pokemon :   { \n         type :   AutoComplete , \n         description :   'Pick a Pok\u00e9mon!' \n     }  }     Crie um arquivo  autocomplete/pokemon.js  Exporte uma fun\u00e7\u00e3o que use a fun\u00e7\u00e3o de  callback  ou que retorne uma lista de strings   1\n2\n3\n4\n5\n6 export   default   function   ({   input ,   lib   })   { \n     return   lib . request . get ( 'https://raw.githubusercontent.com/BrunnerLivio/PokemonDataGraber/master/output.json' ) \n         . then (({   text   })   =>   JSON . parse ( text )) \n         . then ( pokemons   =>   pokemons . map ( pokemon   =>   pokemon . Name )) \n         . filter ( name   =>   name . startsWith ( input ));  }   \nE pronto, compile e suba sua extens\u00e3o para o Rung! Voc\u00ea tamb\u00e9m pode testar essa funcionalidade\nna sua extens\u00e3o diretamente do Rung CLI (automaticamente).",
+            "title": "AutoComplete"
+        },
+        {
+            "location": "/development/param_types/#parametros",
+            "text": "A fun\u00e7\u00e3o exportada recebe como par\u00e2metros:   Objeto contendo  input  (entrada do usu\u00e1rio) e  lib  Callback opcional  done . Se passado, deve ser chamado para retornar o controle. Sen\u00e3o, a fun\u00e7\u00e3o deve retornar uma  Promise",
+            "title": "Par\u00e2metros"
+        },
+        {
+            "location": "/development/param_types/#retorno",
+            "text": "Promise  ou chamada de  done  a um  Array<String>  contendo os dados j\u00e1 filtrados.",
+            "title": "Retorno"
+        },
+        {
+            "location": "/development/param_types/#bibliotecas",
+            "text": "O par\u00e2metro  lib  vindo dentro do primeiro objeto carrega duas bibliotecas,  ramda  e  request .\nAs requisi\u00e7\u00f5es s\u00e3o feitas utilizado a biblioteca externa  superagent .",
+            "title": "Bibliotecas"
+        },
+        {
+            "location": "/development/param_types/#integer",
+            "text": "Para n\u00fameros inteiros tendendo de negativo a infinito positivo, a depender da\nrepresenta\u00e7\u00e3o de n\u00fameros inteiros em bits de onde est\u00e1 rodando.",
+            "title": "Integer"
+        },
+        {
+            "location": "/development/param_types/#double",
+            "text": "Para n\u00fameros de ponto flutuante (decimais), a depender da representa\u00e7\u00e3o de\nn\u00fameros de ponto flutuante em bits de onde est\u00e1 rodando, geralmente segundo\na  IEEE754 .",
+            "title": "Double"
+        },
+        {
+            "location": "/development/param_types/#datetime",
+            "text": "Indispon\u00edvel",
+            "title": "DateTime"
+        },
+        {
+            "location": "/development/param_types/#natural",
+            "text": "N\u00fameros naturais de 0 a infinito. N\u00e3o s\u00e3o aceitos n\u00fameros negativos",
+            "title": "Natural"
+        },
+        {
+            "location": "/development/param_types/#charn",
+            "text": "Textos de at\u00e9  n  caracteres, onde  n  corresponde a um n\u00famero natural.\nSe tiver como entrada um texto maior, este \u00e9 cortado at\u00e9 o limite.",
+            "title": "Char(n)"
+        },
+        {
+            "location": "/development/param_types/#integerrangem-n",
+            "text": "Intervalos num\u00e9ricos de n\u00fameros inteiros entre  m  e  n . \u00c9 poss\u00edvel, por\nexemplo, simular n\u00fameros naturais com  IntegerRange(0, Infinity) .  m \nsempre precisa ser menor do que  n  para que haja uma situa\u00e7\u00e3o v\u00e1lida.",
+            "title": "IntegerRange(m, n)"
+        },
+        {
+            "location": "/development/param_types/#doublerangem-n",
+            "text": "Intervalos num\u00e9ricos de n\u00fameros de ponto flutuante (decimais) entre  m  e n , onde  m  precisa ser um valor menor que  n .",
+            "title": "DoubleRange(m, n)"
+        },
+        {
+            "location": "/development/param_types/#money",
+            "text": "Indispon\u00edvel",
+            "title": "Money"
+        },
+        {
+            "location": "/development/param_types/#string",
+            "text": "Qualquer trecho de texto arbitr\u00e1rio",
+            "title": "String"
+        },
+        {
+            "location": "/development/param_types/#color",
+            "text": "Cor em hexadecimal, come\u00e7ando por  # .",
+            "title": "Color"
+        },
+        {
+            "location": "/development/param_types/#email",
+            "text": "Qualquer email v\u00e1lido.",
+            "title": "Email"
+        },
+        {
+            "location": "/development/param_types/#checkbox",
+            "text": "Indispon\u00edvel",
+            "title": "Checkbox"
+        },
+        {
+            "location": "/development/param_types/#oneofxs",
+            "text": "Qualquer elemento de  xs , onde  xs  deve ser do tipo  string[]  (lista\nde strings).",
+            "title": "OneOf(xs)"
+        },
+        {
+            "location": "/development/param_types/#url",
+            "text": "Url independente de protocolo (HTTP, FTP ...).",
+            "title": "Url"
+        },
+        {
+            "location": "/development/param_types/#integermultirangem-n",
+            "text": "Slider em que 2 pontos s\u00e3o retornados, est\u00e3o esses pontos entre  m  e  n .",
+            "title": "IntegerMultiRange(m, n)"
+        },
+        {
+            "location": "/development/param_types/#calendar",
+            "text": "Para datas, com renderiza\u00e7\u00e3o de um calend\u00e1rio.",
+            "title": "Calendar"
+        },
+        {
+            "location": "/development/param_types/#location",
+            "text": "Qualquer trecho de texto que fa\u00e7a refer\u00eancia a uma localiza\u00e7\u00e3o (cidade, estabelecimento, pa\u00eds, etc). Quando o campo for utilizado no  Rung , ir\u00e1 ser carregado um autocomplete com sugest\u00f5es de locais vindas do  Google .",
+            "title": "Location"
+        },
+        {
+            "location": "/development/database/",
+            "text": "Banco de dados\n\u00b6\n\n\nTamb\u00e9m h\u00e1 suporte para micro esquema de banco de dados n\u00e3o-relacional.\nCada extens\u00e3o pode armazenar um objeto JS que possa ser representado como JSON.\nEsse objeto pode ser retornado juntamente com os alertas da extens\u00e3o. Durante\na primeira execu\u00e7\u00e3o, o valor sempre corresponde a \nundefined\n.\n\n\nExemplo de contador\n\u00b6\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\nimport\n \n{\n \ncreate\n \n}\n \nfrom\n \n'rung-sdk'\n;\n\n\n\nfunction\n \nmain\n(\ncontext\n)\n \n{\n\n    \nconst\n \ncounter\n \n=\n \ncontext\n.\ndb\n \n===\n \nundefined\n \n?\n \n0\n \n:\n \ncontext\n.\ndb\n;\n\n\n    \nreturn\n \n{\n\n        \nalerts\n:\n \n[\n`The value is \n${\ncounter\n}\n`\n],\n\n        \ndb\n:\n \ncounter\n \n+\n \n1\n\n    \n};\n\n\n}\n\n\n\nexport\n \ndefault\n \ncreate\n(\nmain\n,\n \n{\n \nparams\n:\n \n{},\n \nprimaryKey\n:\n \ntrue\n \n};\n\n\n\n\n\n\n\nCada vez que a extens\u00e3o roda, o contador \u00e9 incrementado. Caso ele seja\n\nundefined\n, \u00e9 inicializado como \n0\n. Voc\u00ea pode colocar objetos de\ncomplexidade bem maiores dentro dele.\n\n\nComandos do rung-cli\n\u00b6\n\n\nExistem dois comandos no Rung CLI para trabalhar com banco de dados via linha\nde comando:\n\n\n\n\n\n\n\n\nComando\n\n\nDescri\u00e7\u00e3o\n\n\n\n\n\n\n\n\n\n\nrung db clear\n\n\nLimpa toda a base de dados para a extens\u00e3o ativa\n\n\n\n\n\n\nrung db read\n\n\nPermite visualizar em formato Yaml os dados gravados no banco",
+            "title": "Banco de dados"
+        },
+        {
+            "location": "/development/database/#banco-de-dados",
+            "text": "Tamb\u00e9m h\u00e1 suporte para micro esquema de banco de dados n\u00e3o-relacional.\nCada extens\u00e3o pode armazenar um objeto JS que possa ser representado como JSON.\nEsse objeto pode ser retornado juntamente com os alertas da extens\u00e3o. Durante\na primeira execu\u00e7\u00e3o, o valor sempre corresponde a  undefined .",
+            "title": "Banco de dados"
+        },
+        {
+            "location": "/development/database/#exemplo-de-contador",
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12 import   {   create   }   from   'rung-sdk' ;  function   main ( context )   { \n     const   counter   =   context . db   ===   undefined   ?   0   :   context . db ; \n\n     return   { \n         alerts :   [ `The value is  ${ counter } ` ], \n         db :   counter   +   1 \n     };  }  export   default   create ( main ,   {   params :   {},   primaryKey :   true   };    Cada vez que a extens\u00e3o roda, o contador \u00e9 incrementado. Caso ele seja undefined , \u00e9 inicializado como  0 . Voc\u00ea pode colocar objetos de\ncomplexidade bem maiores dentro dele.",
+            "title": "Exemplo de contador"
+        },
+        {
+            "location": "/development/database/#comandos-do-rung-cli",
+            "text": "Existem dois comandos no Rung CLI para trabalhar com banco de dados via linha\nde comando:     Comando  Descri\u00e7\u00e3o      rung db clear  Limpa toda a base de dados para a extens\u00e3o ativa    rung db read  Permite visualizar em formato Yaml os dados gravados no banco",
+            "title": "Comandos do rung-cli"
+        },
+        {
+            "location": "/development/custom_alerts/",
+            "text": "Alertas personalizados\n\u00b6\n\n\nAl\u00e9m de texto plano, o Rung permite que os alertas possam ter um subset de HTML\npersonalizado para cada extens\u00e3o. O compilador de extens\u00f5es do Rung possui\nsuporte direto a JSX, permitindo que o conceito do React seja aplicado aos\nalertas em tempo de compila\u00e7\u00e3o.\n\n\n\n\nJSX\n\u00b6\n\n\nAo inv\u00e9s de definir o HTML como string, utilize-o diretamente na renderiza\u00e7\u00e3o.\nTamb\u00e9m h\u00e1 suporte a folha de estilos como objetos dentro das tags\nExemplo de extens\u00e3o customizada:\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\nimport\n \n{\n \ncreate\n \n}\n \nfrom\n \n'rung-sdk'\n;\n\n\n\nconst\n \nstyles\n \n=\n \n{\n\n    \nname\n:\n \n{\n\n        \nfontWeight\n:\n \n'bold'\n,\n\n        \ncolor\n:\n \n'red'\n\n    \n}\n\n\n};\n\n\n\nfunction\n \nrender\n(\nname\n)\n \n{\n\n    \nreturn\n \n(\n\n        \n<\ndiv\n>\n\n            \nHello\n,\n \n<\nspan\n \nstyle\n=\n{\n \nstyles\n.\nname\n \n}\n>\n{\n \nname\n \n}\n<\n/span>\n\n        \n<\n/div>\n\n    \n);\n\n\n}\n\n\n\nfunction\n \nmain\n(\ncontext\n)\n \n{\n\n    \nreturn\n \n{\n\n        \nalerts\n:\n \n[{\n\n            \ntitle\n:\n \n'Betty'\n,\n\n            \ncontent\n:\n \nrender\n(\n'Betty'\n)\n\n        \n}]\n\n    \n};\n\n\n}\n\n\n\nexport\n \ndefault\n \ncreate\n(\nmain\n,\n \n{\n \nparams\n:\n \n{},\n \nprimaryKey\n:\n \ntrue\n \n});\n\n\n\n\n\n\n\nPreview\n\u00b6\n\n\n\u00c9 ideal especificar como o alerta ser\u00e1 exibido para o usu\u00e1rio durante a instala\u00e7\u00e3o\nda extens\u00e3o dentro do Rung App. Para isso, voc\u00ea pode definir nas configura\u00e7\u00f5es\no par\u00e2metro \npreview\n e reutilizar a fun\u00e7\u00e3o \nrender\n:\n\n\n1\n2\n3\n4\n5\n6\n--- export default create(main, { params: {}, primaryKey: true });\n\n\n+++ export default create(main, {\n\n\n+    params: {},\n\n\n+    primaryKey: true,\n\n\n+    preview: render('Salete')\n\n\n+});",
+            "title": "Alertas personalizados"
+        },
+        {
+            "location": "/development/custom_alerts/#alertas-personalizados",
+            "text": "Al\u00e9m de texto plano, o Rung permite que os alertas possam ter um subset de HTML\npersonalizado para cada extens\u00e3o. O compilador de extens\u00f5es do Rung possui\nsuporte direto a JSX, permitindo que o conceito do React seja aplicado aos\nalertas em tempo de compila\u00e7\u00e3o.",
+            "title": "Alertas personalizados"
+        },
+        {
+            "location": "/development/custom_alerts/#jsx",
+            "text": "Ao inv\u00e9s de definir o HTML como string, utilize-o diretamente na renderiza\u00e7\u00e3o.\nTamb\u00e9m h\u00e1 suporte a folha de estilos como objetos dentro das tags\nExemplo de extens\u00e3o customizada:   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27 import   {   create   }   from   'rung-sdk' ;  const   styles   =   { \n     name :   { \n         fontWeight :   'bold' , \n         color :   'red' \n     }  };  function   render ( name )   { \n     return   ( \n         < div > \n             Hello ,   < span   style = {   styles . name   } > {   name   } < /span> \n         < /div> \n     );  }  function   main ( context )   { \n     return   { \n         alerts :   [{ \n             title :   'Betty' , \n             content :   render ( 'Betty' ) \n         }] \n     };  }  export   default   create ( main ,   {   params :   {},   primaryKey :   true   });",
+            "title": "JSX"
+        },
+        {
+            "location": "/development/custom_alerts/#preview",
+            "text": "\u00c9 ideal especificar como o alerta ser\u00e1 exibido para o usu\u00e1rio durante a instala\u00e7\u00e3o\nda extens\u00e3o dentro do Rung App. Para isso, voc\u00ea pode definir nas configura\u00e7\u00f5es\no par\u00e2metro  preview  e reutilizar a fun\u00e7\u00e3o  render :  1\n2\n3\n4\n5\n6 --- export default create(main, { params: {}, primaryKey: true });  +++ export default create(main, {  +    params: {},  +    primaryKey: true,  +    preview: render('Salete')  +});",
+            "title": "Preview"
+        },
+        {
+            "location": "/development/custom_sidebar_fields/",
+            "text": "Barra lateral personalizada\n\u00b6\n\n\nUsando a propriedade \nsidebar\n nas configura\u00e7\u00f5es, \u00e9 poss\u00edvel escolher quais\ncampos deseja ocultar. Por padr\u00e3o, a barra lateral possui suporte a 4 campos:\n\n\n\n\n\n\n\n\nIdentificador\n\n\nDescri\u00e7\u00e3o\n\n\n\n\n\n\n\n\n\n\npriority\n\n\nPrioridade\n\n\n\n\n\n\nsituation\n\n\nSitua\u00e7\u00e3o\n\n\n\n\n\n\nstartDate\n\n\nData inicial\n\n\n\n\n\n\nendDate\n\n\nData final\n\n\n\n\n\n\n\n\n\n\nSe quisermos, por exemplo, remover os campos de data:\n\n\n1\n2\n3\n4\n5\n6\n7\n8\nexport\n \ndefault\n \ncreate\n(\nmain\n,\n \n{\n\n    \nparams\n,\n\n    \nprimaryKey\n:\n \ntrue\n,\n\n    \nsidebar\n:\n \n{\n\n        \nstartDate\n:\n \nfalse\n,\n\n        \nendDate\n:\n \nfalse\n\n    \n}\n\n\n});",
+            "title": "Barra lateral"
+        },
+        {
+            "location": "/development/custom_sidebar_fields/#barra-lateral-personalizada",
+            "text": "Usando a propriedade  sidebar  nas configura\u00e7\u00f5es, \u00e9 poss\u00edvel escolher quais\ncampos deseja ocultar. Por padr\u00e3o, a barra lateral possui suporte a 4 campos:     Identificador  Descri\u00e7\u00e3o      priority  Prioridade    situation  Situa\u00e7\u00e3o    startDate  Data inicial    endDate  Data final      Se quisermos, por exemplo, remover os campos de data:  1\n2\n3\n4\n5\n6\n7\n8 export   default   create ( main ,   { \n     params , \n     primaryKey :   true , \n     sidebar :   { \n         startDate :   false , \n         endDate :   false \n     }  });",
+            "title": "Barra lateral personalizada"
+        },
+        {
+            "location": "/development/custom_icon/",
+            "text": "\u00cdcone personalizado\n\u00b6\n\n\nAo publicar uma extens\u00e3o, o Rung tentar\u00e1 localizar um arquivo \nicon.png\n\nno seu pacote. Ele corresponde \u00e0 identidade de sua extens\u00e3o. N\u00e3o \u00e9\nobrigat\u00f3rio, mas \u00e9 recomendado. Ele determina como sua extens\u00e3o ser\u00e1 mostrada\nna Rung Store:",
+            "title": "\u00cdcones customizados"
+        },
+        {
+            "location": "/development/custom_icon/#icone-personalizado",
+            "text": "Ao publicar uma extens\u00e3o, o Rung tentar\u00e1 localizar um arquivo  icon.png \nno seu pacote. Ele corresponde \u00e0 identidade de sua extens\u00e3o. N\u00e3o \u00e9\nobrigat\u00f3rio, mas \u00e9 recomendado. Ele determina como sua extens\u00e3o ser\u00e1 mostrada\nna Rung Store:",
+            "title": "\u00cdcone personalizado"
+        },
+        {
+            "location": "/development/rung_bot/",
+            "text": "Rung Bot\n\u00b6\n\n\nEm seus alertas, \u00e9 poss\u00edvel programar para que haja um coment\u00e1rio no \nfollow-up\n\ndo Rung Bot, que \u00e9, basicamente, um rob\u00f4 customizado que tem o objetivo de\ncomplementar a informa\u00e7\u00e3o do alerta.\n\n\n\n\nO conte\u00fado escrito pelo Rung Bot deve\nser definido usando Markdown, e paralelo ao alerta customizado. Exemplo:\n\n\n1\n2\n3\n4\n5\n6\n7\nreturn\n \n{\n\n    \nalerts\n:\n \n[{\n\n        \ntitle\n:\n \n'Bananas are cheap'\n,\n\n        \ncontent\n:\n \nrender\n(\nbananasPrice\n),\n\n        \ncomment\n:\n \nrenderComment\n(\nbananasPrice\n)\n\n    \n}]\n\n\n};\n\n\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\nfunction\n \nrenderComment\n(\nbananasPrice\n)\n \n{\n\n    \nreturn\n \n`\n\n\n        # Bananas are cheap!\n\n\n        The bananas are costing U$ \n${\nbananasPrice\n}\n!!!\n\n\n        Buy them now!\n\n\n        ![Bananas](https://bananas.org/banana.jpg)\n\n\n    `\n;\n\n\n}",
+            "title": "Rung bot"
+        },
+        {
+            "location": "/development/rung_bot/#rung-bot",
+            "text": "Em seus alertas, \u00e9 poss\u00edvel programar para que haja um coment\u00e1rio no  follow-up \ndo Rung Bot, que \u00e9, basicamente, um rob\u00f4 customizado que tem o objetivo de\ncomplementar a informa\u00e7\u00e3o do alerta.   O conte\u00fado escrito pelo Rung Bot deve\nser definido usando Markdown, e paralelo ao alerta customizado. Exemplo:  1\n2\n3\n4\n5\n6\n7 return   { \n     alerts :   [{ \n         title :   'Bananas are cheap' , \n         content :   render ( bananasPrice ), \n         comment :   renderComment ( bananasPrice ) \n     }]  };    1\n2\n3\n4\n5\n6\n7\n8 function   renderComment ( bananasPrice )   { \n     return   `          # Bananas are cheap!          The bananas are costing U$  ${ bananasPrice } !!!          Buy them now!          ![Bananas](https://bananas.org/banana.jpg)      ` ;  }",
+            "title": "Rung Bot"
+        },
+        {
+            "location": "/development/resources/",
+            "text": "Resources\n\u00b6\n\n\nQuando um alerta de uma integra\u00e7\u00e3o possui uma ou v\u00e1rias imagens, pode-se utilizar \na propriedade \nresources\n. Esta propriedade permite que as imagens sejam visualizadas em \num \u00fanico coment\u00e1rio e em forma de carrossel, deixando os coment\u00e1rios mais limpos e \nobjetivos.\n\n\n\n\nO conte\u00fado passado para a propriedade resources deve ser uma lista contendo as urls das\nimagens geradas pelo alerta. Exemplo:\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\nreturn\n \n{\n\n    \nalerts\n:\n \n[{\n\n        \ntitle\n:\n \n'Bananas are cheap'\n,\n\n        \ncontent\n:\n \nrender\n(\nbananasPrice\n),\n\n        \ncomment\n:\n \nrenderComment\n(\nbananasPrice\n),\n\n        \nresources\n:\n \n[\n\n            \n'http://www.bananas.com/banana1.jpg'\n,\n\n            \n'http://www.bananas.com/banana2.jpg'\n,\n\n            \n'http://www.bananas.com/banana3.jpg'\n\n        \n]\n\n    \n}]\n\n\n};",
+            "title": "Resources"
+        },
+        {
+            "location": "/development/resources/#resources",
+            "text": "Quando um alerta de uma integra\u00e7\u00e3o possui uma ou v\u00e1rias imagens, pode-se utilizar \na propriedade  resources . Esta propriedade permite que as imagens sejam visualizadas em \num \u00fanico coment\u00e1rio e em forma de carrossel, deixando os coment\u00e1rios mais limpos e \nobjetivos.   O conte\u00fado passado para a propriedade resources deve ser uma lista contendo as urls das\nimagens geradas pelo alerta. Exemplo:   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12 return   { \n     alerts :   [{ \n         title :   'Bananas are cheap' , \n         content :   render ( bananasPrice ), \n         comment :   renderComment ( bananasPrice ), \n         resources :   [ \n             'http://www.bananas.com/banana1.jpg' , \n             'http://www.bananas.com/banana2.jpg' , \n             'http://www.bananas.com/banana3.jpg' \n         ] \n     }]  };",
+            "title": "Resources"
+        },
+        {
+            "location": "/development/database/",
+            "text": "Banco de dados\n\u00b6\n\n\nTamb\u00e9m h\u00e1 suporte para micro esquema de banco de dados n\u00e3o-relacional.\nCada extens\u00e3o pode armazenar um objeto JS que possa ser representado como JSON.\nEsse objeto pode ser retornado juntamente com os alertas da extens\u00e3o. Durante\na primeira execu\u00e7\u00e3o, o valor sempre corresponde a \nundefined\n.\n\n\nExemplo de contador\n\u00b6\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\nimport\n \n{\n \ncreate\n \n}\n \nfrom\n \n'rung-sdk'\n;\n\n\n\nfunction\n \nmain\n(\ncontext\n)\n \n{\n\n    \nconst\n \ncounter\n \n=\n \ncontext\n.\ndb\n \n===\n \nundefined\n \n?\n \n0\n \n:\n \ncontext\n.\ndb\n;\n\n\n    \nreturn\n \n{\n\n        \nalerts\n:\n \n[\n`The value is \n${\ncounter\n}\n`\n],\n\n        \ndb\n:\n \ncounter\n \n+\n \n1\n\n    \n};\n\n\n}\n\n\n\nexport\n \ndefault\n \ncreate\n(\nmain\n,\n \n{\n \nparams\n:\n \n{},\n \nprimaryKey\n:\n \ntrue\n \n};\n\n\n\n\n\n\n\nCada vez que a extens\u00e3o roda, o contador \u00e9 incrementado. Caso ele seja\n\nundefined\n, \u00e9 inicializado como \n0\n. Voc\u00ea pode colocar objetos de\ncomplexidade bem maiores dentro dele.\n\n\nComandos do rung-cli\n\u00b6\n\n\nExistem dois comandos no Rung CLI para trabalhar com banco de dados via linha\nde comando:\n\n\n\n\n\n\n\n\nComando\n\n\nDescri\u00e7\u00e3o\n\n\n\n\n\n\n\n\n\n\nrung db clear\n\n\nLimpa toda a base de dados para a extens\u00e3o ativa\n\n\n\n\n\n\nrung db read\n\n\nPermite visualizar em formato Yaml os dados gravados no banco",
+            "title": "Banco de dados"
+        },
+        {
+            "location": "/development/database/#banco-de-dados",
+            "text": "Tamb\u00e9m h\u00e1 suporte para micro esquema de banco de dados n\u00e3o-relacional.\nCada extens\u00e3o pode armazenar um objeto JS que possa ser representado como JSON.\nEsse objeto pode ser retornado juntamente com os alertas da extens\u00e3o. Durante\na primeira execu\u00e7\u00e3o, o valor sempre corresponde a  undefined .",
+            "title": "Banco de dados"
+        },
+        {
+            "location": "/development/database/#exemplo-de-contador",
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12 import   {   create   }   from   'rung-sdk' ;  function   main ( context )   { \n     const   counter   =   context . db   ===   undefined   ?   0   :   context . db ; \n\n     return   { \n         alerts :   [ `The value is  ${ counter } ` ], \n         db :   counter   +   1 \n     };  }  export   default   create ( main ,   {   params :   {},   primaryKey :   true   };    Cada vez que a extens\u00e3o roda, o contador \u00e9 incrementado. Caso ele seja undefined , \u00e9 inicializado como  0 . Voc\u00ea pode colocar objetos de\ncomplexidade bem maiores dentro dele.",
+            "title": "Exemplo de contador"
+        },
+        {
+            "location": "/development/database/#comandos-do-rung-cli",
+            "text": "Existem dois comandos no Rung CLI para trabalhar com banco de dados via linha\nde comando:     Comando  Descri\u00e7\u00e3o      rung db clear  Limpa toda a base de dados para a extens\u00e3o ativa    rung db read  Permite visualizar em formato Yaml os dados gravados no banco",
+            "title": "Comandos do rung-cli"
+        },
+        {
+            "location": "/development/i18n/",
+            "text": "Internacionaliza\u00e7\u00e3o e tradu\u00e7\u00e3o\n\u00b6\n\n\nO Rung tem suporte a m\u00faltiplos idiomas nas extens\u00f5es. Os locales do Rung se\nbaseiam na combina\u00e7\u00e3o por \n_\n dos formatos ISO 639 com o c\u00f3digo do pa\u00eds,\nespecificado na ISO 3166. Exemplos s\u00e3o \nen_US\n e \npt_BR\n.\n\n\nH\u00e1 uma fun\u00e7\u00e3o global chamada \n_\n, que recebe um texto a ser\ninternacionalizado, preferencialmente em ingl\u00eas, e opcionalmente um conjunto\nde pares a interpolar. O Rung buscar\u00e1 por arquivos \n.json\n com o nome do\nlocale dentro da pasta \nlocales/\n. Exemplo:\n\n\nExemplos\n\u00b6\n\n\n\n\nlocales/pt_BR.json\n\n\n\n\n1\n2\n3\n{\n\n    \n\"Hello world!\"\n:\n \n\"Ol\u00e1, mundo!\"\n\n\n}\n\n\n\n\n\n\n\n\n\nlocales/zh_CN.json\n\n\n\n\n1\n2\n3\n{\n\n    \n\"Hello world!\"\n:\n \n\"\u4f60\u597d\u4e16\u754c\uff01\"\n\n\n}\n\n\n\n\n\n\n\n\n\nindex.js\n\n\n\n\n1\n2\n3\n4\n5\nfunction\n \nmain\n(\ncontext\n)\n \n{\n\n    \nreturn\n \n{\n\n        \nalerts\n:\n \n[\n_\n(\n\"hello world!\"\n)]\n\n    \n};\n\n\n}\n\n\n\n\n\n\n\nCaso o locale n\u00e3o for encontrado, a chave \u00e9 utilizada, no caso, a vers\u00e3o em\ningl\u00eas no exemplo.\n\n\nInterpola\u00e7\u00e3o de strings\n\u00b6\n\n\nA fun\u00e7\u00e3o \n_\n aceita um segundo par\u00e2metro para interpolar, tornando poss\u00edvel\nfazer, por exemplo:\n\n\n1\n2\n3\nreturn\n \n{\n\n    \nalerts\n:\n \n[\n_\n(\n\"good morning, {{name}}!\"\n,\n \n{\n \nname\n:\n \n'Trixie Mattel'\n \n})]\n\n\n};\n\n\n\n\n\nNote que, no arquivo \n.json\n, os nomes dentro das chavetas devem ser\n\npreservados",
+            "title": "Internacionaliza\u00e7\u00e3o"
+        },
+        {
+            "location": "/development/i18n/#internacionalizacao-e-traducao",
+            "text": "O Rung tem suporte a m\u00faltiplos idiomas nas extens\u00f5es. Os locales do Rung se\nbaseiam na combina\u00e7\u00e3o por  _  dos formatos ISO 639 com o c\u00f3digo do pa\u00eds,\nespecificado na ISO 3166. Exemplos s\u00e3o  en_US  e  pt_BR .  H\u00e1 uma fun\u00e7\u00e3o global chamada  _ , que recebe um texto a ser\ninternacionalizado, preferencialmente em ingl\u00eas, e opcionalmente um conjunto\nde pares a interpolar. O Rung buscar\u00e1 por arquivos  .json  com o nome do\nlocale dentro da pasta  locales/ . Exemplo:",
+            "title": "Internacionaliza\u00e7\u00e3o e tradu\u00e7\u00e3o"
+        },
+        {
+            "location": "/development/i18n/#exemplos",
+            "text": "locales/pt_BR.json   1\n2\n3 { \n     \"Hello world!\" :   \"Ol\u00e1, mundo!\"  }     locales/zh_CN.json   1\n2\n3 { \n     \"Hello world!\" :   \"\u4f60\u597d\u4e16\u754c\uff01\"  }     index.js   1\n2\n3\n4\n5 function   main ( context )   { \n     return   { \n         alerts :   [ _ ( \"hello world!\" )] \n     };  }    Caso o locale n\u00e3o for encontrado, a chave \u00e9 utilizada, no caso, a vers\u00e3o em\ningl\u00eas no exemplo.",
+            "title": "Exemplos"
+        },
+        {
+            "location": "/development/i18n/#interpolacao-de-strings",
+            "text": "A fun\u00e7\u00e3o  _  aceita um segundo par\u00e2metro para interpolar, tornando poss\u00edvel\nfazer, por exemplo:  1\n2\n3 return   { \n     alerts :   [ _ ( \"good morning, {{name}}!\" ,   {   name :   'Trixie Mattel'   })]  };   \nNote que, no arquivo  .json , os nomes dentro das chavetas devem ser preservados",
+            "title": "Interpola\u00e7\u00e3o de strings"
+        },
+        {
+            "location": "/development/extracting_html/",
+            "text": "Extraindo HTML\n\u00b6\n\n\nEsse exemplo visa mostrar a possibilidade de extrair o HTML do site que quer\nobter o conte\u00fado e manipular o DOM fict\u00edcio para poder obter os dados em\nespec\u00edfico. Iremos criar uma extens\u00e3o que gera alertas contendo os nomes\nde todos os participantes do programa de TV americando \nRuPaul's Drag Race\n.\n\n\nEstaremos usando o seguinte site como base: \nhttps://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants\n\n\nO conte\u00fado que queremos encontra-se em uma tabela no site:\n\n\n\n\n\u00c9 necess\u00e1rio conhecer o b\u00e1sico de seletores do DOM. Se voc\u00ea sabe CSS, voc\u00ea\nprovavelmente tem o conhecimento necess\u00e1rio para selecionar os elementos\nest\u00e1ticos.\n\n\nA tabela que queremos possui uma classe \n.sortable\n. N\u00f3s queremos pegar, do corpo da tabela cada linha e, de cada linha, o primeiro elemento. Ent\u00e3o,\npodemos montar nosso seletor como \n.sortable\n \ntbody\n \ntr\n \n>\n \ntd\n:\nnth-child\n(\n1\n)\n.\nSe voc\u00ea abrir seu console e digitar \ndocument.querySelectorAll('.sortable tbody tr > td:nth-child(1)')\n, ver\u00e1 que recebemos uma lista de nodos HTML com as informa\u00e7\u00f5es que queremos!\n\n\nA requisi\u00e7\u00e3o para obter HTML \u00e9 igual \u00e0 requisi\u00e7\u00e3o para obter JSON. Podemos usar a \nSuperagent\n para isso, e tamb\u00e9m vamos usar uma outra depend\u00eancia. Adicione o \njsdom\n ao projeto. Usaremos ele para criar o DOM virtual!\n\n\n1\n2\n3\n4\n5\n6\n7\nimport\n \nBluebird\n \nfrom\n \n'bluebird'\n;\n\n\nimport\n \nagent\n \nfrom\n \n'superagent'\n;\n\n\nimport\n \npromisifyAgent\n \nfrom\n \n'superagent-promise'\n;\n\n\nimport\n \n{\n \nJSDOM\n \n}\n \nfrom\n \n'jsdom'\n;\n\n\n\nconst\n \nrequest\n \n=\n \npromisifyAgent\n(\nagent\n,\n \nBluebird\n);\n\n\nconst\n \nwebsite\n \n=\n \n'https://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants'\n;\n\n\n\n\n\n\nUma informa\u00e7\u00e3o importante\n: quando buscamos uma \nlista\n de elementos do DOM,\nn\u00e3o nos \u00e9 retornado um \narray\n do JavaScript, mas um \nNodeList\n. Existe uma\nmaneira de contornar isso para trabalhar com os elementos, que \u00e9 converter a\nlista de nodos para um \narray\n nativo. Podemos definir a seguinte fun\u00e7\u00e3o, baseado\n\nneste link\n:\n\n\n1\n2\n3\nfunction\n \nnodeListToArray\n(\ndom\n)\n \n{\n\n    \nreturn\n \nArray\n.\nprototype\n.\nslice\n.\ncall\n(\ndom\n,\n \n0\n);\n\n\n}\n\n\n\n\n\n\n\nAgora, dentro da fun\u00e7\u00e3o principal ass\u00edncrona, precisamos extrair os dados.\nUma informa\u00e7\u00e3o importante \u00e9 que alguns dos itens da lista que precisamos\nencontram-se no formato \n<a\n \nhref=\n\"#\"\n>\nQueen\n</a>\n e outros no formato \nQueen\n.\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\nfunction\n \nmain\n(\ncontext\n,\n \ndone\n)\n \n{\n\n    \n// Obter todo o HTML do site em modo texto\n\n    \nrequest\n.\nget\n(\nwebsite\n).\nthen\n(({\n \ntext\n \n})\n \n=>\n \n{\n\n        \n// Virtualizar o DOM do texto\n\n        \nconst\n \n{\n \nwindow\n \n}\n \n=\n \nnew\n \nJSDOM\n(\ntext\n);\n\n        \n// Converter os dados da tabela para uma lista e remover os links\n\n        \nconst\n \nqueens\n \n=\n \nnodeListToArray\n(\nwindow\n.\ndocument\n.\nquerySelectorAll\n(\n'.sortable tbody tr > td:nth-child(1)'\n))\n\n            \n.\nmap\n(\nqueen\n \n=>\n \n{\n\n                \nconst\n \nlink\n \n=\n \nqueen\n.\nquerySelector\n(\n'a'\n);\n\n                \nreturn\n \nlink\n \n===\n \nnull\n \n?\n \nqueen\n.\ninnerHTML\n \n:\n \nlink\n.\ninnerHTML\n;\n\n            \n});\n\n\n        \n// Agora, com `queens` contendo a lista que queremos, podemos gerar os alertas\n\n        \ndone\n({\n \nalerts\n:\n \nqueens\n \n});\n\n    \n});\n\n\n}\n\n\n\n\n\nBasicamente, \u00e9 poss\u00edvel usar os seletores tamb\u00e9m utilizados no CSS para extrair os elementos.",
+            "title": "Extraindo HTML"
+        },
+        {
+            "location": "/development/extracting_html/#extraindo-html",
+            "text": "Esse exemplo visa mostrar a possibilidade de extrair o HTML do site que quer\nobter o conte\u00fado e manipular o DOM fict\u00edcio para poder obter os dados em\nespec\u00edfico. Iremos criar uma extens\u00e3o que gera alertas contendo os nomes\nde todos os participantes do programa de TV americando  RuPaul's Drag Race .  Estaremos usando o seguinte site como base:  https://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants  O conte\u00fado que queremos encontra-se em uma tabela no site:   \u00c9 necess\u00e1rio conhecer o b\u00e1sico de seletores do DOM. Se voc\u00ea sabe CSS, voc\u00ea\nprovavelmente tem o conhecimento necess\u00e1rio para selecionar os elementos\nest\u00e1ticos.  A tabela que queremos possui uma classe  .sortable . N\u00f3s queremos pegar, do corpo da tabela cada linha e, de cada linha, o primeiro elemento. Ent\u00e3o,\npodemos montar nosso seletor como  .sortable   tbody   tr   >   td : nth-child ( 1 ) .\nSe voc\u00ea abrir seu console e digitar  document.querySelectorAll('.sortable tbody tr > td:nth-child(1)') , ver\u00e1 que recebemos uma lista de nodos HTML com as informa\u00e7\u00f5es que queremos!  A requisi\u00e7\u00e3o para obter HTML \u00e9 igual \u00e0 requisi\u00e7\u00e3o para obter JSON. Podemos usar a  Superagent  para isso, e tamb\u00e9m vamos usar uma outra depend\u00eancia. Adicione o  jsdom  ao projeto. Usaremos ele para criar o DOM virtual!  1\n2\n3\n4\n5\n6\n7 import   Bluebird   from   'bluebird' ;  import   agent   from   'superagent' ;  import   promisifyAgent   from   'superagent-promise' ;  import   {   JSDOM   }   from   'jsdom' ;  const   request   =   promisifyAgent ( agent ,   Bluebird );  const   website   =   'https://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants' ;    Uma informa\u00e7\u00e3o importante : quando buscamos uma  lista  de elementos do DOM,\nn\u00e3o nos \u00e9 retornado um  array  do JavaScript, mas um  NodeList . Existe uma\nmaneira de contornar isso para trabalhar com os elementos, que \u00e9 converter a\nlista de nodos para um  array  nativo. Podemos definir a seguinte fun\u00e7\u00e3o, baseado neste link :  1\n2\n3 function   nodeListToArray ( dom )   { \n     return   Array . prototype . slice . call ( dom ,   0 );  }    Agora, dentro da fun\u00e7\u00e3o principal ass\u00edncrona, precisamos extrair os dados.\nUma informa\u00e7\u00e3o importante \u00e9 que alguns dos itens da lista que precisamos\nencontram-se no formato  <a   href= \"#\" > Queen </a>  e outros no formato  Queen .   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16 function   main ( context ,   done )   { \n     // Obter todo o HTML do site em modo texto \n     request . get ( website ). then (({   text   })   =>   { \n         // Virtualizar o DOM do texto \n         const   {   window   }   =   new   JSDOM ( text ); \n         // Converter os dados da tabela para uma lista e remover os links \n         const   queens   =   nodeListToArray ( window . document . querySelectorAll ( '.sortable tbody tr > td:nth-child(1)' )) \n             . map ( queen   =>   { \n                 const   link   =   queen . querySelector ( 'a' ); \n                 return   link   ===   null   ?   queen . innerHTML   :   link . innerHTML ; \n             }); \n\n         // Agora, com `queens` contendo a lista que queremos, podemos gerar os alertas \n         done ({   alerts :   queens   }); \n     });  }   \nBasicamente, \u00e9 poss\u00edvel usar os seletores tamb\u00e9m utilizados no CSS para extrair os elementos.",
+            "title": "Extraindo HTML"
+        },
+        {
+            "location": "/compile_execute/",
+            "text": "Compilando e executando\n\u00b6\n\n\nCompilando uma extens\u00e3o\n\u00b6\n\n\nVoc\u00ea pode usar o comando \nrung build\n para compilar uma extens\u00e3o\npara a forma bin\u00e1ria, gerando um arquivo \n.rung\n. O bin\u00e1rio gerado\npode ent\u00e3o ser usado para distribui\u00e7\u00e3o e publica\u00e7\u00e3o para a loja do Rung,\nmas n\u00e3o precisa ser gerado para rodar uma extens\u00e3o localmente, levando\nem conta que o \nRung CLI\n consegue atuar diretamente como um interpretador.\n\n\nO bin\u00e1rio do Rung \u00e9 uma forma modificada de um arquivo PKZip. Em tempo\nde compila\u00e7\u00e3o, a VM do Rung executa sua extens\u00e3o para garantir que n\u00e3o h\u00e1\nerros de an\u00e1lise do c\u00f3digo exportado e gera os metadados para sua extens\u00e3o\nde forma est\u00e1tica, para otimizar a execu\u00e7\u00e3o.\n\n\nExecutando uma extens\u00e3o\n\u00b6\n\n\n\u00c9 poss\u00edvel testar as extens\u00f5es que desenvolve locamente sem a\nnecessidade de public\u00e1-las para o Rung. O \nRung CLI\n prov\u00ea o comando\n\nrung run\n para isso.\n\n\n\n\n\u00c9 criada uma interface visual que recebe os par\u00e2metros de entrada\ne mostra o resultado obtido, os alertas que seriam gerados, para o\nprogramador.\n\n\nExecutando com locale customizado\n\u00b6\n\n\nQuando estiver testando internacionaliza\u00e7\u00e3o, pode for\u00e7ar a defini\u00e7\u00e3o\nde um locale pelo pr\u00f3prio terminal, executando:\n\n\nRUNG_LOCALE=pt_BR rung run\n\n\nPor padr\u00e3o, sem essa defini\u00e7\u00e3o, o \nRung CLI\n ir\u00e1 considerar o locale\npadr\u00e3o do seu sistema operacional.",
+            "title": "Compilando e executando"
+        },
+        {
+            "location": "/compile_execute/#compilando-e-executando",
+            "text": "",
+            "title": "Compilando e executando"
+        },
+        {
+            "location": "/compile_execute/#compilando-uma-extensao",
+            "text": "Voc\u00ea pode usar o comando  rung build  para compilar uma extens\u00e3o\npara a forma bin\u00e1ria, gerando um arquivo  .rung . O bin\u00e1rio gerado\npode ent\u00e3o ser usado para distribui\u00e7\u00e3o e publica\u00e7\u00e3o para a loja do Rung,\nmas n\u00e3o precisa ser gerado para rodar uma extens\u00e3o localmente, levando\nem conta que o  Rung CLI  consegue atuar diretamente como um interpretador.  O bin\u00e1rio do Rung \u00e9 uma forma modificada de um arquivo PKZip. Em tempo\nde compila\u00e7\u00e3o, a VM do Rung executa sua extens\u00e3o para garantir que n\u00e3o h\u00e1\nerros de an\u00e1lise do c\u00f3digo exportado e gera os metadados para sua extens\u00e3o\nde forma est\u00e1tica, para otimizar a execu\u00e7\u00e3o.",
+            "title": "Compilando uma extens\u00e3o"
+        },
+        {
+            "location": "/compile_execute/#executando-uma-extensao",
+            "text": "\u00c9 poss\u00edvel testar as extens\u00f5es que desenvolve locamente sem a\nnecessidade de public\u00e1-las para o Rung. O  Rung CLI  prov\u00ea o comando rung run  para isso.   \u00c9 criada uma interface visual que recebe os par\u00e2metros de entrada\ne mostra o resultado obtido, os alertas que seriam gerados, para o\nprogramador.",
+            "title": "Executando uma extens\u00e3o"
+        },
+        {
+            "location": "/compile_execute/#executando-com-locale-customizado",
+            "text": "Quando estiver testando internacionaliza\u00e7\u00e3o, pode for\u00e7ar a defini\u00e7\u00e3o\nde um locale pelo pr\u00f3prio terminal, executando:  RUNG_LOCALE=pt_BR rung run  Por padr\u00e3o, sem essa defini\u00e7\u00e3o, o  Rung CLI  ir\u00e1 considerar o locale\npadr\u00e3o do seu sistema operacional.",
+            "title": "Executando com locale customizado"
+        },
+        {
+            "location": "/publish/",
+            "text": "Publicando sua integra\u00e7\u00e3o\n\u00b6\n\n\nAp\u00f3s o desenvolvimento, podemos publicar a extens\u00e3o para a Rung Store. O\nRung CLI implementa o comando \nrung publish\n para isso. Ao publicar uma\nextens\u00e3o, informe seu usu\u00e1rio e senha do Rung.\n\n\nRestri\u00e7\u00f5es de publica\u00e7\u00e3o\n\u00b6\n\n\n\n\nA vers\u00e3o deve atender ao \nsemver\n;\n\n\nAo atualizar uma extens\u00e3o, a vers\u00e3o deve ser incrementada;\n\n\n\u00c9 necess\u00e1rio possuir \nkarma\n de desenvolvedor.\n\n\n\n\nPara conseguir \nkarma\n de publica\u00e7\u00e3o, entre em contato conosco em\n\ndeveloper@rung.com.br\n.\n\n\nPara publicar uma extens\u00e3o, \u00e9 obrigat\u00f3rio que \ntitle\n e \ndescription\n\nestejam definidos na configura\u00e7\u00e3o da extens\u00e3o.",
+            "title": "Publicando"
+        },
+        {
+            "location": "/publish/#publicando-sua-integracao",
+            "text": "Ap\u00f3s o desenvolvimento, podemos publicar a extens\u00e3o para a Rung Store. O\nRung CLI implementa o comando  rung publish  para isso. Ao publicar uma\nextens\u00e3o, informe seu usu\u00e1rio e senha do Rung.",
+            "title": "Publicando sua integra\u00e7\u00e3o"
+        },
+        {
+            "location": "/publish/#restricoes-de-publicacao",
+            "text": "A vers\u00e3o deve atender ao  semver ;  Ao atualizar uma extens\u00e3o, a vers\u00e3o deve ser incrementada;  \u00c9 necess\u00e1rio possuir  karma  de desenvolvedor.   Para conseguir  karma  de publica\u00e7\u00e3o, entre em contato conosco em developer@rung.com.br .  Para publicar uma extens\u00e3o, \u00e9 obrigat\u00f3rio que  title  e  description \nestejam definidos na configura\u00e7\u00e3o da extens\u00e3o.",
+            "title": "Restri\u00e7\u00f5es de publica\u00e7\u00e3o"
+        },
+        {
+            "location": "/release-notes/",
+            "text": "Upgrading\n\u00b6\n\n\nTo upgrade \nrung-cli\n to the latest version, use \nnpm\n:\n\n1\nnpm install -g rung-cli\n\n\n\n\n\nTo determine the currently installed version, use the following command:\n\n1\n2\nrung --version\n\n1\n.1.2\n\n\n\n\n\nChangelog\n\u00b6\n\n\n1.1.2 - Both at 80\n\u00b6\n\n\n\n\nHot reloading with dynamic compilation and live preview\n\n\nAuto complete directly on CLI\n\n\n\n\n1.0.4 - Arcoiro\n\u00b6\n\n\n\n\nNew components for CLI\n\n\nSupport for SelectBox\n\n\nSupport for MultiSelectBox\n\n\n100% code coverage with Salete\n\n\nREADME\n files now go to the binary\n\n\n\n\n0.9.0 - Rapa Calls\n\u00b6\n\n\n\n\nAutocomplete for parameters\n\n\n\n\n0.8.2 - Skidding Kombi\n\u00b6\n\n\n\n\nSupport for modules and submodules via \nimport\n or \nrequire",
+            "title": "Release Notes"
+        },
+        {
+            "location": "/release-notes/#upgrading",
+            "text": "To upgrade  rung-cli  to the latest version, use  npm : 1 npm install -g rung-cli   To determine the currently installed version, use the following command: 1\n2 rung --version 1 .1.2",
+            "title": "Upgrading"
+        },
+        {
+            "location": "/release-notes/#changelog",
+            "text": "",
+            "title": "Changelog"
+        },
+        {
+            "location": "/release-notes/#112-both-at-80",
+            "text": "Hot reloading with dynamic compilation and live preview  Auto complete directly on CLI",
+            "title": "1.1.2 - Both at 80"
+        },
+        {
+            "location": "/release-notes/#104-arcoiro",
+            "text": "New components for CLI  Support for SelectBox  Support for MultiSelectBox  100% code coverage with Salete  README  files now go to the binary",
+            "title": "1.0.4 - Arcoiro"
+        },
+        {
+            "location": "/release-notes/#090-rapa-calls",
+            "text": "Autocomplete for parameters",
+            "title": "0.9.0 - Rapa Calls"
+        },
+        {
+            "location": "/release-notes/#082-skidding-kombi",
+            "text": "Support for modules and submodules via  import  or  require",
+            "title": "0.8.2 - Skidding Kombi"
+        }
+    ]
+}
