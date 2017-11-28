@@ -1,8 +1,4 @@
-.. _async_extensions:
-
-=====================
-Extensões assíncronas
-=====================
+# Extensões assíncronas
 
 O Rung possui dois tipos de chamada de retorno para a função principal. Uma
 extensão pode ser síncrona ou assíncrona. Uma extensão síncrona executa linha
@@ -18,29 +14,27 @@ alertas a serem gerados. Na outra situação, a extensão termina sua execução
 quando o primeiro ``return`` for encontrado.
 
 
-**Extensão síncrona**
+## Extensão síncrona
 
-.. code-block:: javascript
-   :emphasize-lines: 1
+``` js
+function main(context) {
+    return {
+        alerts: ["Hello world!"]
+    }
+}
+```
 
-   function main(context) {
-       return {
-           alerts: ["Hello world!"]
-       }
-   }
+## Extensão assíncrona
 
-**Extensão assíncrona**
-
-.. code-block:: javascript
-   :emphasize-lines: 1, 3
-
-   function main(context, done) {
-       setTimeout(() => {
-           done({
-               alerts: ["Hello world!"]
-           });
-       }, 3000);
-   }
+```js
+function main(context, done) {
+    setTimeout(() => {
+        done({
+            alerts: ["Hello world!"]
+        });
+    }, 3000);
+}
+```
 
 No segundo exemplo, a extensão leva 3 segundos para executar e então gerar o
 alerta ``Hello world!``.
