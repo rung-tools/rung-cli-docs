@@ -36,6 +36,7 @@ Características
    features/rung_bot
    features/resources
    features/autocomplete
+   features/info
 
 --------
 Rung CLI
