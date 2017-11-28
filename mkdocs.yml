@@ -48,6 +48,7 @@ pages:
   - 'Banco de dados': 'development/database.md'
   - 'Internacionalização': 'development/i18n.md'
   - 'Extraindo HTML': 'development/extracting_html.md'
+  - 'Definindo informações adicionais': 'development/info.md'
 - 'Compilando e executando': 'compile_execute.md'
 - 'Publicando': 'publish.md'
 - 'Release Notes': 'release-notes.md'
