@@ -1,11 +1,11 @@
 ## Upgrading
 
-To upgrade `rung-cli` to the latest version, use `npm`:
+Para atualizar o `rung-cli` para a última versão, use `npm`:
 ``` sh
 npm install -g rung-cli
 ```
 
-To determine the currently installed version, use the following command:
+Para verificar a versão corrente instalada, use o comando abaixo:
 ``` sh
 rung --version
 1.1.2
@@ -14,18 +14,18 @@ rung --version
 ## Changelog
 
 ### 1.1.2 - Both at 80
-* Hot reloading with dynamic compilation and live preview
-* Auto complete directly on CLI
+* _Hot reloading_ com compilação dinâmica e _live preview_
+* Auto complete diretamente do CLI
 
 ### 1.0.4 - Arcoiro
-* New components for CLI
-* Support for SelectBox
-* Support for MultiSelectBox
-* 100% code coverage with Salete
-* `README` files now go to the binary
+* Novos componentes para o CLI
+* Suporte a SelectBox
+* Suporte a MultiSelectBox
+* 100% de cobertura de código com _Salete_
+* Arquivos `README` agora vão para o binário
 
 ### 0.9.0 - Rapa Calls
-* Autocomplete for parameters
+* Autocomplete para parâmetros
 
 ### 0.8.2 - Skidding Kombi
-* Support for modules and submodules via `import` or `require`
+* Suporte a módulos e submódulos via `import` ou `require`
