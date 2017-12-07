@@ -15,7 +15,7 @@ rung --version
 
 ### 1.1.2 - Both at 80
 * _Hot reloading_ com compilação dinâmica e _live preview_
-* Auto complete diretamente do CLI
+* Autocomplete diretamente do CLI
 
 ### 1.0.4 - Arcoiro
 * Novos componentes para o CLI
