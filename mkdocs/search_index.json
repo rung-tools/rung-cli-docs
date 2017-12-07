@@ -406,6 +406,16 @@
             "title": "Extraindo HTML"
         },
         {
+            "location": "/development/info/",
+            "text": "Informa\u00e7\u00f5es adicionais\n\u00b6\n\n\nAtualmente, o Rung possibilita que o desenvolvedor defina, al\u00e9m da descri\u00e7\u00e3o, um conte\u00fado adicional (no formato markdown) a ser apresentado na p\u00e1gina da sua extens\u00e3o na loja. Este conte\u00fado adicional \u00e9 opcional, mas \u00e9 recomendado o seu uso de tal forma que o seu conte\u00fado instigue o usu\u00e1rio a instalar e utilizar a extens\u00e3o.\n\n\nO conte\u00fado adicional deve ser estruturado dentro da pasta \ninfo\n e pode ser definido em ingl\u00eas (en), portugu\u00eas (pt_BR) e espanhol (es), conforme imagem abaixo.",
+            "title": "Definindo informa\u00e7\u00f5es adicionais"
+        },
+        {
+            "location": "/development/info/#informacoes-adicionais",
+            "text": "Atualmente, o Rung possibilita que o desenvolvedor defina, al\u00e9m da descri\u00e7\u00e3o, um conte\u00fado adicional (no formato markdown) a ser apresentado na p\u00e1gina da sua extens\u00e3o na loja. Este conte\u00fado adicional \u00e9 opcional, mas \u00e9 recomendado o seu uso de tal forma que o seu conte\u00fado instigue o usu\u00e1rio a instalar e utilizar a extens\u00e3o.  O conte\u00fado adicional deve ser estruturado dentro da pasta  info  e pode ser definido em ingl\u00eas (en), portugu\u00eas (pt_BR) e espanhol (es), conforme imagem abaixo.",
+            "title": "Informa\u00e7\u00f5es adicionais"
+        },
+        {
             "location": "/compile_execute/",
             "text": "Compilando e executando\n\u00b6\n\n\nCompilando uma extens\u00e3o\n\u00b6\n\n\nVoc\u00ea pode usar o comando \nrung build\n para compilar uma extens\u00e3o\npara a forma bin\u00e1ria, gerando um arquivo \n.rung\n. O bin\u00e1rio gerado\npode ent\u00e3o ser usado para distribui\u00e7\u00e3o e publica\u00e7\u00e3o para a loja do Rung,\nmas n\u00e3o precisa ser gerado para rodar uma extens\u00e3o localmente, levando\nem conta que o \nRung CLI\n consegue atuar diretamente como um interpretador.\n\n\nO bin\u00e1rio do Rung \u00e9 uma forma modificada de um arquivo PKZip. Em tempo\nde compila\u00e7\u00e3o, a VM do Rung executa sua extens\u00e3o para garantir que n\u00e3o h\u00e1\nerros de an\u00e1lise do c\u00f3digo exportado e gera os metadados para sua extens\u00e3o\nde forma est\u00e1tica, para otimizar a execu\u00e7\u00e3o.\n\n\nExecutando uma extens\u00e3o\n\u00b6\n\n\n\u00c9 poss\u00edvel testar as extens\u00f5es que desenvolve locamente sem a\nnecessidade de public\u00e1-las para o Rung. O \nRung CLI\n prov\u00ea o comando\n\nrung run\n para isso.\n\n\n\n\n\u00c9 criada uma interface visual que recebe os par\u00e2metros de entrada\ne mostra o resultado obtido, os alertas que seriam gerados, para o\nprogramador.\n\n\nExecutando com locale customizado\n\u00b6\n\n\nQuando estiver testando internacionaliza\u00e7\u00e3o, pode for\u00e7ar a defini\u00e7\u00e3o\nde um locale pelo pr\u00f3prio terminal, executando:\n\n\nRUNG_LOCALE=pt_BR rung run\n\n\nPor padr\u00e3o, sem essa defini\u00e7\u00e3o, o \nRung CLI\n ir\u00e1 considerar o locale\npadr\u00e3o do seu sistema operacional.",
             "title": "Compilando e executando"
