@@ -1,6 +1,9 @@
 
+
+
+
 <!DOCTYPE html>
-<html lang="pt_BR" class="no-js">
+<html lang="pt" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -10,15 +13,28 @@
         <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
       
       
-        <link rel="canonical" href="https://vitorebatista.github.io/rung-cli-docs/development/custom_alerts/">
+        <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/custom_alerts/">
       
       
         <meta name="author" content="Rung">
       
       
-        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.3">
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt, en">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.1">
     
     
       
@@ -26,17 +42,14 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.41c6761c.css">
       
     
     
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
@@ -45,9 +58,6 @@
     
     
   </head>
-  
-  
-  
   
     <body>
   
@@ -67,11 +77,9 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://vitorebatista.github.io/rung-cli-docs/" title="Rung para desenvolvedores" class="md-header-nav__button md-logo">
+        <a href="https://rung-tools.github.io/rung-cli-docs/" title="Rung para desenvolvedores" class="md-header-nav__button md-logo">
           
-            
-              <img src="../../img/rung.png" width="24" height="24">
-            
+            <img src="../../img/rung.png" width="24" height="24">
           
         </a>
       </div>
@@ -79,36 +87,37 @@
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
-                <span class="md-header-nav__parent">
-                  Desenvolvendo
-                </span>
-              
+              <span class="md-header-nav__topic">
+                Rung para desenvolvedores
+              </span>
+              <span class="md-header-nav__topic">
+                Alertas personalizados
+              </span>
             
-            Alertas personalizados
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="Pesquisar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <input type="text" class="md-search__input" name="query" required placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
       <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="Nenhum documento localizado" data-md-lang-result-one="1 documento localizado" data-md-lang-result-other="# documentos localizados">
-            Digite para iniciar a pesquisa
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -116,6 +125,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -127,7 +137,7 @@
   
 
 
-  <a href="https://github.com/rung-tools/rung-cli" title="Ir para o repositório" class="md-source" data-md-source="github">
+  <a href="https://github.com/rung-tools/rung-cli/" title="Ir ao repositório" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -149,6 +159,7 @@
     
     <div class="md-container">
       
+        
       
       
       <main class="md-main">
@@ -160,13 +171,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <div class="md-nav__button md-logo">
+    <span class="md-nav__button md-logo">
       
-        
-          <img src="../../img/rung.png">
-        
+        <img src="../../img/rung.png" width="24" height="24">
       
-    </div>
+    </span>
     Rung para desenvolvedores
   </label>
   
@@ -177,7 +186,7 @@
   
 
 
-  <a href="https://github.com/rung-tools/rung-cli" title="Ir para o repositório" class="md-source" data-md-source="github">
+  <a href="https://github.com/rung-tools/rung-cli/" title="Ir ao repositório" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -359,6 +368,12 @@
       
       
       
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentários" class="md-nav__link md-nav__link--active">
+            Comentários
+          </a>
+        </li>
+      
     </ul>
   
 </nav>
@@ -496,6 +511,66 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Para empresas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Para empresas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../business/" title="Sobre" class="md-nav__link">
+      Sobre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../business/erp_protheus/" title="ERP Protheus" class="md-nav__link">
+      ERP Protheus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../business/how_configure/" title="Como configurar" class="md-nav__link">
+      Como configurar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
   <li class="md-nav__item">
     <a href="../../release-notes/" title="Release Notes" class="md-nav__link">
       Release Notes
@@ -539,6 +614,12 @@
       
       
       
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentários" class="md-nav__link md-nav__link--active">
+            Comentários
+          </a>
+        </li>
+      
     </ul>
   
 </nav>
@@ -551,7 +632,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/rung-tools/rung-cli/edit/master/docs/development\custom_alerts.md" title="Edite esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/rung-tools/rung-cli/edit/master/docs/development/custom_alerts.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="alertas-personalizados">Alertas personalizados<a class="headerlink" href="#alertas-personalizados" title="Permanent link">&para;</a></h1>
@@ -643,6 +724,22 @@ o parâmetro <code class="codehilite">preview</code> e reutilizar a função <co
               
               
                 
+                  <h2 id="__comments">Comentários</h2>
+                  <div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = "https://rung-tools.github.io/rung-cli-docs/development/custom_alerts/";
+    this.page.identifier =
+      "development/custom_alerts/";
+  };
+  (function() {
+    var d = document, s = d.createElement("script");
+    s.src = "//mkdocs-material.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+                
               
             </article>
           </div>
@@ -696,9 +793,9 @@ o parâmetro <code class="codehilite">preview</code> e reutilizar a função <co
           </div>
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
@@ -713,6 +810,8 @@ o parâmetro <code class="codehilite">preview</code> e reutilizar a função <co
     
       <a href="https://facebook.com/rungbrasil" class="md-footer-social__link fa fa-facebook"></a>
     
+      <a href="medium.com/rung-brasil" class="md-footer-social__link fa fa-medium"></a>
+    
   </div>
 
       
@@ -722,10 +821,26 @@ o parâmetro <code class="codehilite">preview</code> e reutilizar a função <co
       
     </div>
     
-      <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
+      <script src="../../assets/javascripts/application.6cdc17f0.js"></script>
       
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+            
+          
+            
+          
+          
+            <script src="../../assets/javascripts/lunr/lunr.multi.js"></script>
+          
+        
       
-      <script>app.initialize({url:{base:"../.."}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
       
     
     

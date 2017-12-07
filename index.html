@@ -1,6 +1,9 @@
 
+
+
+
 <!DOCTYPE html>
-<html lang="pt_BR" class="no-js">
+<html lang="pt" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -10,15 +13,28 @@
         <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
       
       
-        <link rel="canonical" href="https://vitorebatista.github.io/rung-cli-docs/">
+        <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/">
       
       
         <meta name="author" content="Rung">
       
       
-        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.3">
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt, en">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="./assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.1">
     
     
       
@@ -26,17 +42,14 @@
       
     
     
-      <script src="./assets/javascripts/modernizr-e826f8942a.js"></script>
-    
-    
-      <link rel="stylesheet" href="./assets/stylesheets/application-9011e2d3f8.css">
+      <link rel="stylesheet" href="./assets/stylesheets/application.41c6761c.css">
       
     
     
+      <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
@@ -45,9 +58,6 @@
     
     
   </head>
-  
-  
-  
   
     <body>
   
@@ -67,11 +77,9 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://vitorebatista.github.io/rung-cli-docs/" title="Rung para desenvolvedores" class="md-header-nav__button md-logo">
+        <a href="https://rung-tools.github.io/rung-cli-docs/" title="Rung para desenvolvedores" class="md-header-nav__button md-logo">
           
-            
-              <img src="./img/rung.png" width="24" height="24">
-            
+            <img src="./img/rung.png" width="24" height="24">
           
         </a>
       </div>
@@ -79,32 +87,37 @@
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
+              <span class="md-header-nav__topic">
+                Rung para desenvolvedores
+              </span>
+              <span class="md-header-nav__topic">
+                O que é Rung
+              </span>
             
-            O que é Rung
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="Pesquisar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <input type="text" class="md-search__input" name="query" required placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
       <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="Nenhum documento localizado" data-md-lang-result-one="1 documento localizado" data-md-lang-result-other="# documentos localizados">
-            Digite para iniciar a pesquisa
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -112,6 +125,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -123,7 +137,7 @@
   
 
 
-  <a href="https://github.com/rung-tools/rung-cli" title="Ir para o repositório" class="md-source" data-md-source="github">
+  <a href="https://github.com/rung-tools/rung-cli/" title="Ir ao repositório" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -145,6 +159,7 @@
     
     <div class="md-container">
       
+        
       
       
       <main class="md-main">
@@ -156,13 +171,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <div class="md-nav__button md-logo">
+    <span class="md-nav__button md-logo">
       
-        
-          <img src="./img/rung.png">
-        
+        <img src="./img/rung.png" width="24" height="24">
       
-    </div>
+    </span>
     Rung para desenvolvedores
   </label>
   
@@ -173,7 +186,7 @@
   
 
 
-  <a href="https://github.com/rung-tools/rung-cli" title="Ir para o repositório" class="md-source" data-md-source="github">
+  <a href="https://github.com/rung-tools/rung-cli/" title="Ir ao repositório" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -261,6 +274,13 @@
           <li class="md-nav__item">
   <a href="#domine-as-excepcionalidades" title="Domine as excepcionalidades" class="md-nav__link">
     Domine as excepcionalidades
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acesso-em-diversos-meios" title="Acesso em diversos meios" class="md-nav__link">
+    Acesso em diversos meios
   </a>
   
 </li>
@@ -524,6 +544,66 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Para empresas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Para empresas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="business/" title="Sobre" class="md-nav__link">
+      Sobre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="business/erp_protheus/" title="ERP Protheus" class="md-nav__link">
+      ERP Protheus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="business/how_configure/" title="Como configurar" class="md-nav__link">
+      Como configurar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
   <li class="md-nav__item">
     <a href="release-notes/" title="Release Notes" class="md-nav__link">
       Release Notes
@@ -594,6 +674,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#acesso-em-diversos-meios" title="Acesso em diversos meios" class="md-nav__link">
+    Acesso em diversos meios
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -613,21 +700,21 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/rung-tools/rung-cli/edit/master/docs/index.md" title="Edite esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/rung-tools/rung-cli/edit/master/docs/index.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="rung">Rung<a class="headerlink" href="#rung" title="Permanent link">&para;</a></h1>
 <h2 id="o-que-e-o-rung">O que é o Rung<a class="headerlink" href="#o-que-e-o-rung" title="Permanent link">&para;</a></h2>
 <p>O <a href="https:/www.rung.com.br">Rung</a> é a primeira ferramenta do mundo para gestão de excepcionalidades.
-O objetivo da ferramenta é te alertar de situações que podem ser importantes
+Na vida pessoal e profissional, existem riscos de baixa probabilidade e alto impacto, também conhecidos como excepcionalidades, que ignoramos no dia a dia, mas geram grandes problemas quando acontecem! O objetivo da ferramenta é te alertar de situações que podem ser importantes
 para você ou para sua empresa. O Rung é altamente customizável. Há uma loja
 de extensões que permite a você configurar o que quer monitorar, e também lhe
 permite programar suas próprias extensões.</p>
 <h2 id="o-que-e-uma-integracao">O que é uma integração<a class="headerlink" href="#o-que-e-uma-integracao" title="Permanent link">&para;</a></h2>
-<p>Uma extensão é um aplicativo para o Rung, que foi previamente programado
+<p>Uma integração é um aplicativo para o Rung, que foi previamente programado
 para receber uma série de parâmetros e, quando houver a satisfação de
-uma condição específica, gerar alertas e notificar o usuário sobre. Um exemplo
-simples seria a cotação do dólar. Por exemplo, eu posso querer ser avisado
+uma condição específica, gerar alertas e notificações ao usuário sobre. Um exemplo
+simples seria a cotação do dólar, por exemplo, eu posso querer ser avisado
 quando o dólar estiver abaixo de R$ 3,00.</p>
 <h3 id="instale-em-1-minuto">Instale em 1 minuto<a class="headerlink" href="#instale-em-1-minuto" title="Permanent link">&para;</a></h3>
 <p>As integrações são o coração do Rung e é muito fácil instalá-los! Em menos de 1 minuto, é possível ativá-los para emitir alertas de preços de passagens, hospedagens em hotéis e AirBnb, bolsa de valores, cotações de moedas, entre outras dezenas de situações.</p>
@@ -652,6 +739,13 @@ quando o dólar estiver abaixo de R$ 3,00.</p>
 <p align="center"> 
 <img src="https://www.rung.com.br/imgs/como-funciona-4-pt-br.jpg">
 </p></p>
+<h3 id="acesso-em-diversos-meios">Acesso em diversos meios<a class="headerlink" href="#acesso-em-diversos-meios" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.rung.com.br">Site</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=br.com.rung&amp;hl=pt_BR">App Android</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/rung/kgaphiibalhbgjbpimdblejjpgfhepad">Chrome Extension</a></li>
+<li><a href="https://addons.mozilla.org/pt-BR/firefox/addon/rung/">Firefox Addons</a></li>
+</ul>
                 
                   
                 
@@ -697,9 +791,9 @@ quando o dólar estiver abaixo de R$ 3,00.</p>
           </div>
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
@@ -714,6 +808,8 @@ quando o dólar estiver abaixo de R$ 3,00.</p>
     
       <a href="https://facebook.com/rungbrasil" class="md-footer-social__link fa fa-facebook"></a>
     
+      <a href="medium.com/rung-brasil" class="md-footer-social__link fa fa-medium"></a>
+    
   </div>
 
       
@@ -723,10 +819,26 @@ quando o dólar estiver abaixo de R$ 3,00.</p>
       
     </div>
     
-      <script src="./assets/javascripts/application-f3ab9e5ff8.js"></script>
+      <script src="./assets/javascripts/application.6cdc17f0.js"></script>
       
+        
+        
+          
+          <script src="./assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              <script src="./assets/javascripts/lunr/lunr.pt.js"></script>
+            
+          
+            
+          
+          
+            <script src="./assets/javascripts/lunr/lunr.multi.js"></script>
+          
+        
       
-      <script>app.initialize({url:{base:"."}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:"."}})</script>
       
     
     
