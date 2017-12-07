@@ -31,9 +31,10 @@ extra:
   search:
     language: 'pt, en'
   disqus: 'mkdocs-material'
-  
+
 # Extensions
 markdown_extensions:
+  - admonition
   - codehilite(linenums=true)
   - toc(permalink=true)
   - pymdownx.betterem(smart_enable=all)
@@ -70,7 +71,5 @@ pages:
 - 'Compilando e executando': 'compile_execute.md'
 - 'Publicando': 'publish.md'
 - 'Para empresas':
-  - 'Sobre': 'business/index.md'
-  - 'ERP Protheus': 'business/erp_protheus.md'
-  - 'Como configurar': 'business/how_configure.md'
+  - 'Microsiga Protheus': 'business/microsiga_protheus.md'
 - 'Release Notes': 'release-notes.md'
