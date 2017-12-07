@@ -6,7 +6,7 @@ npm install -g rung-cli
 ```
 
 Para verificar a versão corrente instalada, use o comando abaixo:
-``` sh
+```sh
 rung --version
 1.1.2
 ```
