@@ -457,12 +457,12 @@
         },
         {
             "location": "/release-notes/",
-            "text": "Upgrading\n\u00b6\n\n\nTo upgrade \nrung-cli\n to the latest version, use \nnpm\n:\n\n1\nnpm install -g rung-cli\n\n\n\n\n\nTo determine the currently installed version, use the following command:\n\n1\n2\nrung --version\n\n1\n.1.2\n\n\n\n\n\nChangelog\n\u00b6\n\n\n1.1.2 - Both at 80\n\u00b6\n\n\n\n\nHot reloading with dynamic compilation and live preview\n\n\nAuto complete directly on CLI\n\n\n\n\n1.0.4 - Arcoiro\n\u00b6\n\n\n\n\nNew components for CLI\n\n\nSupport for SelectBox\n\n\nSupport for MultiSelectBox\n\n\n100% code coverage with Salete\n\n\nREADME\n files now go to the binary\n\n\n\n\n0.9.0 - Rapa Calls\n\u00b6\n\n\n\n\nAutocomplete for parameters\n\n\n\n\n0.8.2 - Skidding Kombi\n\u00b6\n\n\n\n\nSupport for modules and submodules via \nimport\n or \nrequire",
+            "text": "Upgrading\n\u00b6\n\n\nPara atualizar o \nrung-cli\n para a \u00faltima vers\u00e3o, use \nnpm\n:\n\n1\nnpm install -g rung-cli\n\n\n\n\n\nPara verificar a vers\u00e3o corrente instalada, use o comando abaixo:\n\n1\n2\nrung --version\n\n1\n.1.2\n\n\n\n\n\nChangelog\n\u00b6\n\n\n1.1.2 - Both at 80\n\u00b6\n\n\n\n\nHot reloading\n com compila\u00e7\u00e3o din\u00e2mica e \nlive preview\n\n\nAutocomplete diretamente do CLI\n\n\n\n\n1.0.4 - Arcoiro\n\u00b6\n\n\n\n\nNovos componentes para o CLI\n\n\nSuporte a SelectBox\n\n\nSuporte a MultiSelectBox\n\n\n100% de cobertura de c\u00f3digo com \nSalete\n\n\nArquivos \nREADME\n agora v\u00e3o para o bin\u00e1rio\n\n\n\n\n0.9.0 - Rapa Calls\n\u00b6\n\n\n\n\nAutocomplete para par\u00e2metros\n\n\n\n\n0.8.2 - Skidding Kombi\n\u00b6\n\n\n\n\nSuporte a m\u00f3dulos e subm\u00f3dulos via \nimport\n ou \nrequire",
             "title": "Release Notes"
         },
         {
             "location": "/release-notes/#upgrading",
-            "text": "To upgrade  rung-cli  to the latest version, use  npm : 1 npm install -g rung-cli   To determine the currently installed version, use the following command: 1\n2 rung --version 1 .1.2",
+            "text": "Para atualizar o  rung-cli  para a \u00faltima vers\u00e3o, use  npm : 1 npm install -g rung-cli   Para verificar a vers\u00e3o corrente instalada, use o comando abaixo: 1\n2 rung --version 1 .1.2",
             "title": "Upgrading"
         },
         {
@@ -472,22 +472,22 @@
         },
         {
             "location": "/release-notes/#112-both-at-80",
-            "text": "Hot reloading with dynamic compilation and live preview  Auto complete directly on CLI",
+            "text": "Hot reloading  com compila\u00e7\u00e3o din\u00e2mica e  live preview  Autocomplete diretamente do CLI",
             "title": "1.1.2 - Both at 80"
         },
         {
             "location": "/release-notes/#104-arcoiro",
-            "text": "New components for CLI  Support for SelectBox  Support for MultiSelectBox  100% code coverage with Salete  README  files now go to the binary",
+            "text": "Novos componentes para o CLI  Suporte a SelectBox  Suporte a MultiSelectBox  100% de cobertura de c\u00f3digo com  Salete  Arquivos  README  agora v\u00e3o para o bin\u00e1rio",
             "title": "1.0.4 - Arcoiro"
         },
         {
             "location": "/release-notes/#090-rapa-calls",
-            "text": "Autocomplete for parameters",
+            "text": "Autocomplete para par\u00e2metros",
             "title": "0.9.0 - Rapa Calls"
         },
         {
             "location": "/release-notes/#082-skidding-kombi",
-            "text": "Support for modules and submodules via  import  or  require",
+            "text": "Suporte a m\u00f3dulos e subm\u00f3dulos via  import  ou  require",
             "title": "0.8.2 - Skidding Kombi"
         }
     ]
