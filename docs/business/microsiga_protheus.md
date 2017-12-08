@@ -6,6 +6,8 @@ O sistema contempla todos os principais processos de empresa, através de seus m
 
 O Rung por meio de integração WebService REST ou SOAP permite extrair de forma inteligente excepcionalidades a serem apresentadas em forma de alertas no dashboard dos usuários. Para que isso seja possível será necessário cumprir com alguns pré requisitos e configurações listadas abaixo.
 
+***
+
 ## Pré requisitos
 
 * Protheus com versão igual ou superior a 12.1.14
@@ -14,7 +16,12 @@ O Rung por meio de integração WebService REST ou SOAP permite extrair de forma
 * Configuração Web Service REST ou SOAP no ambiente Protheus
 * Liberação de IP e porta do _web service_
 
+***
 ## Patch
+
+> EM BREVE 
+
+***
 
 ## Configuração Webservice
 
@@ -112,11 +119,33 @@ ENVIRONMENT=environment
 !!! info 
     Para maiores informações de como configurar o _web service_ REST, acessar documentação oficial no [TDN](http://tdn.totvs.com/pages/viewpage.action?pageId=185747842)
 
+***
+
 ## Liberação IP : Porta
 
-liberar firewall apenas para ip ou dns do rung
+> EM BREVE 
+
+!!! info
+    É possível liberar em seu firewall a comunicação do seu _web service_ apenas para IP ou DNS do Rung
+
+***
 
 ## Configuração no Rung
 
+O próximo passo após realizar todas as configurações listadas acima é vincular o IP e porta publica para que o Rung consiga realizar a comunicação das integrações com o Microsiga Protheus. Para isso você precisará realizar poucos passos, conforme descrito abaixo:
 
+!!! info
+    O usuário logado na conta Rung deverá ter permissão de administrador para poder visualizar as opções de configuração e servidores.
 
+ 1. Acesse sua conta Rung e clique sobre a opção "Configuração".
+![Opção de configuração](https://i.imgur.com/iK86i7D.png)
+ 2. Clique sobre a opção "Servidores" e adicione um servidor clicando sobre o botão "+" no canto inferior direito.
+![Opção de servidores](https://i.imgur.com/yAAJw2B.png)
+3. Informe o nome do servidor, o tipo (REST ou SOAP) e o IP:Porta pública.
+![Inclusão de servidor](https://i.imgur.com/iJ8Tj38.png)
+4. Ao confirmar a tela, deverá ser feita a autenticação com um login e senha válida do Microsiga Protheus.
+![Autenticação com o Microsiga Protheus](https://i.imgur.com/StZO2Ze.png)
+5. Visualize seu servidor com status de online
+![Resgitro de servidor online](https://i.imgur.com/HLlaEfh.png)
+6. No [Rung Store](https://app.rung.com.br/store/) ao ativar uma integração do Protheus será possível visualizar na lista de "Servidor Protheus" o servidor incluído.
+![Visualização do servidor na instalação da integração de Documentos Vencidos](https://i.imgur.com/5Zm7i0Z.png)
