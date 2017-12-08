@@ -19,7 +19,9 @@ O Rung por meio de integração WebService REST ou SOAP permite extrair de forma
 ***
 ## Patch
 
-> EM BREVE 
+Para que o Rung consiga realizar a comunicação com o seu ambiente Protheus, uma patch deverá ser aplicada no RPO do ambiente em que o _web service_ estará online. O procedimento completo de como aplicar patch pode ser vista na documentação oficial do [TDN](http://tdn.totvs.com/pages/viewpage.action?pageId=165285693)
+
+* [Clique aqui para baixar a patch](https://app.rung.com.br/download/patch.ptm)
 
 ***
 
@@ -98,7 +100,7 @@ Enable=1
 Sockets=HTTPREST
 
 [HTTPREST]
-Port=8080
+Port=8182
 URIs=HTTPURI
 SECURITY=2
 
@@ -117,7 +119,15 @@ ENVIRONMENT=environment
 ```
 
 !!! info 
-    Para maiores informações de como configurar o _web service_ REST, acessar documentação oficial no [TDN](http://tdn.totvs.com/pages/viewpage.action?pageId=185747842)
+    Para maiores informações de como configurar o _web service_ REST, acessar documentação oficial no [TDN](http://tdn.totvs.com/pages/viewpage.action?pageId=185747842).
+
+Após realizar estas configurações, o serviço do _appserver_ do Protheus deverá ser reiniciado para que as novas configurações sejam ativadas. Em modo _console_ deverá ser apresentada uma mensagem semelhante a imagem abaixo, que garantirá assim a disponibilidade do _web service_ na rede.
+
+![Appserver com mensagem do WebService REST](https://i.imgur.com/XBG1cXg.png)
+
+Outro teste básico, que garantirá o funcionamento do _web service_, pode ser feito diretamente em um browser como demonstrado na imagem abaixo.
+
+![Imgur](https://i.imgur.com/QHVeF0U.png)
 
 ***
 
@@ -149,3 +159,7 @@ O próximo passo após realizar todas as configurações listadas acima é vincu
 ![Resgitro de servidor online](https://i.imgur.com/HLlaEfh.png)
 6. No [Rung Store](https://app.rung.com.br/store/) ao ativar uma integração do Protheus será possível visualizar na lista de "Servidor Protheus" o servidor incluído.
 ![Visualização do servidor na instalação da integração de Documentos Vencidos](https://i.imgur.com/5Zm7i0Z.png)
+
+## Suporte
+
+Qualquer dúvida ou problema que você tenha neste processo de configuração envie um e-mail para `suporte@rung.com.br` ou deixe um comentário baixo.
