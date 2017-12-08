@@ -563,6 +563,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#suporte" title="Suporte" class="md-nav__link">
+    Suporte
+  </a>
+  
+</li>
+      
       
       
         <li class="md-nav__item">
@@ -670,6 +677,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#suporte" title="Suporte" class="md-nav__link">
+    Suporte
+  </a>
+  
+</li>
+      
       
       
         <li class="md-nav__item">
@@ -708,9 +722,10 @@
 </ul>
 <hr />
 <h2 id="patch">Patch<a class="headerlink" href="#patch" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>EM BREVE </p>
-</blockquote>
+<p>Para que o Rung consiga realizar a comunicação com o seu ambiente Protheus, uma patch deverá ser aplicada no RPO do ambiente em que o <em>web service</em> estará online. O procedimento completo de como aplicar patch pode ser vista na documentação oficial do <a href="http://tdn.totvs.com/pages/viewpage.action?pageId=165285693">TDN</a></p>
+<ul>
+<li><a href="https://app.rung.com.br/download/patch.ptm">Clique aqui para baixar a patch</a></li>
+</ul>
 <hr />
 <h2 id="configuracao-webservice">Configuração Webservice<a class="headerlink" href="#configuracao-webservice" title="Permanent link">&para;</a></h2>
 <h3 id="soap">SOAP<a class="headerlink" href="#soap" title="Permanent link">&para;</a></h3>
@@ -829,7 +844,7 @@ A diferença entre ambas é que a segunda opção permite especificar mais detal
 <span class="nv">Sockets</span><span class="o">=</span>HTTPREST
 
 <span class="o">[</span>HTTPREST<span class="o">]</span>
-<span class="nv">Port</span><span class="o">=</span><span class="m">8080</span>
+<span class="nv">Port</span><span class="o">=</span><span class="m">8182</span>
 <span class="nv">URIs</span><span class="o">=</span>HTTPURI
 <span class="nv">SECURITY</span><span class="o">=</span><span class="m">2</span>
 
@@ -850,8 +865,12 @@ A diferença entre ambas é que a segunda opção permite especificar mais detal
 
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Para maiores informações de como configurar o <em>web service</em> REST, acessar documentação oficial no <a href="http://tdn.totvs.com/pages/viewpage.action?pageId=185747842">TDN</a></p>
+<p>Para maiores informações de como configurar o <em>web service</em> REST, acessar documentação oficial no <a href="http://tdn.totvs.com/pages/viewpage.action?pageId=185747842">TDN</a>.</p>
 </div>
+<p>Após realizar estas configurações, o serviço do <em>appserver</em> do Protheus deverá ser reiniciado para que as novas configurações sejam ativadas. Em modo <em>console</em> deverá ser apresentada uma mensagem semelhante a imagem abaixo, que garantirá assim a disponibilidade do <em>web service</em> na rede.</p>
+<p><img alt="Appserver com mensagem do WebService REST" src="https://i.imgur.com/XBG1cXg.png" /></p>
+<p>Outro teste básico, que garantirá o funcionamento do <em>web service</em>, pode ser feito diretamente em um browser como demonstrado na imagem abaixo.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/QHVeF0U.png" /></p>
 <hr />
 <h2 id="liberacao-ip-porta">Liberação IP : Porta<a class="headerlink" href="#liberacao-ip-porta" title="Permanent link">&para;</a></h2>
 <blockquote>
@@ -882,6 +901,8 @@ A diferença entre ambas é que a segunda opção permite especificar mais detal
 <li>No <a href="https://app.rung.com.br/store/">Rung Store</a> ao ativar uma integração do Protheus será possível visualizar na lista de "Servidor Protheus" o servidor incluído.
 <img alt="Visualização do servidor na instalação da integração de Documentos Vencidos" src="https://i.imgur.com/5Zm7i0Z.png" /></li>
 </ol>
+<h2 id="suporte">Suporte<a class="headerlink" href="#suporte" title="Permanent link">&para;</a></h2>
+<p>Qualquer dúvida ou problema que você tenha neste processo de configuração envie um e-mail para <code class="codehilite">suporte@rung.com.br</code> ou deixe um comentário baixo.</p>
                 
                   
                 
