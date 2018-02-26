@@ -13,7 +13,7 @@
     "url": "https://github.com/ung-tools/rung-cli-docs"
   },
   "scripts": {
-    "deploy": "mkdocs gh-deploy",
+    "deploy": "mkdocs gh-deploy -v",
     "build": "mkdocs build",
     "dev": "mkdocs serve",
     "clean": "mkdocs build --clean"
