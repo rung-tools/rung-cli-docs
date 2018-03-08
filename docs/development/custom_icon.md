@@ -1,9 +1,9 @@
 # Ícone personalizado
 
 
-Ao publicar uma extensão, o Rung tentará localizar um arquivo ``icon.png``
-no seu pacote. Ele corresponde à identidade de sua extensão. Não é
-obrigatório, mas é recomendado. Ele determina como sua extensão será mostrada
-na Rung Store:
+Ao publicar um app, o Rung tentará localizar um arquivo ``icon.png``
+no seu pacote. Ele corresponde à identidade de seu app. Não é
+obrigatório, mas é recomendado. Ele determina como seu app será mostrada
+na Rung App Store:
 
 ![Store](../img/store.png)

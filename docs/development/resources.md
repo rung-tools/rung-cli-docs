@@ -1,18 +1,18 @@
 # Resources
 
-Quando um alerta de uma integração possui uma ou várias imagens, pode-se utilizar 
-a propriedade *resources*. Esta propriedade permite que as imagens sejam visualizadas em 
-um único comentário e em forma de carrossel, deixando os comentários mais limpos e 
+Quando um cartão de um app possui uma ou várias imagens, pode-se utilizar
+a propriedade *resources*. Esta propriedade permite que as imagens sejam visualizadas em
+um único comentário e em forma de carrossel, deixando os comentários mais limpos e
 objetivos.
 
 ![Resources](../img/resources.png)
 
 O conteúdo passado para a propriedade resources deve ser uma lista contendo as urls das
-imagens geradas pelo alerta. Exemplo:
+imagens geradas pelo cartão. Exemplo:
 
 ``` js
 return {
-    alerts: [{
+    card: [{
         title: 'Bananas are cheap',
         content: render(bananasPrice),
         comment: renderComment(bananasPrice),

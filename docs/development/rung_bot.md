@@ -1,17 +1,17 @@
 # Rung Bot
 
-Em seus alertas, é possível programar para que haja um comentário no *follow-up*
+Em seus cartões, é possível programar para que haja um comentário no *follow-up*
 do Rung Bot, que é, basicamente, um robô customizado que tem o objetivo de
-complementar a informação do alerta.
+complementar a informação do cartão.
 
 ![Bot](../img/bot.png)
 
 O conteúdo escrito pelo Rung Bot deve
-ser definido usando Markdown, e paralelo ao alerta customizado. Exemplo:
+ser definido usando Markdown, e paralelo ao cartão customizado. Exemplo:
 
 ```js
 return {
-    alerts: [{
+    cards: [{
         title: 'Bananas are cheap',
         content: render(bananasPrice),
         comment: renderComment(bananasPrice)

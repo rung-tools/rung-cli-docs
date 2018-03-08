@@ -1,6 +1,6 @@
 # Project information
 site_name: Rung para desenvolvedores
-site_description: Documentação técnica para desenvolvedores de integração do Rung
+site_description: Documentação técnica para desenvolvedores de app do Rung
 site_author: Rung
 site_url: https://rung-tools.github.io/rung-cli-docs/
 
@@ -32,7 +32,7 @@ extra:
     language: 'pt, en'
   disqus: 'mkdocs-material'
 
-# Extensions
+# Apps
 markdown_extensions:
   - admonition
   - codehilite(linenums=true)
@@ -56,10 +56,10 @@ pages:
   - 'Hot reloading': 'development/live.md'
   - 'Contexto': 'development/context.md'
   - 'Chaves primárias': 'development/primary_keys.md'
-  - 'Extensões assíncronas': 'development/async_extensions.md'
+  - 'Apps assíncronas': 'development/async_apps.md'
   - 'Tipos de parâmetros': 'development/param_types.md'
   - 'Banco de dados': 'development/database.md'
-  - 'Alertas personalizados': 'development/custom_alerts.md'
+  - 'Cartões personalizados': 'development/custom_cards.md'
   - 'Barra lateral': 'development/custom_sidebar_fields.md'
   - 'Ícones customizados': 'development/custom_icon.md'
   - 'Rung bot': 'development/rung_bot.md'

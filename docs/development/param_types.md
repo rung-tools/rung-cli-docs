@@ -1,6 +1,6 @@
 # Tipos de parâmetros
 
-Os parâmetros de entrada de uma extensão do Rung possuem diversos tipos com
+Os parâmetros de entrada de um app do Rung possuem diversos tipos com
 múltiplas finalidades, que variam de acordo com como você vai trabalhar com
 o dado e como você deseja que ele seja renderizado para o usuário durante
 a instalação. Os tipos podem ser importados via:
@@ -46,8 +46,8 @@ export default function ({ input, lib }) {
         .filter(name => name.startsWith(input));
 }
 ```
-E pronto, compile e suba sua extensão para o Rung! Você também pode testar essa funcionalidade
-na sua extensão diretamente do Rung CLI (automaticamente).
+E pronto, compile e suba seu app para o Rung! Você também pode testar essa funcionalidade
+na seu app diretamente do Rung CLI (automaticamente).
 
 #### Parâmetros
 

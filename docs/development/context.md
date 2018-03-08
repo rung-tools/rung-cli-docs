@@ -1,7 +1,6 @@
 # Contexto
 
-O contexto é o primeiro parâmetro passado para a função principal da sua
-extensão. Ele traz informações importantes, como o locale do usuário e os
+O contexto é o primeiro parâmetro passado para a função principal do seu app. Ele traz informações importantes, como o locale do usuário e os
 valores dos parâmetros que são informados.
 
 Exemplo:
@@ -14,7 +13,7 @@ function main(context) {
     const { a, b } = context.params;
 
     return {
-        alerts: [`Sum of ${a} and ${b} is ${a + b}`]
+        cards: [`Sum of ${a} and ${b} is ${a + b}`]
     };
 }
 
@@ -33,4 +32,4 @@ export default create(main, { params });
 ```
 
 O contexto também é responsável por carregar as informações do banco de dados
-de cada instância de extensão, em ``context.db``.
+de cada cartão de app, em ``context.db``.

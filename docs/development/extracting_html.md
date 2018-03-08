@@ -2,7 +2,7 @@
 
 Esse exemplo visa mostrar a possibilidade de extrair o HTML do site que quer
 obter o conteúdo e manipular o DOM fictício para poder obter os dados em
-específico. Iremos criar uma extensão que gera alertas contendo os nomes
+específico. Iremos criar um app que gera cartões contendo os nomes
 de todos os participantes do programa de TV americando _RuPaul's Drag Race_.
 
 Estaremos usando o seguinte site como base: https://en.wikipedia.org/wiki/List_of_RuPaul%27s_Drag_Race_contestants
@@ -63,8 +63,8 @@ function main(context, done) {
                 return link === null ? queen.innerHTML : link.innerHTML;
             });
 
-        // Agora, com `queens` contendo a lista que queremos, podemos gerar os alertas
-        done({ alerts: queens });
+        // Agora, com `queens` contendo a lista que queremos, podemos gerar os cartões
+        done({ cards: queens });
     });
 }
 ```

@@ -11,7 +11,7 @@ campos deseja ocultar. Por padrão, a barra lateral possui suporte a 4 campos:
 | ``startDate`` | Data inicial |
 | ``endDate``   | Data final   |
 
-![Sidebar](../img/sidebar.png)
+![Menu lateral](../img/sidebar.png)
 
 Se quisermos, por exemplo, remover os campos de data:
 

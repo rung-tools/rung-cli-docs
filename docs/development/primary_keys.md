@@ -1,9 +1,9 @@
 # Chaves primárias
 
-Cada alerta pode ter uma chave primária. A chave primária serve para localizar
-aquele alerta e o preservar em uma atualização. É indiciado que todo alerta
+Cada cartão pode ter uma chave primária. A chave primária serve para localizar
+aquele cartão e o preservar em uma atualização. É indiciado que todo cartão
 possua uma chave primária para que seus metadados não sejam perdidos durante
-cada execução da extensão.
+cada execução do app.
 
 Para habilitar o suporte às chaves primárias, deve-se utilizar o segundo
 parâmetro da função ``create`` da SDK do Rung:
@@ -15,9 +15,9 @@ export default create(main, {
 });
 ```
 
-Por padrão, os alertas devem ser retornados em um objeto contendo
-``{ alerts }``. Nessa situação, ``alerts`` deve conter um objeto ou *array*
-com as chaves e os valores de cada alerta. No caso de um *array*, a chave
+Por padrão, os cartões devem ser retornados em um objeto contendo
+``{ cards }``. Nessa situação, ``cards`` deve conter um objeto ou *array*
+com as chaves e os valores de cada cartão. No caso de um *array*, a chave
 utilizada será o índice. Com ES6, você pode construir um objeto com chaves
 dinâmicas utilizando a sintaxe ``{ [key]: value }``. Exemplo:
 
@@ -36,7 +36,7 @@ function main(context) {
     ];
 
     return {
-        alerts: mergeAll(map(render, students))
+        cards: mergeAll(map(render, students))
     };
 }
 

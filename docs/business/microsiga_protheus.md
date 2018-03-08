@@ -1,10 +1,10 @@
 # Microsiga Protheus
 
 O [Microsiga Protheus](http://tdn.totvs.com/display/framework/Microsiga+Protheus) é um sistema integrado de gestão empresarial (ERP/CRM/HCM/SCM) , criado e desenvolvido pela TOTVS S/A, para atender a todo mercado corporativo.
- 
-O sistema contempla todos os principais processos de empresa, através de seus módulos, onde cada módulo corresponde a uma área especifica de gestão, como por exemplo, o módulo FAT (Vendas e Faturamento) que contempla a área de Vendas, fazendo a integração das informações com as demais áreas da empresa. Cada módulo é responsável por dezenas de processos de negócios, baseado em práticas do dia a dia de diversos segmentos de negócio.
 
-O Rung por meio de integração WebService REST ou SOAP permite extrair de forma inteligente excepcionalidades a serem apresentadas em forma de alertas no dashboard dos usuários. Para que isso seja possível será necessário cumprir com alguns pré requisitos e configurações listadas abaixo.
+O sistema contempla todos os principais processos de empresa, através de seus módulos, onde cada módulo corresponde a uma área especifica de gestão, como por exemplo, o módulo FAT (Vendas e Faturamento) que contempla a área de Vendas, fazendo o app das informações com as demais áreas da empresa. Cada módulo é responsável por dezenas de processos de negócios, baseado em práticas do dia a dia de diversos segmentos de negócio.
+
+O Rung por meio de app WebService REST ou SOAP permite extrair de forma inteligente excepcionalidades a serem apresentadas em forma de cartões no painel dos usuários. Para que isso seja possível será necessário cumprir com alguns pré requisitos e configurações listadas abaixo.
 
 ***
 
@@ -82,7 +82,7 @@ NameSpace=http://localhost/  ;(Opcional) - Permite especificar o nome do namespa
 URLLocation=http://localhost/  ;(Opcional) - Permite especificar a URL responsável pelo atendimento às solicitações de processamento do(s) serviço(s) (padrão=host atualmente utilizado).
 ```
 
-!!! info 
+!!! info
     Para maiores informações de como configurar o _web service_ SOAP, acessar documentação oficial no [TDN](http://tdn.totvs.com/pages/viewpage.action?pageId=6064937)
 
 ### REST
@@ -94,7 +94,7 @@ A função HTTP_START que prepara o Application Server como HTTP para REST, deve
 ``` sh
 [GENERAL]
 MAXSTRINGSIZE=10
- 
+
 [HTTPV11]
 Enable=1
 Sockets=HTTPREST
@@ -118,7 +118,7 @@ MAIN=HTTP_START
 ENVIRONMENT=environment
 ```
 
-!!! info 
+!!! info
     Para maiores informações de como configurar o _web service_ REST, acessar documentação oficial no [TDN](http://tdn.totvs.com/pages/viewpage.action?pageId=185747842).
 
 Após realizar estas configurações, o serviço do _appserver_ do Protheus deverá ser reiniciado para que as novas configurações sejam ativadas. Em modo _console_ deverá ser apresentada uma mensagem semelhante a imagem abaixo, que garantirá assim a disponibilidade do _web service_ na rede.
@@ -133,7 +133,7 @@ Outro teste básico, que garantirá o funcionamento do _web service_, pode ser f
 
 ## Liberação IP : Porta
 
-> EM BREVE 
+> EM BREVE
 
 !!! info
     É possível liberar em seu firewall a comunicação do seu _web service_ apenas para IP ou DNS do Rung
@@ -142,14 +142,14 @@ Outro teste básico, que garantirá o funcionamento do _web service_, pode ser f
 
 ## Configuração no Rung
 
-O próximo passo após realizar todas as configurações listadas acima é vincular o IP e porta publica para que o Rung consiga realizar a comunicação das integrações com o Microsiga Protheus. Para isso você precisará realizar poucos passos, conforme descrito abaixo:
+O próximo passo após realizar todas as configurações listadas acima é vincular o IP e porta publica para que o Rung consiga realizar a comunicação dos apps com o Microsiga Protheus. Para isso você precisará realizar poucos passos, conforme descrito abaixo:
 
 !!! info
-    O usuário logado na conta Rung deverá ter permissão de administrador para poder visualizar as opções de configuração e servidores.
+    O usuário logado na conta Rung deverá ter permissão de administrador para poder visualizar as opções de configuração e integrações.
 
  1. Acesse sua conta Rung e clique sobre a opção "Configuração".
 ![Opção de configuração](https://i.imgur.com/iK86i7D.png)
- 2. Clique sobre a opção "Servidores" e adicione um servidor clicando sobre o botão "+" no canto inferior direito.
+ 2. Clique sobre a opção "Integrações" e adicione um servidor clicando sobre o botão "+" no canto inferior direito.
 ![Opção de servidores](https://i.imgur.com/yAAJw2B.png)
 3. Informe o nome do servidor, o tipo (REST ou SOAP) e o IP:Porta pública.
 ![Inclusão de servidor](https://i.imgur.com/iJ8Tj38.png)
@@ -157,8 +157,8 @@ O próximo passo após realizar todas as configurações listadas acima é vincu
 ![Autenticação com o Microsiga Protheus](https://i.imgur.com/StZO2Ze.png)
 5. Visualize seu servidor com status de online
 ![Resgitro de servidor online](https://i.imgur.com/HLlaEfh.png)
-6. No [Rung Store](https://app.rung.com.br/store/) ao ativar uma integração do Protheus será possível visualizar na lista de "Servidor Protheus" o servidor incluído.
-![Visualização do servidor na instalação da integração de Documentos Vencidos](https://i.imgur.com/5Zm7i0Z.png)
+6. No [Rung App Store](https://app.rung.com.br/store/) ao ativar um app do Protheus será possível visualizar na lista de "Servidor Protheus" o servidor incluído.
+![Visualização do servidor na instalação do app de Documentos Vencidos](https://i.imgur.com/5Zm7i0Z.png)
 
 ## Suporte
 
