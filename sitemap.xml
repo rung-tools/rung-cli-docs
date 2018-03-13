@@ -113,14 +113,6 @@
 
     
     <url>
-     <loc>https://rung-tools.github.io/rung-cli-docs//compile_execute/</loc>
-     <lastmod>2018-03-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>https://rung-tools.github.io/rung-cli-docs//publish/</loc>
      <lastmod>2018-03-13</lastmod>
      <changefreq>daily</changefreq>
