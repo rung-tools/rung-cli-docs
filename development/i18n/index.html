@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/i18n/">
@@ -319,8 +319,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -355,8 +355,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -645,7 +645,7 @@
                 
                 
                 <h1 id="internacionalizacao-e-traducao">Internacionalização e tradução<a class="headerlink" href="#internacionalizacao-e-traducao" title="Permanent link">&para;</a></h1>
-<p>O Rung tem suporte a múltiplos idiomas nas extensões. Os locales do Rung se
+<p>O Rung tem suporte a múltiplos idiomas nos apps. Os locales do Rung se
 baseiam na combinação por <code class="codehilite">_</code> dos formatos ISO 639 com o código do país,
 especificado na ISO 3166. Exemplos são <code class="codehilite">en_US</code> e <code class="codehilite">pt_BR</code>.</p>
 <p>Há uma função global chamada <code class="codehilite">_</code>, que recebe um texto a ser
@@ -684,7 +684,7 @@ locale dentro da pasta <code class="codehilite">locales/</code>. Exemplo:</p>
 4
 5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kd">function</span> <span class="nx">main</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">return</span> <span class="p">{</span>
-        <span class="nx">alerts</span><span class="o">:</span> <span class="p">[</span><span class="nx">_</span><span class="p">(</span><span class="s2">&quot;hello world!&quot;</span><span class="p">)]</span>
+        <span class="nx">cards</span><span class="o">:</span> <span class="p">[</span><span class="nx">_</span><span class="p">(</span><span class="s2">&quot;hello world!&quot;</span><span class="p">)]</span>
     <span class="p">};</span>
 <span class="p">}</span>
 </pre></div>
@@ -698,7 +698,7 @@ fazer, por exemplo:</p>
 <p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="k">return</span> <span class="p">{</span>
-    <span class="nx">alerts</span><span class="o">:</span> <span class="p">[</span><span class="nx">_</span><span class="p">(</span><span class="s2">&quot;good morning, {{name}}!&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Trixie Mattel&#39;</span> <span class="p">})]</span>
+    <span class="nx">cards</span><span class="o">:</span> <span class="p">[</span><span class="nx">_</span><span class="p">(</span><span class="s2">&quot;good morning, {{name}}!&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Trixie Mattel&#39;</span> <span class="p">})]</span>
 <span class="p">};</span>
 </pre></div>
 </td></tr></table>

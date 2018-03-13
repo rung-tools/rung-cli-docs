@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/rung_bot/">
@@ -319,8 +319,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -355,8 +355,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -574,12 +574,12 @@
                 
                 
                 <h1 id="rung-bot">Rung Bot<a class="headerlink" href="#rung-bot" title="Permanent link">&para;</a></h1>
-<p>Em seus alertas, é possível programar para que haja um comentário no <em>follow-up</em>
+<p>Em seus cartões, é possível programar para que haja um comentário no <em>follow-up</em>
 do Rung Bot, que é, basicamente, um robô customizado que tem o objetivo de
-complementar a informação do alerta.</p>
+complementar a informação do cartão.</p>
 <p><img alt="Bot" src="../../img/bot.png" /></p>
 <p>O conteúdo escrito pelo Rung Bot deve
-ser definido usando Markdown, e paralelo ao alerta customizado. Exemplo:</p>
+ser definido usando Markdown, e paralelo ao cartão customizado. Exemplo:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
@@ -587,7 +587,7 @@ ser definido usando Markdown, e paralelo ao alerta customizado. Exemplo:</p>
 5
 6
 7</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="k">return</span> <span class="p">{</span>
-    <span class="nx">alerts</span><span class="o">:</span> <span class="p">[{</span>
+    <span class="nx">cards</span><span class="o">:</span> <span class="p">[{</span>
         <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Bananas are cheap&#39;</span><span class="p">,</span>
         <span class="nx">content</span><span class="o">:</span> <span class="nx">render</span><span class="p">(</span><span class="nx">bananasPrice</span><span class="p">),</span>
         <span class="nx">comment</span><span class="o">:</span> <span class="nx">renderComment</span><span class="p">(</span><span class="nx">bananasPrice</span><span class="p">)</span>

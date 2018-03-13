@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/primary_keys/">
@@ -328,8 +328,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -364,8 +364,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -574,10 +574,10 @@
                 
                 
                 <h1 id="chaves-primarias">Chaves primárias<a class="headerlink" href="#chaves-primarias" title="Permanent link">&para;</a></h1>
-<p>Cada alerta pode ter uma chave primária. A chave primária serve para localizar
-aquele alerta e o preservar em uma atualização. É indiciado que todo alerta
+<p>Cada cartão pode ter uma chave primária. A chave primária serve para localizar
+aquele cartão e o preservar em uma atualização. É indiciado que todo cartão
 possua uma chave primária para que seus metadados não sejam perdidos durante
-cada execução da extensão.</p>
+cada execução do app.</p>
 <p>Para habilitar o suporte às chaves primárias, deve-se utilizar o segundo
 parâmetro da função <code class="codehilite">create</code> da SDK do Rung:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
@@ -590,9 +590,9 @@ parâmetro da função <code class="codehilite">create</code> da SDK do Rung:</p
 </pre></div>
 </td></tr></table>
 
-<p>Por padrão, os alertas devem ser retornados em um objeto contendo
-<code class="codehilite">{ alerts }</code>. Nessa situação, <code class="codehilite">alerts</code> deve conter um objeto ou <em>array</em>
-com as chaves e os valores de cada alerta. No caso de um <em>array</em>, a chave
+<p>Por padrão, os cartões devem ser retornados em um objeto contendo
+<code class="codehilite">{ cards }</code>. Nessa situação, <code class="codehilite">cards</code> deve conter um objeto ou <em>array</em>
+com as chaves e os valores de cada cartão. No caso de um <em>array</em>, a chave
 utilizada será o índice. Com ES6, você pode construir um objeto com chaves
 dinâmicas utilizando a sintaxe <code class="codehilite">{ [key]: value }</code>. Exemplo:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
@@ -627,7 +627,7 @@ dinâmicas utilizando a sintaxe <code class="codehilite">{ [key]: value }</code>
     <span class="p">];</span>
 
     <span class="k">return</span> <span class="p">{</span>
-        <span class="nx">alerts</span><span class="o">:</span> <span class="nx">mergeAll</span><span class="p">(</span><span class="nx">map</span><span class="p">(</span><span class="nx">render</span><span class="p">,</span> <span class="nx">students</span><span class="p">))</span>
+        <span class="nx">cards</span><span class="o">:</span> <span class="nx">mergeAll</span><span class="p">(</span><span class="nx">map</span><span class="p">(</span><span class="nx">render</span><span class="p">,</span> <span class="nx">students</span><span class="p">))</span>
     <span class="p">};</span>
 <span class="p">}</span>
 
@@ -687,13 +687,13 @@ dinâmicas utilizando a sintaxe <code class="codehilite">{ [key]: value }</code>
           </a>
         
         
-          <a href="../async_extensions/" title="Extensões assíncronas" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../async_apps/" title="Apps assíncronas" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Extensões assíncronas
+                Apps assíncronas
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

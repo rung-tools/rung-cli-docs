@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/resources/">
@@ -319,8 +319,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -355,8 +355,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -574,13 +574,13 @@
                 
                 
                 <h1 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h1>
-<p>Quando um alerta de uma integração possui uma ou várias imagens, pode-se utilizar 
-a propriedade <em>resources</em>. Esta propriedade permite que as imagens sejam visualizadas em 
-um único comentário e em forma de carrossel, deixando os comentários mais limpos e 
+<p>Quando um cartão de um app possui uma ou várias imagens, pode-se utilizar
+a propriedade <em>resources</em>. Esta propriedade permite que as imagens sejam visualizadas em
+um único comentário e em forma de carrossel, deixando os comentários mais limpos e
 objetivos.</p>
 <p><img alt="Resources" src="../../img/resources.png" /></p>
 <p>O conteúdo passado para a propriedade resources deve ser uma lista contendo as urls das
-imagens geradas pelo alerta. Exemplo:</p>
+imagens geradas pelo cartão. Exemplo:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -593,7 +593,7 @@ imagens geradas pelo alerta. Exemplo:</p>
 10
 11
 12</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="k">return</span> <span class="p">{</span>
-    <span class="nx">alerts</span><span class="o">:</span> <span class="p">[{</span>
+    <span class="nx">card</span><span class="o">:</span> <span class="p">[{</span>
         <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Bananas are cheap&#39;</span><span class="p">,</span>
         <span class="nx">content</span><span class="o">:</span> <span class="nx">render</span><span class="p">(</span><span class="nx">bananasPrice</span><span class="p">),</span>
         <span class="nx">comment</span><span class="o">:</span> <span class="nx">renderComment</span><span class="p">(</span><span class="nx">bananasPrice</span><span class="p">),</span>

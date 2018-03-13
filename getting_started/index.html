@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/getting_started/">
@@ -95,7 +95,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#criando-uma-nova-integracao" tabindex="1" class="md-skip">
+      <a href="#criando-um-novo-app" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -273,8 +273,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#criando-uma-nova-integracao" title="Criando uma nova integração" class="md-nav__link">
-    Criando uma nova integração
+  <a href="#criando-um-novo-app" title="Criando um novo app" class="md-nav__link">
+    Criando um novo app
   </a>
   
     <nav class="md-nav">
@@ -329,8 +329,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#documentacao-da-extensao" title="Documentação da extensão" class="md-nav__link">
-    Documentação da extensão
+  <a href="#documentacao-do-app" title="Documentação do app" class="md-nav__link">
+    Documentação do app
   </a>
   
 </li>
@@ -418,8 +418,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../development/async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../development/async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -454,8 +454,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../development/custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../development/custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -652,8 +652,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#criando-uma-nova-integracao" title="Criando uma nova integração" class="md-nav__link">
-    Criando uma nova integração
+  <a href="#criando-um-novo-app" title="Criando um novo app" class="md-nav__link">
+    Criando um novo app
   </a>
   
     <nav class="md-nav">
@@ -708,8 +708,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#documentacao-da-extensao" title="Documentação da extensão" class="md-nav__link">
-    Documentação da extensão
+  <a href="#documentacao-do-app" title="Documentação do app" class="md-nav__link">
+    Documentação do app
   </a>
   
 </li>
@@ -746,7 +746,7 @@
                 
                   <h1>Começando</h1>
                 
-                <h2 id="criando-uma-nova-integracao">Criando uma nova integração<a class="headerlink" href="#criando-uma-nova-integracao" title="Permanent link">&para;</a></h2>
+                <h2 id="criando-um-novo-app">Criando um novo app<a class="headerlink" href="#criando-um-novo-app" title="Permanent link">&para;</a></h2>
 <h3 id="instalando-o-rung-cli">Instalando o Rung Cli<a class="headerlink" href="#instalando-o-rung-cli" title="Permanent link">&para;</a></h3>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>npm install -g rung-cli
 </pre></div>
@@ -754,11 +754,11 @@
 
 <h4 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h4>
 <ul>
-<li>Create blank extensions</li>
+<li>Create blank apps</li>
 <li>Generate <code class="codehilite"><span class="na">.rung</span></code> packages</li>
-<li>Run extensions locally in CLI mode</li>
-<li>Publish extensions to Rung Store (public and private)</li>
-<li>Generate boilerplate code for extension</li>
+<li>Run apps locally in CLI mode</li>
+<li>Publish apps to Rung App Store (public and private)</li>
+<li>Generate boilerplate code for app</li>
 <li>Generate README.md file to publish</li>
 <li>Test autocomplete directly in the terminal</li>
 <li>Hot reloading and live development</li>
@@ -780,15 +780,15 @@
 </tr>
 <tr>
 <td><code class="codehilite">run</code></td>
-<td>Execute the current extension</td>
+<td>Execute the current app</td>
 </tr>
 <tr>
 <td><code class="codehilite">publish</code></td>
-<td>Publish extension to store</td>
+<td>Publish app to store</td>
 </tr>
 <tr>
 <td><code class="codehilite">boilerplate</code></td>
-<td>Generate boilerplate code for the extension</td>
+<td>Generate boilerplate code for the app</td>
 </tr>
 <tr>
 <td><code class="codehilite">readme</code></td>
@@ -796,11 +796,11 @@
 </tr>
 <tr>
 <td><code class="codehilite">db read</code></td>
-<td>Read from extension database</td>
+<td>Read from app database</td>
 </tr>
 <tr>
 <td><code class="codehilite">db clear</code></td>
-<td>Drop extension database</td>
+<td>Drop app database</td>
 </tr>
 </tbody>
 </table>
@@ -823,11 +823,11 @@
 </tr>
 <tr>
 <td><code class="codehilite">--private</code></td>
-<td>If set, extension is published for current user only</td>
+<td>If set, app is published for current user only</td>
 </tr>
 <tr>
 <td><code class="codehilite">--raw</code></td>
-<td>Displays returned alerts outside a table</td>
+<td>Displays returned cards outside a table</td>
 </tr>
 <tr>
 <td><code class="codehilite">--live</code></td>
@@ -836,7 +836,7 @@
 </tbody>
 </table>
 <h3 id="boilerplate">Boilerplate<a class="headerlink" href="#boilerplate" title="Permanent link">&para;</a></h3>
-<p>O comando <code class="codehilite">rung boilerplate</code> pede algumas informações sobre a sua extensão e gera a base funcional de código para que você possa trabalhar. Os parâmetros perguntados são:</p>
+<p>O comando <code class="codehilite">rung boilerplate</code> pede algumas informações sobre o seu app e gera a base funcional de código para que você possa trabalhar. Os parâmetros perguntados são:</p>
 <table>
 <thead>
 <tr>
@@ -855,26 +855,26 @@
 </tr>
 <tr>
 <td>Título</td>
-<td>Título da sua extensão para exibição na Rung Store</td>
+<td>Título do seu app para exibição na Rung App Store</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>Descrição humana da proposta da sua extensão</td>
+<td>Descrição humana da proposta do seu app</td>
 </tr>
 <tr>
 <td>Category</td>
-<td>Identificador da categoria da sua extensão. Padrão: <code class="codehilite">miscellaneous</code></td>
+<td>Identificador da categoria do seu app. Padrão: <code class="codehilite">miscellaneous</code></td>
 </tr>
 <tr>
 <td>Licença</td>
-<td>Licença em que sua extensão é distribuída. Padrão <a href="https://opensource.org/licenses/MIT">MIT</a></td>
+<td>Licença em que seu app é distribuído. Padrão <a href="https://opensource.org/licenses/MIT">MIT</a></td>
 </tr>
 </tbody>
 </table>
-<p>Após confirmar, serão gerados <code class="codehilite">package.json</code>, <code class="codehilite">index.js</code> e <code class="codehilite">README.md</code> com as informações básicas de uma extensão.</p>
-<h3 id="documentacao-da-extensao">Documentação da extensão<a class="headerlink" href="#documentacao-da-extensao" title="Permanent link">&para;</a></h3>
+<p>Após confirmar, serão gerados <code class="codehilite">package.json</code>, <code class="codehilite">index.js</code> e <code class="codehilite">README.md</code> com as informações básicas de um app.</p>
+<h3 id="documentacao-do-app">Documentação do app<a class="headerlink" href="#documentacao-do-app" title="Permanent link">&para;</a></h3>
 <p>É possível usar o comando <code class="codehilite">rung readme</code> para gerar a documentação básica
-para uma extensão, incluindo informações sobre os parâmetros de entrada e
+para um app, incluindo informações sobre os parâmetros de entrada e
 dinâmicas (<a href="https://github.com/rung-extensions/stock-exchange">exemplo</a>).</p>
                 
                   

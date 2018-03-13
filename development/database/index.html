@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/database/">
@@ -319,8 +319,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -404,8 +404,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -695,8 +695,8 @@
                 
                 <h1 id="banco-de-dados">Banco de dados<a class="headerlink" href="#banco-de-dados" title="Permanent link">&para;</a></h1>
 <p>Também há suporte para micro esquema de banco de dados não-relacional.
-Cada extensão pode armazenar um objeto JS que possa ser representado como JSON.
-Esse objeto pode ser retornado juntamente com os alertas da extensão. Durante
+Cada app pode armazenar um objeto JS que possa ser representado como JSON.
+Esse objeto pode ser retornado juntamente com os cartões do app. Durante
 a primeira execução, o valor sempre corresponde a <code class="codehilite">undefined</code>.</p>
 <h2 id="exemplo-de-contador">Exemplo de contador<a class="headerlink" href="#exemplo-de-contador" title="Permanent link">&para;</a></h2>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
@@ -716,7 +716,7 @@ a primeira execução, o valor sempre corresponde a <code class="codehilite">und
     <span class="kr">const</span> <span class="nx">counter</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">db</span> <span class="o">===</span> <span class="kc">undefined</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="nx">context</span><span class="p">.</span><span class="nx">db</span><span class="p">;</span>
 
     <span class="k">return</span> <span class="p">{</span>
-        <span class="nx">alerts</span><span class="o">:</span> <span class="p">[</span><span class="sb">`The value is </span><span class="si">${</span><span class="nx">counter</span><span class="si">}</span><span class="sb">`</span><span class="p">],</span>
+        <span class="nx">cards</span><span class="o">:</span> <span class="p">[</span><span class="sb">`The value is </span><span class="si">${</span><span class="nx">counter</span><span class="si">}</span><span class="sb">`</span><span class="p">],</span>
         <span class="nx">db</span><span class="o">:</span> <span class="nx">counter</span> <span class="o">+</span> <span class="mi">1</span>
     <span class="p">};</span>
 <span class="p">}</span>
@@ -725,7 +725,7 @@ a primeira execução, o valor sempre corresponde a <code class="codehilite">und
 </pre></div>
 </td></tr></table>
 
-<p>Cada vez que a extensão roda, o contador é incrementado. Caso ele seja
+<p>Cada vez que o app roda, o contador é incrementado. Caso ele seja
 <code class="codehilite">undefined</code>, é inicializado como <code class="codehilite">0</code>. Você pode colocar objetos de
 complexidade bem maiores dentro dele.</p>
 <h2 id="comandos-do-rung-cli">Comandos do rung-cli<a class="headerlink" href="#comandos-do-rung-cli" title="Permanent link">&para;</a></h2>
@@ -741,7 +741,7 @@ de comando:</p>
 <tbody>
 <tr>
 <td><code class="codehilite">rung db clear</code></td>
-<td>Limpa toda a base de dados para a extensão ativa</td>
+<td>Limpa toda a base de dados para o app ativa</td>
 </tr>
 <tr>
 <td><code class="codehilite">rung db read</code></td>

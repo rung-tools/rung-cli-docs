@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/compile_execute/">
@@ -317,8 +317,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../development/async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../development/async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -353,8 +353,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../development/custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../development/custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -493,15 +493,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#compilando-uma-extensao" title="Compilando uma extensão" class="md-nav__link">
-    Compilando uma extensão
+  <a href="#compilando-um-app" title="Compilando um app" class="md-nav__link">
+    Compilando um app
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#executando-uma-extensao" title="Executando uma extensão" class="md-nav__link">
-    Executando uma extensão
+  <a href="#executando-um-app" title="Executando um app" class="md-nav__link">
+    Executando um app
   </a>
   
     <nav class="md-nav">
@@ -617,15 +617,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#compilando-uma-extensao" title="Compilando uma extensão" class="md-nav__link">
-    Compilando uma extensão
+  <a href="#compilando-um-app" title="Compilando um app" class="md-nav__link">
+    Compilando um app
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#executando-uma-extensao" title="Executando uma extensão" class="md-nav__link">
-    Executando uma extensão
+  <a href="#executando-um-app" title="Executando um app" class="md-nav__link">
+    Executando um app
   </a>
   
     <nav class="md-nav">
@@ -669,23 +669,23 @@
                 
                 
                 <h1 id="compilando-e-executando">Compilando e executando<a class="headerlink" href="#compilando-e-executando" title="Permanent link">&para;</a></h1>
-<h2 id="compilando-uma-extensao">Compilando uma extensão<a class="headerlink" href="#compilando-uma-extensao" title="Permanent link">&para;</a></h2>
-<p>Você pode usar o comando <code class="codehilite">rung build</code> para compilar uma extensão
+<h2 id="compilando-um-app">Compilando um app<a class="headerlink" href="#compilando-um-app" title="Permanent link">&para;</a></h2>
+<p>Você pode usar o comando <code class="codehilite">rung build</code> para compilar um app
 para a forma binária, gerando um arquivo <code class="codehilite"><span class="na">.rung</span></code>. O binário gerado
 pode então ser usado para distribuição e publicação para a loja do Rung,
-mas não precisa ser gerado para rodar uma extensão localmente, levando
+mas não precisa ser gerado para rodar um app localmente, levando
 em conta que o <em>Rung CLI</em> consegue atuar diretamente como um interpretador.</p>
 <p>O binário do Rung é uma forma modificada de um arquivo PKZip. Em tempo
-de compilação, a VM do Rung executa sua extensão para garantir que não há
-erros de análise do código exportado e gera os metadados para sua extensão
+de compilação, a VM do Rung executa seu app para garantir que não há
+erros de análise do código exportado e gera os metadados para seu app
 de forma estática, para otimizar a execução.</p>
-<h2 id="executando-uma-extensao">Executando uma extensão<a class="headerlink" href="#executando-uma-extensao" title="Permanent link">&para;</a></h2>
-<p>É possível testar as extensões que desenvolve locamente sem a
+<h2 id="executando-um-app">Executando um app<a class="headerlink" href="#executando-um-app" title="Permanent link">&para;</a></h2>
+<p>É possível testar os apps que desenvolve locamente sem a
 necessidade de publicá-las para o Rung. O <em>Rung CLI</em> provê o comando
 <code class="codehilite">rung run</code> para isso.</p>
 <p><img alt="Run" src="../../img/run.png" /></p>
 <p>É criada uma interface visual que recebe os parâmetros de entrada
-e mostra o resultado obtido, os alertas que seriam gerados, para o
+e mostra o resultado obtido, os cartões que seriam gerados, para o
 programador.</p>
 <h3 id="executando-com-locale-customizado">Executando com locale customizado<a class="headerlink" href="#executando-com-locale-customizado" title="Permanent link">&para;</a></h3>
 <p>Quando estiver testando internacionalização, pode forçar a definição

@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/business/microsiga_protheus/">
@@ -317,8 +317,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../development/async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../../development/async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -353,8 +353,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../development/custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../../development/custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -742,8 +742,8 @@
                 
                 <h1 id="microsiga-protheus">Microsiga Protheus<a class="headerlink" href="#microsiga-protheus" title="Permanent link">&para;</a></h1>
 <p>O <a href="http://tdn.totvs.com/display/framework/Microsiga+Protheus">Microsiga Protheus</a> é um sistema integrado de gestão empresarial (ERP/CRM/HCM/SCM) , criado e desenvolvido pela TOTVS S/A, para atender a todo mercado corporativo.</p>
-<p>O sistema contempla todos os principais processos de empresa, através de seus módulos, onde cada módulo corresponde a uma área especifica de gestão, como por exemplo, o módulo FAT (Vendas e Faturamento) que contempla a área de Vendas, fazendo a integração das informações com as demais áreas da empresa. Cada módulo é responsável por dezenas de processos de negócios, baseado em práticas do dia a dia de diversos segmentos de negócio.</p>
-<p>O Rung por meio de integração WebService REST ou SOAP permite extrair de forma inteligente excepcionalidades a serem apresentadas em forma de alertas no dashboard dos usuários. Para que isso seja possível será necessário cumprir com alguns pré requisitos e configurações listadas abaixo.</p>
+<p>O sistema contempla todos os principais processos de empresa, através de seus módulos, onde cada módulo corresponde a uma área especifica de gestão, como por exemplo, o módulo FAT (Vendas e Faturamento) que contempla a área de Vendas, fazendo o app das informações com as demais áreas da empresa. Cada módulo é responsável por dezenas de processos de negócios, baseado em práticas do dia a dia de diversos segmentos de negócio.</p>
+<p>O Rung por meio de app WebService REST ou SOAP permite extrair de forma inteligente excepcionalidades a serem apresentadas em forma de cartões no painel dos usuários. Para que isso seja possível será necessário cumprir com alguns pré requisitos e configurações listadas abaixo.</p>
 <hr />
 <h2 id="pre-requisitos">Pré requisitos<a class="headerlink" href="#pre-requisitos" title="Permanent link">&para;</a></h2>
 <ul>
@@ -907,7 +907,7 @@ A diferença entre ambas é que a segunda opção permite especificar mais detal
 <hr />
 <h2 id="liberacao-ip-porta">Liberação IP : Porta<a class="headerlink" href="#liberacao-ip-porta" title="Permanent link">&para;</a></h2>
 <blockquote>
-<p>EM BREVE </p>
+<p>EM BREVE</p>
 </blockquote>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -915,15 +915,15 @@ A diferença entre ambas é que a segunda opção permite especificar mais detal
 </div>
 <hr />
 <h2 id="configuracao-no-rung">Configuração no Rung<a class="headerlink" href="#configuracao-no-rung" title="Permanent link">&para;</a></h2>
-<p>O próximo passo após realizar todas as configurações listadas acima é vincular o IP e porta publica para que o Rung consiga realizar a comunicação das integrações com o Microsiga Protheus. Para isso você precisará realizar poucos passos, conforme descrito abaixo:</p>
+<p>O próximo passo após realizar todas as configurações listadas acima é vincular o IP e porta publica para que o Rung consiga realizar a comunicação dos apps com o Microsiga Protheus. Para isso você precisará realizar poucos passos, conforme descrito abaixo:</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>O usuário logado na conta Rung deverá ter permissão de administrador para poder visualizar as opções de configuração e servidores.</p>
+<p>O usuário logado na conta Rung deverá ter permissão de administrador para poder visualizar as opções de configuração e integrações.</p>
 </div>
 <ol>
 <li>Acesse sua conta Rung e clique sobre a opção "Configuração".
 <img alt="Opção de configuração" src="https://i.imgur.com/iK86i7D.png" /></li>
-<li>Clique sobre a opção "Servidores" e adicione um servidor clicando sobre o botão "+" no canto inferior direito.
+<li>Clique sobre a opção "Integrações" e adicione um servidor clicando sobre o botão "+" no canto inferior direito.
 <img alt="Opção de servidores" src="https://i.imgur.com/yAAJw2B.png" /></li>
 <li>Informe o nome do servidor, o tipo (REST ou SOAP) e o IP:Porta pública.
 <img alt="Inclusão de servidor" src="https://i.imgur.com/iJ8Tj38.png" /></li>
@@ -931,8 +931,8 @@ A diferença entre ambas é que a segunda opção permite especificar mais detal
 <img alt="Autenticação com o Microsiga Protheus" src="https://i.imgur.com/StZO2Ze.png" /></li>
 <li>Visualize seu servidor com status de online
 <img alt="Resgitro de servidor online" src="https://i.imgur.com/HLlaEfh.png" /></li>
-<li>No <a href="https://app.rung.com.br/store/">Rung Store</a> ao ativar uma integração do Protheus será possível visualizar na lista de "Servidor Protheus" o servidor incluído.
-<img alt="Visualização do servidor na instalação da integração de Documentos Vencidos" src="https://i.imgur.com/5Zm7i0Z.png" /></li>
+<li>No <a href="https://app.rung.com.br/store/">Rung App Store</a> ao ativar um app do Protheus será possível visualizar na lista de "Servidor Protheus" o servidor incluído.
+<img alt="Visualização do servidor na instalação do app de Documentos Vencidos" src="https://i.imgur.com/5Zm7i0Z.png" /></li>
 </ol>
 <h2 id="suporte">Suporte<a class="headerlink" href="#suporte" title="Permanent link">&para;</a></h2>
 <p>Qualquer dúvida ou problema que você tenha neste processo de configuração envie um e-mail para <code class="codehilite">suporte@rung.com.br</code> ou deixe um comentário baixo.</p>

@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Documentação técnica para desenvolvedores de integração do Rung">
+        <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
         <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/context/">
@@ -328,8 +328,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../async_extensions/" title="Extensões assíncronas" class="md-nav__link">
-      Extensões assíncronas
+    <a href="../async_apps/" title="Apps assíncronas" class="md-nav__link">
+      Apps assíncronas
     </a>
   </li>
 
@@ -364,8 +364,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../custom_alerts/" title="Alertas personalizados" class="md-nav__link">
-      Alertas personalizados
+    <a href="../custom_cards/" title="Cartões personalizados" class="md-nav__link">
+      Cartões personalizados
     </a>
   </li>
 
@@ -574,8 +574,7 @@
                 
                 
                 <h1 id="contexto">Contexto<a class="headerlink" href="#contexto" title="Permanent link">&para;</a></h1>
-<p>O contexto é o primeiro parâmetro passado para a função principal da sua
-extensão. Ele traz informações importantes, como o locale do usuário e os
+<p>O contexto é o primeiro parâmetro passado para a função principal do seu app. Ele traz informações importantes, como o locale do usuário e os
 valores dos parâmetros que são informados.</p>
 <p>Exemplo:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
@@ -607,7 +606,7 @@ valores dos parâmetros que são informados.</p>
     <span class="kr">const</span> <span class="p">{</span> <span class="nx">a</span><span class="p">,</span> <span class="nx">b</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">params</span><span class="p">;</span>
 
     <span class="k">return</span> <span class="p">{</span>
-        <span class="nx">alerts</span><span class="o">:</span> <span class="p">[</span><span class="sb">`Sum of </span><span class="si">${</span><span class="nx">a</span><span class="si">}</span><span class="sb"> and </span><span class="si">${</span><span class="nx">b</span><span class="si">}</span><span class="sb"> is </span><span class="si">${</span><span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="si">}</span><span class="sb">`</span><span class="p">]</span>
+        <span class="nx">cards</span><span class="o">:</span> <span class="p">[</span><span class="sb">`Sum of </span><span class="si">${</span><span class="nx">a</span><span class="si">}</span><span class="sb"> and </span><span class="si">${</span><span class="nx">b</span><span class="si">}</span><span class="sb"> is </span><span class="si">${</span><span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="si">}</span><span class="sb">`</span><span class="p">]</span>
     <span class="p">};</span>
 <span class="p">}</span>
 
@@ -627,7 +626,7 @@ valores dos parâmetros que são informados.</p>
 </td></tr></table>
 
 <p>O contexto também é responsável por carregar as informações do banco de dados
-de cada instância de extensão, em <code class="codehilite">context.db</code>.</p>
+de cada cartão de app, em <code class="codehilite">context.db</code>.</p>
                 
                   
                 
