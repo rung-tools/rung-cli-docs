@@ -30,7 +30,7 @@ extra:
       link: 'medium.com/rung-brasil'
   search:
     language: 'pt, en'
-  disqus: 'mkdocs-material'
+  disqus: 'rung-cli-docs'
 
 # Apps
 markdown_extensions:
@@ -68,7 +68,6 @@ pages:
   - 'Internacionalização': 'development/i18n.md'
   - 'Extraindo HTML': 'development/extracting_html.md'
   - 'Definindo informações adicionais': 'development/info.md'
-- 'Compilando e executando': 'compile_execute.md'
 - 'Publicando': 'publish.md'
 - 'Para empresas':
   - 'Microsiga Protheus': 'business/microsiga_protheus.md'
