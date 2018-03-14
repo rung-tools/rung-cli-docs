@@ -1,0 +1,74 @@
+# Project information
+site_name: Rung para desenvolvedores
+site_description: Documentação técnica para desenvolvedores de app do Rung
+site_author: Rung
+site_url: https://rung-tools.github.io/rung-cli-docs/
+
+# Repository
+repo_name: Github
+repo_url: https://github.com/rung-tools/rung-cli
+
+# Copyright
+copyright: Copyright &copy; 2017 Rung
+
+# Configuration
+theme:
+  name: 'material'
+  logo: 'img/rung.png'
+  language: 'pt'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/rung-tools/rung-cli'
+    - type: 'twitter'
+      link: 'https://twitter.com/rungbrasil'
+    - type: 'facebook'
+      link: 'https://facebook.com/rungbrasil'
+    - type: 'medium'
+      link: 'medium.com/rung-brasil'
+  search:
+    language: 'pt, en'
+  disqus: 'rung-cli-docs'
+
+# Apps
+markdown_extensions:
+  - admonition
+  - codehilite(linenums=true)
+  - toc(permalink=true)
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+
+# Page tree
+pages:
+- 'O que é Rung': 'index.md'
+- 'Começando': 'getting_started.md'
+- 'Desenvolvendo':
+  - 'Hot reloading': 'development/live.md'
+  - 'Contexto': 'development/context.md'
+  - 'Chaves primárias': 'development/primary_keys.md'
+  - 'Apps assíncronas': 'development/async_apps.md'
+  - 'Tipos de parâmetros': 'development/param_types.md'
+  - 'Banco de dados': 'development/database.md'
+  - 'Cartões personalizados': 'development/custom_cards.md'
+  - 'Barra lateral': 'development/custom_sidebar_fields.md'
+  - 'Ícones customizados': 'development/custom_icon.md'
+  - 'Rung bot': 'development/rung_bot.md'
+  - 'Resources': 'development/resources.md'
+  - 'Banco de dados': 'development/database.md'
+  - 'Internacionalização': 'development/i18n.md'
+  - 'Extraindo HTML': 'development/extracting_html.md'
+  - 'Definindo informações adicionais': 'development/info.md'
+- 'Publicando': 'publish.md'
+- 'Para empresas':
+  - 'Microsiga Protheus': 'business/microsiga_protheus.md'
+- 'Release Notes': 'release-notes.md'
