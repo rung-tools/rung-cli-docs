@@ -13,7 +13,7 @@
         <meta name="description" content="Documentação técnica para desenvolvedores de app do Rung">
       
       
-        <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/info/">
+        <link rel="canonical" href="https://rung-tools.github.io/rung-cli-docs/development/validating_parameters/">
       
       
         <meta name="author" content="Rung">
@@ -38,11 +38,11 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.0">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.1">
     
     
       
-        <title>Definindo informações adicionais - Rung para desenvolvedores</title>
+        <title>Validação de parâmetros - Rung para desenvolvedores</title>
       
     
     
@@ -91,11 +91,11 @@
         
       </defs>
     </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#informacoes-adicionais" tabindex="1" class="md-skip">
+      <a href="#validacao-de-parametros" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -121,7 +121,7 @@
                 Rung para desenvolvedores
               </span>
               <span class="md-header-nav__topic">
-                Definindo informações adicionais
+                Validação de parâmetros
               </span>
             
           
@@ -449,6 +449,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../info/" title="Definindo informações adicionais" class="md-nav__link">
+      Definindo informações adicionais
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -459,8 +471,8 @@
       
     
     
-    <a href="./" title="Definindo informações adicionais" class="md-nav__link md-nav__link--active">
-      Definindo informações adicionais
+    <a href="./" title="Validação de parâmetros" class="md-nav__link md-nav__link--active">
+      Validação de parâmetros
     </a>
     
   </li>
@@ -558,29 +570,81 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/rung-tools/rung-cli/edit/master/docs/development/info.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/rung-tools/rung-cli/edit/master/docs/development/validating_parameters.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="informacoes-adicionais">Informações adicionais<a class="headerlink" href="#informacoes-adicionais" title="Permanent link">&para;</a></h1>
-<p>Atualmente, o Rung possibilita que o desenvolvedor defina, além da descrição, um conteúdo adicional (no formato markdown) a ser apresentado na página da seu app na loja. Este conteúdo adicional é opcional, mas é recomendado o seu uso de tal forma que o seu conteúdo instigue o usuário a instalar e utilizar o app.</p>
-<p>O conteúdo adicional deve ser estruturado dentro da pasta <code class="codehilite">info</code> e pode ser definido em inglês (en), português (pt_BR) e espanhol (es), conforme imagem abaixo.</p>
-<p><img alt="Additional info" src="../../img/info.png" /></p>
+                <h1 id="validacao-de-parametros">Validação de parâmetros<a class="headerlink" href="#validacao-de-parametros" title="Permanent link">&para;</a></h1>
+<p>Imaginemos os seguintes cenários:</p>
+<blockquote>
+<p><strong>Cenário 1</strong>:
+João quer instalar um app que informa sobre o rastreamento de um objeto em uma determinada trasportadora.
+Ao preencher os parâmetros, João coloca um código de rastreio que não existe.</p>
+<p><strong>Cenário 2</strong>:
+Maria decide instalar um app que avisa sobre promoções e quer ser avisada quando um home theater estiver em promoção, mas acaba escrevendo "home tiater" ao invés de "home theater".</p>
+</blockquote>
+<p>Digamos que nestes dois apps, nenhum dos desenvolvedores lembrou de verificar se o código de rastreamento ou o termo de pesquisa eram válidos, e nestes casos, os apps nunca gerarão alertas, deixando os usuários esperando por algo que nunca vai acontecer.</p>
+<p>Para evitar que isto aconteça, podemos fazer validações nos parâmetros e apresentar os erros de duas formas:
+* Gerar um alerta dizendo que o código/termo é inválido
+* Apresentar o erro no momento em que o usário clicar em "Salvar"</p>
+<p>A primeira opção é simples, é apenas retornar um objeto na mesma estrutura de quando temos sucesso.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="k">return</span> <span class="nx">hasError</span>
+    <span class="o">?</span> <span class="p">{</span> <span class="nx">alerts</span><span class="o">:</span> <span class="p">{</span> <span class="s1">&#39;error&#39;</span><span class="o">:</span> <span class="p">{</span> <span class="nx">content</span><span class="o">:</span> <span class="s1">&#39;Código inválido.&#39;</span> <span class="p">}</span> <span class="p">}</span> <span class="p">}</span>
+    <span class="o">:</span> <span class="p">{</span> <span class="nx">alerts</span> <span class="p">}</span>
+</pre></div>
+</td></tr></table>
+
+<p>Para a segunda forma, é necessário criar uma classe que extenda de "Error" e dar um "reject" nela, conforme o exemplo abaixo.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kr">class</span> <span class="nx">NotFoundError</span> <span class="kr">extends</span> <span class="nb">Error</span> <span class="p">{</span>
+    <span class="nx">constructor</span><span class="p">(</span><span class="nx">message</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kr">super</span><span class="p">(</span><span class="nx">message</span><span class="p">);</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;NotFoundError&#39;</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">main</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="p">{</span> <span class="nx">code</span><span class="p">,</span> <span class="nx">description</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">params</span><span class="p">;</span>
+    <span class="kr">const</span> <span class="p">{</span> <span class="nx">db</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">context</span><span class="p">;</span>
+    <span class="kr">const</span> <span class="nx">hasError</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">hasError</span>
+        <span class="o">?</span> <span class="nx">reject</span><span class="p">(</span><span class="k">new</span> <span class="nx">NotFoundError</span><span class="p">(</span><span class="nx">_</span><span class="p">(</span><span class="s1">&#39;Objeto não encontrado na base&#39;</span><span class="p">)))</span>
+        <span class="o">:</span> <span class="p">{</span> <span class="nx">alerts</span> <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table>
+
+<p>O resultado pode ser visto abaixo.
+<img alt="Exemplo de como seria exibido a mensagem de erro na validação dos parâmetros" src="../../img/validation-error.png" /></p>
                 
                   
                 
               
               
                 
-                  
 
 
   <h2 id="__comments">Comentários</h2>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = "https://rung-tools.github.io/rung-cli-docs/development/info/";
+      this.page.url = "https://rung-tools.github.io/rung-cli-docs/development/validating_parameters/";
       this.page.identifier =
-        "development/info/";
+        "development/validating_parameters/";
     };
     (function() {
       var d = document, s = d.createElement("script");
@@ -590,7 +654,6 @@
     })();
   </script>
 
-                
               
             </article>
           </div>
@@ -603,7 +666,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../extracting_html/" title="Extraindo HTML" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../info/" title="Definindo informações adicionais" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -612,7 +675,7 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Extraindo HTML
+                Definindo informações adicionais
               </span>
             </div>
           </a>
