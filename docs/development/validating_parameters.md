@@ -23,22 +23,15 @@ return hasError
     : { alerts }
 ```
 
-Para a segunda forma, é necessário criar uma classe que extenda de "Error" e dar um "reject" nela, conforme o exemplo abaixo.
+Para a segunda forma, é necessário dar um "reject", conforme o exemplo abaixo.
 
 ```js
-class NotFoundError extends Error {
-    constructor(message) {
-        super(message);
-        this.name = 'NotFoundError';
-    }
-}
-
 function main(context) {
     const { code, description } = context.params;
     const { db } = context;
     const hasError = true;
     return hasError
-        ? reject(new NotFoundError(_('Objeto não encontrado na base')))
+        ? reject(new Error(_('Objeto não encontrado na base')))
         : { alerts }
 }
 ```
