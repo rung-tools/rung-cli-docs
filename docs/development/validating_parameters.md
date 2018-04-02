@@ -23,7 +23,7 @@ return hasError
     : { alerts }
 ```
 
-Para a segunda forma, é necessário dar um "reject" nela, conforme o exemplo abaixo.
+Para a segunda forma, é necessário dar um "reject", conforme o exemplo abaixo.
 
 ```js
 function main(context) {
