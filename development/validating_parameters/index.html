@@ -595,34 +595,20 @@ Maria decide instalar um app que avisa sobre promoções e quer ser avisada quan
 </pre></div>
 </td></tr></table>
 
-<p>Para a segunda forma, é necessário criar uma classe que extenda de "Error" e dar um "reject" nela, conforme o exemplo abaixo.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kr">class</span> <span class="nx">NotFoundError</span> <span class="kr">extends</span> <span class="nb">Error</span> <span class="p">{</span>
-    <span class="nx">constructor</span><span class="p">(</span><span class="nx">message</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kr">super</span><span class="p">(</span><span class="nx">message</span><span class="p">);</span>
-        <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;NotFoundError&#39;</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="kd">function</span> <span class="nx">main</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
+<p>Para a segunda forma, é necessário dar um "reject", conforme o exemplo abaixo.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kd">function</span> <span class="nx">main</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
     <span class="kr">const</span> <span class="p">{</span> <span class="nx">code</span><span class="p">,</span> <span class="nx">description</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">context</span><span class="p">.</span><span class="nx">params</span><span class="p">;</span>
     <span class="kr">const</span> <span class="p">{</span> <span class="nx">db</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">context</span><span class="p">;</span>
     <span class="kr">const</span> <span class="nx">hasError</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
     <span class="k">return</span> <span class="nx">hasError</span>
-        <span class="o">?</span> <span class="nx">reject</span><span class="p">(</span><span class="k">new</span> <span class="nx">NotFoundError</span><span class="p">(</span><span class="nx">_</span><span class="p">(</span><span class="s1">&#39;Objeto não encontrado na base&#39;</span><span class="p">)))</span>
+        <span class="o">?</span> <span class="nx">reject</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="nx">_</span><span class="p">(</span><span class="s1">&#39;Objeto não encontrado na base&#39;</span><span class="p">)))</span>
         <span class="o">:</span> <span class="p">{</span> <span class="nx">alerts</span> <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>
