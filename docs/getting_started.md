@@ -97,6 +97,7 @@ de forma estática, para otimizar a execução.
 | `readme`      | Generate the README.md file to publish |
 | `db read`     | Read from app database |
 | `db clear`    | Drop app database |
+| `test`        | Runs the integration tests |
 
 #### Options
 
