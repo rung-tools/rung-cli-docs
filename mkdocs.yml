@@ -69,6 +69,7 @@ pages:
   - 'Extraindo HTML': 'development/extracting_html.md'
   - 'Definindo informações adicionais': 'development/info.md'
   - 'Validação de parâmetros': 'development/validating_parameters.md'
+  - 'Escrevendo testes': 'development/testing.md'
 - 'Publicando': 'publish.md'
 - 'Para empresas':
   - 'Microsiga Protheus': 'business/microsiga_protheus.md'

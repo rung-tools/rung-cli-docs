@@ -13,6 +13,9 @@ rung --version
 
 ## Changelog
 
+### 1.4 - Sandwich-wich
+* Novo comando `rung test` para executar testes de integração em seu aplicativo
+
 ### 1.1.2 - Both at 80
 * _Hot reloading_ com compilação dinâmica e _live preview_
 * Autocomplete diretamente do CLI
